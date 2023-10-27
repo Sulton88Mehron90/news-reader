@@ -1,15 +1,16 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import ArticleList from './components/ArticleList';
-import ArticleDetail from './components/ArticleDetail';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ArticleList from '../ArticleList/ArticleList';
+import ArticleDetail from '../ArticleDetail/ArticleDetail';
 
 function App() {
+  
   return (
     <Router>
-      <Switch>
-        <Route path="/" exact component={ArticleList} />
-        <Route path="/article/:id" component={ArticleDetail} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<ArticleList />} />
+        <Route path="/article/:id" element={<ArticleDetail />} />
+      </Routes>
     </Router>
   );
 }
