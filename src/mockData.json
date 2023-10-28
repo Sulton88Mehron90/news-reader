@@ -1,0 +1,69 @@
+{
+  "articles": [
+    {
+    "source": {
+      "id": "nbc-news",
+      "name": "NBC News"
+      },
+    "author": "Kevin Collier",
+    "title": "Major Xbox plans leaked in emails made public on Microsoft’s FTC case - NBC News",
+    "description": "A huge collection of purported Xbox files related to the Federal Trade Commission’s case against Microsoft have been published online.",
+    "url": "https://www.nbcnews.com/tech/video-games/microsofts-xbox-plans-revealed-emails-tied-ftc-case-rcna105766",
+    "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2023-09/230919-xbox-mn-0830-1e14e6.jpg",
+    "publishedAt": "2023-09-19T16:10:22Z",
+    "content": "A huge collection of purported Xbox files related to the Federal Trade Commissions case against Microsoft have been published online, spilling some of the company's plans for the gaming console into … [+1498 chars]"
+    },
+    {
+    "source": {
+      "id": "usa-today",
+      "name": "USA Today"
+      },
+    "author": "USA TODAY",
+    "title": "Ukraine war live updates: Biden, Zelenskyy lobby for Ukraine at UN - USA TODAY",
+    "description": null,
+    "url": "https://www.usatoday.com/story/news/world/ukraine/2023/09/19/ukraine-russia-war-live-updates/70898448007/",
+    "urlToImage": null,
+    "publishedAt": "2023-09-19T15:56:15Z",
+    "content": null
+    },
+    {
+    "source": {
+      "id": "cnn",
+      "name": "CNN"
+      },
+    "author": "Paula Newton, Rhea Mogul",
+    "title": "India expels Canadian diplomat in tit-for-tat move as spat over assassinated Sikh activist deepens - CNN",
+    "description": "Canada’s accusation that India may have been involved in the assassination of a Sikh activist on its soil has triggered a growing spat with Ottawa and New Delhi both expelling senior diplomats, sending relations between the two countries plunging.",
+    "url": "https://www.cnn.com/2023/09/18/americas/canada-hardeep-singh-nijjar-india-intl/index.html",
+    "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230918164944-justin-trudeau-0918.jpg?c=16x9&q=w_800,c_fill",
+    "publishedAt": "2023-09-19T15:50:00Z",
+    "content": "Canadas accusation that India may have been involved in the assassination of a Sikh activist on its soil has triggered a growing spat with Ottawa and New Delhi both expelling senior diplomats, sendin… [+9226 chars]"
+    },
+    {
+    "source": {
+      "id": null,
+      "name": "[Removed]"
+    },
+    "author": null,
+    "title": "[Removed]",
+    "description": "[Removed]",
+    "url": "https://removed.com",
+    "urlToImage": null,
+    "publishedAt": "1970-01-01T00:00:00Z",
+    "content": "[Removed]"
+    },
+    {
+    "source": {
+      "id": null,
+      "name": "Yahoo Entertainment"
+      },
+    "author": "Nick Bromberg",
+    "title": "Mel Tucker 'not surprised' to find out Michigan State intends to fire him with cause - Yahoo Sports",
+    "description": "Tucker's 10-year, $95 million contract included behavioral clauses.",
+    "url": "https://sports.yahoo.com/mel-tucker-not-surprised-to-find-out-michigan-state-intends-to-fire-him-with-cause-153937001.html",
+    "urlToImage": "https://s.yimg.com/ny/api/res/1.2/HlE4fv0la8GOeCpO9pPi2g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2023-09/548afcd0-5702-11ee-bf7b-aa5b6ab70786",
+    "publishedAt": "2023-09-19T15:39:37Z",
+    "content": "Suspended Michigan State coach Mel Tucker said in a statement Tuesday that he was not surprised the school intends to fire him with cause after he allegedly sexually harassed an anti-sexual assault a… [+3006 chars]"
+    }
+  ]
+}

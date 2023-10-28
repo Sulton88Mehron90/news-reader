@@ -1,0 +1,26 @@
+.article-detail-wrapper {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-family: 'Times New Roman', serif;
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 20px;
+    color: #b3b3b3;
+}
+
+.article-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
