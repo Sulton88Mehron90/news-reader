@@ -19,6 +19,7 @@ export type Article = {
 
 interface Props {
   useMockData: boolean;
+  articles: Article[];
 }
 
 const ArticleList: React.FC<Props> = ({ useMockData }) => {

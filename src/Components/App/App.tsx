@@ -10,17 +10,23 @@ function App() {
   const [useMockData, setUseMockData] = useState(true);
   const [articles, setArticles] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('All');
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [retryCount, setRetryCount] = useState(0);
+
 
   useEffect(() => {
-    fetchTopHeadlines('us', selectedCategory)
-      .then((data) => {
+    fetchNews("bitcoin", 1, useMockData)
+      .then((data: any) => {
         setArticles(data.articles);
+        setLoading(false);
       })
-      .catch((error: Error) => {
-        console.error("Error fetching articles:", error.message);
+      .catch((error: any) => {
+        console.error("Error fetching articles:", error);
+        setError('Failed to fetch articles. Please try again later.');
+        setLoading(false);
       });
-
-  }, [useMockData, selectedCategory]);
+  }, [useMockData, retryCount]);
 
   const fetchArticles = (category: string = 'All', searchTerm: string = "") => {
     const query = category === 'All' ? searchTerm : `${category} ${searchTerm}`.trim();
@@ -48,7 +54,7 @@ function App() {
           {useMockData ? "Switch to Live Data" : "Switch to Mock Data"}
         </button>
         <Routes>
-        <Route path="/" element={<ArticleList useMockData={useMockData} />} />
+        <Route path="/" element={<ArticleList articles={articles} useMockData={useMockData} />} />
           <Route path="/article/:id" element={<ArticleDetail articles={articles} />} />
         </Routes>
       </div>
