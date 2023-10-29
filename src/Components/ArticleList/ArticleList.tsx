@@ -69,7 +69,7 @@ const ArticleList: React.FC<Props> = ({ useMockData }) => {
       </div>
       <div className="articles">
         {filteredArticles.map((article, index) => (
-          <Link to={`/article/${encodeURIComponent(article.url)}`} key={index} className="article-link">
+          <Link to={`/article/${index}`} key={index} className="article-link">
           <img 
               src={article.urlToImage || missingImg} 
               onError={(e) => {
