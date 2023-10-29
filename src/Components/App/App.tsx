@@ -9,26 +9,32 @@ import '../App/App.css';
 function App() {
   const [useMockData, setUseMockData] = useState(true);
   const [articles, setArticles] = useState([]);
+  const [selectedCategory, setSelectedCategory] = useState('All');
 
   useEffect(() => {
-    fetchNews("bitcoin", 1, useMockData)
-      .then((data) => {
-        setArticles(data.articles);
-      })
-      .catch((error) => {
-        console.error("Error fetching articles:", error);
-      });
-  }, [useMockData]);
+    fetchArticles(selectedCategory, ""); 
+  }, [useMockData, selectedCategory]);
+
+  const fetchArticles = (category: string, searchTerm: string = "") => {
+    const query = category === 'All' ? searchTerm : `${category} ${searchTerm}`.trim();
+    fetchNews(query, 1, useMockData)
+        .then((data) => {
+            setArticles(data.articles);
+        })
+        .catch((error) => {
+            console.error("Error fetching articles:", error);
+        });
+  };
 
   const handleSearch = (term: string) => {
     console.log("Using mock data:", useMockData);
-    // You can add logic to search articles based on the term here
     console.log("Searching for:", term);
+    fetchArticles(selectedCategory, term);
   };
 
   return (
     <Router>
-      <NavBar onSearch={handleSearch} />
+      <NavBar onSearch={handleSearch} onCategoryChange={setSelectedCategory} />
       <div className="app-container">
         <button 
           onClick={() => setUseMockData(!useMockData)}
