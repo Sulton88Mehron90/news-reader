@@ -3,7 +3,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ArticleList from '../ArticleList/ArticleList';
 import ArticleDetail from '../ArticleDetail/ArticleDetail';
 import NavBar from '../NavBar/NavBar';
-import { fetchNews, fetchTopHeadlines } from '../../apiCalls';
+import { fetchNews, 
+// fetchTopHeadlines 
+} from '../../apiCalls';
 import '../ArticleList/ArticleList.css'
 
 function App() {
@@ -12,7 +14,6 @@ function App() {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [retryCount, setRetryCount] = useState(0);
 
 
   useEffect(() => {
@@ -26,7 +27,7 @@ function App() {
         setError('Failed to fetch articles. Please try again later.');
         setLoading(false);
       });
-  }, [useMockData, retryCount]);
+  }, [useMockData]);
 
   const fetchArticles = (category: string = 'All', searchTerm: string = "") => {
     const query = category === 'All' ? searchTerm : `${category} ${searchTerm}`.trim();
@@ -42,6 +43,9 @@ function App() {
   const handleSearch = (term: string) => {
     fetchArticles(selectedCategory, term);
   };
+
+  if (loading) return <div>Loading...</div>;
+if (error) return <div>{error}</div>;
 
   return (
     <Router>
