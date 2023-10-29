@@ -17,7 +17,7 @@ const ArticleDetail: React.FC<ArticleDetailProps> = ({ articles }) => {
   const articleIndex = parseInt(id, 10);
   const article = articles[articleIndex];
 
-  if (!article) return <div>Article not found.</div>;
+  if (!article) return <div>Article not found. To go back to main page click on the logo</div>;
 
   // Debugging logs
   console.log("Articles:", articles);
