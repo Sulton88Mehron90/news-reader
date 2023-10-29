@@ -9,15 +9,15 @@ interface ArticleDetailProps {
 
 const ArticleDetail: React.FC<ArticleDetailProps> = ({ articles }) => {
   const { id } = useParams<{ id: string }>();
-  const parsedId = id ? parseInt(id) : -1;
-  const article = articles[parsedId];
-  
+  const article = articles.find(a => encodeURIComponent(a.url) === id);
 
   if (!article) return <div>Article not found.</div>;
 
     // Debugging logs
-    console.log("Parsed ID:", parsedId);
     console.log("Articles:", articles);
+    console.log("Route ID:", id);
+    console.log("Matched Article:", article);
+
 
   return (
     <div className="article-detail-container">

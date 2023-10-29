@@ -7,6 +7,7 @@ import missingImg from '../Images/missing-img.png';
 export type Article = {
   title: string;
   description: string;
+  url: string;
   urlToImage: string | null;
   source: {
     id: string | null;
@@ -58,7 +59,7 @@ const ArticleList: React.FC<Props> = ({ useMockData }) => {
         <label htmlFor="searchInput" className="visually-hidden">Search Articles</label>
         <input
           id="searchInput"
-          name="searchInput"  // Moved the comment above this line
+          name="searchInput"
           type="text"
           className="search-input"
           placeholder="Search articles..."
@@ -68,7 +69,7 @@ const ArticleList: React.FC<Props> = ({ useMockData }) => {
       </div>
       <div className="articles">
         {filteredArticles.map((article, index) => (
-          <Link to={`/article/${index}`} key={index} className="article-link">
+          <Link to={`/article/${encodeURIComponent(article.url)}`} key={index} className="article-link">
           <img 
               src={article.urlToImage || missingImg} 
               onError={(e) => {

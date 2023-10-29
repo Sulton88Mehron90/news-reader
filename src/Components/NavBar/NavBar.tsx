@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import '../NavBar/NavBar.css'
+import '../NavBar/NavBar.css';
 import logo from '../Images/TuringSchool_LogoMark_Gray.png';
-import missinfImg from '../Images/missing-img.png';
 import { Link } from 'react-router-dom';
 
 interface NavBarProps {
@@ -12,8 +11,6 @@ interface NavBarProps {
 const NavBar: React.FC<NavBarProps> = ({ onSearch, onCategoryChange }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const categories = ['All', 'Business', 'Entertainment', 'Health', 'Science', 'Sports', 'Technology'];
-  const countries = ['us', 'uk', 'ca', 'au', 'taj'];
-
 
   const handleFormSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -28,6 +25,8 @@ const NavBar: React.FC<NavBarProps> = ({ onSearch, onCategoryChange }) => {
       <span className="navbar-name">News Reader</span>
       <form className="navbar-search" onSubmit={handleFormSubmit}>
         <select
+          id="categorySelect"
+          name="categorySelect"
           onChange={(e) => {
             onCategoryChange(e.target.value);
           }}
@@ -40,6 +39,8 @@ const NavBar: React.FC<NavBarProps> = ({ onSearch, onCategoryChange }) => {
           ))}
         </select>
         <input
+          id="searchInput"
+          name="searchInput"
           type="text"
           placeholder="Search..."
           value={searchTerm}
