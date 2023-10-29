@@ -10,6 +10,7 @@ interface ArticleDetailProps {
 const ArticleDetail: React.FC<ArticleDetailProps> = ({ articles }) => {
   const { id } = useParams<{ id: string }>();
 
+  // If id doesn't exist, return an error message
   if (!id) {
     return <div>Invalid article ID.</div>;
   }
@@ -17,7 +18,7 @@ const ArticleDetail: React.FC<ArticleDetailProps> = ({ articles }) => {
   const articleIndex = parseInt(id, 10);
   const article = articles[articleIndex];
 
-  if (!article) return <div>Article not found. To go back to main page click on the logo</div>;
+  if (!article) return <div>Article not found.To go back to Main Page click on the Logo</div>;
 
   // Debugging logs
   console.log("Articles:", articles);
