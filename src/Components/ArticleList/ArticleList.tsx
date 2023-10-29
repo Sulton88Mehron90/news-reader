@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { fetchNews } from '../../apiCalls';
 import '../ArticleList/ArticleList.css';
 import { Link } from 'react-router-dom';
+import missingImg from '../Images/missing-img.png';
 
 export type Article = {
   title: string;
@@ -68,7 +69,15 @@ const ArticleList: React.FC<Props> = ({ useMockData }) => {
         {filteredArticles.map((article, index) => (
           <Link to={`/article/${index}`} key={index} className="article-link">
             <h2>{article.title}</h2>
-            <img src={article.urlToImage || "path/to/default/image.jpg"} alt={article.title || "No Title"} />
+            <img 
+    src={article.urlToImage || missingImg} 
+    onError={(e) => {
+        const imgElement = e.target as HTMLImageElement;
+        imgElement.onerror = null;
+        imgElement.src = missingImg;
+    }} 
+    alt={article.title || "No Title"} 
+/>
             <p>{article.description}</p>
             <p>{new Date(article.publishedAt).toLocaleDateString()}</p>
             <p>{article.source.name}</p>

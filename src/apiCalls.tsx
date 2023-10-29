@@ -25,7 +25,7 @@ function fetchNews(
     query: string, 
     page = 1, 
     useMockData = false, 
-    category?: string,   // New parameter for category
+    category?: string,  
     sort?: string, 
     filter?: string
 ) {
@@ -61,4 +61,33 @@ function fetchNews(
     }
 }
 
-export { fetchNews };
+function fetchTopHeadlines(
+    country: string = 'us',
+    category?: string,
+    page = 1,
+    useMockData = false
+) {
+    if (useMockData) {
+        return Promise.resolve(newsData);
+    } else {
+        let endpoint = `${BASE_URL}top-headlines?country=${country}&apiKey=${API_KEY}&page=${page}`;
+
+        if (category) {
+            endpoint += `&category=${category}`;
+        }
+
+        return fetch(endpoint, {
+            headers: {
+                'X-Api-Key': API_KEY
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Failed to fetch news');
+            }
+            return response.json();
+        });
+    }
+}
+
+export { fetchNews, fetchTopHeadlines };

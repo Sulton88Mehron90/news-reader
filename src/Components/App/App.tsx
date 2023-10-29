@@ -16,6 +16,10 @@ function App() {
   }, [useMockData, selectedCategory]);
 
   const fetchArticles = (category: string, searchTerm: string = "") => {
+    if (!category && !searchTerm) {
+      console.warn("Empty search term and category. Not fetching articles.");
+      return;
+    }
     const query = category === 'All' ? searchTerm : `${category} ${searchTerm}`.trim();
     fetchNews(query, 1, useMockData)
         .then((data) => {

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../NavBar/NavBar.css'
-import logo from '../../TuringSchool_LogoMark_Gray.png';
+import logo from '../Images/TuringSchool_LogoMark_Gray.png';
+import missinfImg from '../Images/missing-img.png';
 import { Link } from 'react-router-dom';
 
 interface NavBarProps {
