@@ -1,69 +1,45 @@
 {
+  "status": "ok",
+  "totalResults": 515,
   "articles": [
     {
-    "source": {
-      "id": "nbc-news",
-      "name": "NBC News"
+      "source": {
+        "id": null,
+        "name": "MacRumors"
       },
-    "author": "Kevin Collier",
-    "title": "Major Xbox plans leaked in emails made public on Microsoft’s FTC case - NBC News",
-    "description": "A huge collection of purported Xbox files related to the Federal Trade Commission’s case against Microsoft have been published online.",
-    "url": "https://www.nbcnews.com/tech/video-games/microsofts-xbox-plans-revealed-emails-tied-ftc-case-rcna105766",
-    "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2023-09/230919-xbox-mn-0830-1e14e6.jpg",
-    "publishedAt": "2023-09-19T16:10:22Z",
-    "content": "A huge collection of purported Xbox files related to the Federal Trade Commissions case against Microsoft have been published online, spilling some of the company's plans for the gaming console into … [+1498 chars]"
+      "author": "Tim Hardwick",
+      "title": "Gurman: USB-C AirPods Max Not Coming Until 'Late 2024'",
+      "description": "Apple won't update the AirPods Max until late 2024 and apart from fresh colors and USB-C charging, no other major changes are expected. That's according to Bloomberg's Mark Gurman. Writing in the latest edition of his Power On newsletter, Gurman says Apple...",
+      "url": "https://www.macrumors.com/2023/10/29/gurman-usb-c-airpods-max-late-2024/",
+      "urlToImage": "https://images.macrumors.com/t/WIvogoanwYXmZE4y6O7MPoPRgos=/1600x/article-new/2022/04/airpods-max-spring-blue.jpg",
+      "publishedAt": "2023-10-29T13:52:43Z",
+      "content": "Apple won't update the AirPods Max until late 2024 and apart from fresh colors and USB-C charging, no other major changes are expected. That's according to Bloomberg's Mark Gurman. Writing in the latest edition of his Power On newsletter, Gurman says Apple..."
     },
     {
-    "source": {
-      "id": "usa-today",
-      "name": "USA Today"
+      "source": {
+        "id": null,
+        "name": "CNET"
       },
-    "author": "USA TODAY",
-    "title": "Ukraine war live updates: Biden, Zelenskyy lobby for Ukraine at UN - USA TODAY",
-    "description": null,
-    "url": "https://www.usatoday.com/story/news/world/ukraine/2023/09/19/ukraine-russia-war-live-updates/70898448007/",
-    "urlToImage": null,
-    "publishedAt": "2023-09-19T15:56:15Z",
-    "content": null
+      "author": "Zachary McAuliffe",
+      "title": "This iOS 17 Feature Blocks Unsolicited Nudes on Your iPhone - CNET",
+      "description": "The feature works in Apple services, like Messages and AirDrop.",
+      "url": "https://www.cnet.com/tech/services-and-software/this-ios-17-feature-blocks-unsolicited-nudes-on-your-iphone/",
+      "urlToImage": "https://www.cnet.com/a/img/resize/32c24538cfcb439859a182df9b509a6e4086b657/hub/2023/10/17/95bd467a-3783-4698-b495-57ea3d853554/gettyimages-1676557935.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "publishedAt": "2023-10-29T11:00:07Z",
+      "content": "Apple released iOS 17 on Sept. 18, and the OS included a handful of fun new features and improvements, like Live Stickers and offline maps. But one new feature included in iOS 17 is designed to help..."
     },
     {
-    "source": {
-      "id": "cnn",
-      "name": "CNN"
+      "source": {
+        "id": null,
+        "name": "Iphones.ru"
       },
-    "author": "Paula Newton, Rhea Mogul",
-    "title": "India expels Canadian diplomat in tit-for-tat move as spat over assassinated Sikh activist deepens - CNN",
-    "description": "Canada’s accusation that India may have been involved in the assassination of a Sikh activist on its soil has triggered a growing spat with Ottawa and New Delhi both expelling senior diplomats, sending relations between the two countries plunging.",
-    "url": "https://www.cnn.com/2023/09/18/americas/canada-hardeep-singh-nijjar-india-intl/index.html",
-    "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230918164944-justin-trudeau-0918.jpg?c=16x9&q=w_800,c_fill",
-    "publishedAt": "2023-09-19T15:50:00Z",
-    "content": "Canadas accusation that India may have been involved in the assassination of a Sikh activist on its soil has triggered a growing spat with Ottawa and New Delhi both expelling senior diplomats, sendin… [+9226 chars]"
-    },
-    {
-    "source": {
-      "id": null,
-      "name": "[Removed]"
-    },
-    "author": null,
-    "title": "[Removed]",
-    "description": "[Removed]",
-    "url": "https://removed.com",
-    "urlToImage": null,
-    "publishedAt": "1970-01-01T00:00:00Z",
-    "content": "[Removed]"
-    },
-    {
-    "source": {
-      "id": null,
-      "name": "Yahoo Entertainment"
-      },
-    "author": "Nick Bromberg",
-    "title": "Mel Tucker 'not surprised' to find out Michigan State intends to fire him with cause - Yahoo Sports",
-    "description": "Tucker's 10-year, $95 million contract included behavioral clauses.",
-    "url": "https://sports.yahoo.com/mel-tucker-not-surprised-to-find-out-michigan-state-intends-to-fire-him-with-cause-153937001.html",
-    "urlToImage": "https://s.yimg.com/ny/api/res/1.2/HlE4fv0la8GOeCpO9pPi2g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2023-09/548afcd0-5702-11ee-bf7b-aa5b6ab70786",
-    "publishedAt": "2023-09-19T15:39:37Z",
-    "content": "Suspended Michigan State coach Mel Tucker said in a statement Tuesday that he was not surprised the school intends to fire him with cause after he allegedly sexually harassed an anti-sexual assault a… [+3006 chars]"
+      "author": "Павел",
+      "title": "Как обойти надоедливую автонумерацию списков в Заметках. Проблеме 5 лет, решил за Apple",
+      "description": "Списки в Заметках формируются автоматически: приложение понимает, что вы делите что-то по пунктам, и номерует или ставит маркеры (• точки) после перехода на следующую строку. Это удобно в быстрых записях, но мешает в работе. Каждый раз, когда копирую автоматич...",
+      "url": "https://www.iphones.ru/iNotes/kak-oboyti-razdrazhayushchee-avtomaticheskoe-sozdanie-spiskov-v-zametkah-10-28-2023",
+      "urlToImage": "https://www.iphones.ru/wp-content/plugins/wonderm00ns-simple-facebook-open-graph-tags/fbimg.php?img=https%3A%2F%2Fwww.iphones.ru%2Fwp-content%2Fuploads%2F2023%2F10%2FCover2.jpg",
+      "publishedAt": "2023-10-29T06:30:27Z",
+      "content": ": , - , ( ) . Списки в Заметках формируются автоматически: приложение понимает, что вы делите что-то по пунктам, и номерует или ставит маркеры..."
     }
   ]
 }

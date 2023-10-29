@@ -1,45 +1,27 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
-import '../ArticleDetail/ArticleDetail.css';
-import newsData from '../../mockData.json';
+import { useParams, Link } from 'react-router-dom';
+import { Article } from '../ArticleList/ArticleList'; 
 
-interface Article {
-    source: {
-        id: string | null;
-        name: string;
-    };
-    author: string | null;
-    title: string;
-    description: string | null;
-    url: string;
-    urlToImage: string | null;
-    publishedAt: string;
-    content: string | null;
+interface ArticleDetailProps {
+  articles: Article[];
 }
 
-const ArticleDetail: React.FC = () => {
+const ArticleDetail: React.FC<ArticleDetailProps> = ({ articles }) => {
   const { id } = useParams<{ id: string }>();
-  const articleIndex = parseInt(id || "0", 10);
-  const article: Article = newsData.articles[articleIndex];
+  const parsedId = id ? parseInt(id) : -1;
+  const article = articles[parsedId];
+  
 
-  if (!article) return <div>Article not found</div>;
+  if (!article) return <div>Article not found.</div>;
 
   return (
-    <div className="article-detail-wrapper">
-      <div className="article-container">
-          <img className="article-image" src={article.urlToImage || undefined} alt={article.title || "No Title"} />
-          <h2>{article.title}</h2>
-          <p>{article.description || "No Description"}</p>
-          <p>Author: {article.author || "Unknown"}</p>
-          <p>Source: {article.source.name}</p>
-          <p>Published At: {new Date(article.publishedAt).toLocaleDateString()}</p>
-          
-          {article.url && (
-            <p>
-              <a href={article.url} target="_blank" rel="noopener noreferrer">Read Full Article</a>
-            </p>
-          )}
-      </div>
+    <div className="article-detail-container">
+      <Link to="/" className="back-button">Back to Main Page</Link>
+      <h1>{article.title}</h1>
+      <img src={article.urlToImage || "path/to/default/image.jpg"} alt={article.title || "No Title"} />
+      <p><strong>Source:</strong> {article.source.name}</p>
+      <p><strong>Date:</strong> {new Date(article.publishedAt).toLocaleDateString()}</p>
+      <p>{article.content}</p>
     </div>
   );
 }
