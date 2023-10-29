@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../NavBar/NavBar.css'
 import logo from '../../TuringSchool_LogoMark_Gray.png';
+import { Link } from 'react-router-dom';
 
 interface NavBarProps {
   onSearch: (term: string) => void;
@@ -16,7 +17,9 @@ const NavBar: React.FC<NavBarProps> = ({ onSearch }) => {
 
   return (
     <div className="navbar">
-      <img src={logo} alt="Logo" className="navbar-logo" />
+      <Link to="/">
+        <img src={logo} alt="Logo" className="navbar-logo" />
+      </Link>
       <span className="navbar-name">News Reader</span>
       <form className="navbar-search" onSubmit={handleFormSubmit}>
         <input
