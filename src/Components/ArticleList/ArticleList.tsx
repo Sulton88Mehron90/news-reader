@@ -12,8 +12,8 @@ export type Article = {
     id: string | null;
     name: string;
   };
-  publishedAt: string; 
-  content: string; 
+  publishedAt: string;
+  content: string;
 };
 
 interface Props {
@@ -58,6 +58,7 @@ const ArticleList: React.FC<Props> = ({ useMockData }) => {
         <label htmlFor="searchInput" className="visually-hidden">Search Articles</label>
         <input
           id="searchInput"
+          name="searchInput"  // Moved the comment above this line
           type="text"
           className="search-input"
           placeholder="Search articles..."
@@ -68,20 +69,23 @@ const ArticleList: React.FC<Props> = ({ useMockData }) => {
       <div className="articles">
         {filteredArticles.map((article, index) => (
           <Link to={`/article/${index}`} key={index} className="article-link">
-            <h2>{article.title}</h2>
-            <img 
-    src={article.urlToImage || missingImg} 
-    onError={(e) => {
-        const imgElement = e.target as HTMLImageElement;
-        imgElement.onerror = null;
-        imgElement.src = missingImg;
-    }} 
-    alt={article.title || "No Title"} 
-/>
-            <p>{article.description}</p>
-            <p>{new Date(article.publishedAt).toLocaleDateString()}</p>
-            <p>{article.source.name}</p>
-          </Link>
+          <img 
+              src={article.urlToImage || missingImg} 
+              onError={(e) => {
+                  const imgElement = e.target as HTMLImageElement;
+                  imgElement.onerror = null;
+                  imgElement.src = missingImg;
+              }} 
+              alt={article.title || "No Title"} 
+          />
+          <div className="article-text-content">
+              <h2>{article.title}</h2>
+              <p>{article.description}</p>
+              <p>{new Date(article.publishedAt).toLocaleDateString()}</p>
+              <p>{article.source.name}</p>
+          </div>
+      </Link>
+      
         ))}
       </div>
     </div>

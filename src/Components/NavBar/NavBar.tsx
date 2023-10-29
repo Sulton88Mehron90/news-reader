@@ -12,6 +12,8 @@ interface NavBarProps {
 const NavBar: React.FC<NavBarProps> = ({ onSearch, onCategoryChange }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const categories = ['All', 'Business', 'Entertainment', 'Health', 'Science', 'Sports', 'Technology'];
+  const countries = ['us', 'uk', 'ca', 'au', 'taj'];
+
 
   const handleFormSubmit = (e: React.FormEvent) => {
     e.preventDefault();

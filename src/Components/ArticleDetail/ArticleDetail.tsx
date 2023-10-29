@@ -15,6 +15,10 @@ const ArticleDetail: React.FC<ArticleDetailProps> = ({ articles }) => {
 
   if (!article) return <div>Article not found.</div>;
 
+    // Debugging logs
+    console.log("Parsed ID:", parsedId);
+    console.log("Articles:", articles);
+
   return (
     <div className="article-detail-container">
       <Link to="/" className="back-button">Back to Main Page</Link>
