@@ -11,7 +11,7 @@ import '../ArticleList/ArticleList.css'
 function App() {
   const [useMockData, setUseMockData] = useState(true);
   const [articles, setArticles] = useState([]);
-  const [selectedCategory, setSelectedCategory] = useState('All');
+  // const [selectedCategory, setSelectedCategory] = useState('All');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -29,27 +29,30 @@ function App() {
       });
   }, [useMockData]);
 
-  const fetchArticles = (category: string = 'All', searchTerm: string = "") => {
-    const query = category === 'All' ? searchTerm : `${category} ${searchTerm}`.trim();
-    fetchNews(query, 1, useMockData)
+// Modify the fetchArticles function to handle both category and search term
+const fetchArticles = (category: string = 'All', searchTerm: string = "") => {
+  const query = category === 'All' ? searchTerm : `${category} ${searchTerm}`.trim();
+  fetchNews(query, 1, useMockData)
       .then((data) => {
-        setArticles(data.articles);
+          setArticles(data.articles);
       })
       .catch((error) => {
-        console.error("Error fetching articles:", error);
+          console.error("Error fetching articles:", error);
       });
 };
 
-  const handleSearch = (term: string) => {
-    fetchArticles(selectedCategory, term);
-  };
+// Modify handleSearch to use fetchArticles
+// const handleSearch = (term: string, category: string) => {
+//   fetchArticles(category, term);
+// };
 
   if (loading) return <div>Loading...</div>;
 if (error) return <div>{error}</div>;
 
   return (
     <Router>
-      <NavBar onSearch={handleSearch} onCategoryChange={setSelectedCategory} />
+      <NavBar />
+      {/* <NavBar onSearch={(term: string, category: string) => handleSearch(term, category)} onCategoryChange={setSelectedCategory} /> */}
       <div className="app-container">
         <button
           onClick={() => setUseMockData(!useMockData)}
