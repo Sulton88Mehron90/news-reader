@@ -1,29 +1,53 @@
 import React, { useState } from 'react';
+import '../NavBar/NavBar.css';
+import logo from '../Images/TuringSchool_LogoMark_Gray.png';
+import { Link } from 'react-router-dom';
 
 interface NavBarProps {
   onSearch: (term: string) => void;
+  onCategoryChange: (category: string) => void;
 }
 
-const NavBar: React.FC<NavBarProps> = ({ onSearch }) => {
+const NavBar: React.FC<NavBarProps> = ({ onSearch, onCategoryChange }) => {
   const [searchTerm, setSearchTerm] = useState('');
+  const categories = ['All', 'Business', 'Entertainment', 'Health', 'Science', 'Sports', 'Technology'];
 
-  const handleSearch = (e: React.FormEvent) => {
+  const handleFormSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     onSearch(searchTerm);
   };
 
   return (
     <div className="navbar">
-      <img src="path_to_your_logo.png" alt="Logo" className="navbar-logo" />
-      <span className="navbar-name">Your Newspaper Name</span>
-      <form className="navbar-search" onSubmit={handleSearch}>
+      <Link to="/">
+        <img src={logo} alt="Logo" className="navbar-logo" />
+      </Link>
+      <span className="navbar-name">News Reader</span>
+      <form className="navbar-search" onSubmit={handleFormSubmit}>
+        <select
+          id="categorySelect"
+          name="categorySelect"
+          onChange={(e) => {
+            onCategoryChange(e.target.value);
+          }}
+        >
+          <option value="">Search or select a category...</option>
+          {categories.map(category => (
+            <option key={category} value={category}>
+              {category}
+            </option>
+          ))}
+        </select>
         <input
+          id="searchInput"
+          name="searchInput"
           type="text"
           placeholder="Search..."
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
         <button type="submit">Search</button>
+        {searchTerm && <button type="button" onClick={() => setSearchTerm('')}>Clear</button>}
       </form>
     </div>
   );
