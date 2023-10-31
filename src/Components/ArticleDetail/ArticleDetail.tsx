@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Article } from '../ArticleList/ArticleList'; 
 import '../ArticleDetail/ArticleDetail.css';
+import missingImg from '../Images/missing-img.png';
 
 interface ArticleDetailProps {
   articles: Article[];
@@ -10,7 +11,6 @@ interface ArticleDetailProps {
 const ArticleDetail: React.FC<ArticleDetailProps> = ({ articles }) => {
   const { id } = useParams<{ id: string }>();
 
-  // If id doesn't exist, return an error message
   if (!id) {
     return <div>Invalid article ID.</div>;
   }
@@ -18,9 +18,8 @@ const ArticleDetail: React.FC<ArticleDetailProps> = ({ articles }) => {
   const articleIndex = parseInt(id, 10);
   const article = articles[articleIndex];
 
-  if (!article) return <div>Article not found.To go back to Main Page click on the Logo</div>;
+  if (!article) return <div>Article not found. To go back to Main Page click on the Logo</div>;
 
-  // Debugging logs
   console.log("Articles:", articles);
   console.log("Route ID:", id);
   console.log("Matched Article:", article);
@@ -29,7 +28,16 @@ const ArticleDetail: React.FC<ArticleDetailProps> = ({ articles }) => {
     <div className="article-detail-container">
       <Link to="/" className="back-button">Back to Main Page</Link>
       <h1>{article.title}</h1>
-      <img src={article.urlToImage || "path/to/default/image.jpg"} alt={article.title || "No Title"} className="detail-image" />
+      <img 
+    src={article.urlToImage || "path/to/default/image.jpg"} 
+    alt={article.title || "No Title"} 
+    className="detail-image" 
+    onError={(e) => { 
+        const imgElement = e.target as HTMLImageElement;
+        imgElement.onerror = null; 
+        imgElement.src = missingImg;
+    }}
+/>
       <p><strong>Source:</strong> {article.source.name}</p>
       <p><strong>Date:</strong> {new Date(article.publishedAt).toLocaleDateString()}</p>
       <p>{article.content}</p>

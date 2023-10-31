@@ -83,11 +83,11 @@ const ArticleList: React.FC<Props> = ({ useMockData }) => {
           <div className="article-text-content">
               <h2>{article.title}</h2>
               <p>{article.description}</p>
+              <p>{article.content}</p>
               <p>{new Date(article.publishedAt).toLocaleDateString()}</p>
               <p>{article.source.name}</p>
           </div>
-      </Link>
-      
+          </Link>
         ))}
       </div>
     </div>
