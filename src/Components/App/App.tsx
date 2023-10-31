@@ -5,12 +5,16 @@ import ArticleDetail from '../ArticleDetail/ArticleDetail';
 import NavBar from '../NavBar/NavBar';
 import { fetchNews } from '../../apiCalls';
 import '../ArticleList/ArticleList.css';
+import { Article } from '../ArticleList/ArticleList';
+
 
 function App() {
   const [useMockData, setUseMockData] = useState(true);
-  const [articles, setArticles] = useState([]);
+  const [articles, setArticles] = useState<Article[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState('All');
 
   useEffect(() => {
     fetchNews("bitcoin", 1, useMockData)
@@ -25,12 +29,45 @@ function App() {
       });
   }, [useMockData]);
 
+  const handleSearchTermChange = (term: string) => {
+    setSearchTerm(term);
+  }
+
+  const handleCategoryChange = (category: string) => {
+    setSelectedCategory(category);
+  }
+
+
+  const handleSearch = () => {
+    const filteredArticles = articles.filter(article => 
+      (selectedCategory === 'All' || article.source.name === selectedCategory) && 
+      article.title.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    setArticles(filteredArticles);
+  }
+  
+  // const handleSearch = () => {
+  //   // Call the API or filter the articles here based on searchTerm and selectedCategory
+  //   // For now, we'll filter the articles
+  //   const filteredArticles = articles.filter(article => 
+  //     (selectedCategory === 'All' || article.category === selectedCategory) && 
+  //     article.title.toLowerCase().includes(searchTerm.toLowerCase())
+  //   );
+  //   setArticles(filteredArticles);
+  // }
+
   if (loading) return <div>Loading...</div>;
   if (error) return <div>{error}</div>;
 
   return (
     <Router>
-      <NavBar />
+      <NavBar 
+        searchTerm={searchTerm}
+        selectedCategory={selectedCategory}
+        onSearchTermChange={handleSearchTermChange}
+        onCategoryChange={handleCategoryChange}
+        onSearch={handleSearch}
+      />
       <div className="app-container">
         <div className="controls-container">
           <button

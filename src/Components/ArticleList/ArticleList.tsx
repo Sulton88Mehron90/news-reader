@@ -112,8 +112,6 @@
 // export default React.memo(ArticleList);
 
 
-// ArticleList.tsx
-
 import React, { useState, useEffect } from 'react';
 import { fetchNews } from '../../apiCalls';
 import '../ArticleList/ArticleList.css';
