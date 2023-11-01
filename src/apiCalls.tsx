@@ -90,4 +90,21 @@ function fetchTopHeadlines(
     }
 }
 
-export { fetchNews, fetchTopHeadlines };
+function fetchNewsSources() {
+    const endpoint = `${BASE_URL}top-headlines/sources?apiKey=${API_KEY}`;
+
+    return fetch(endpoint, {
+        headers: {
+            'X-Api-Key': API_KEY
+        }
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Failed to fetch news sources');
+        }
+        return response.json();
+    });
+}
+
+
+export { fetchNews, fetchTopHeadlines, fetchNewsSources };

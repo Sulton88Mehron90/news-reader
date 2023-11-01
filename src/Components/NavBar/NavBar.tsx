@@ -2,6 +2,7 @@ import '../NavBar/NavBar.css';
 import logo from '../Images/TuringSchool_LogoMark_Gray.png';
 import { Link } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
+// import mockData from '../../mockData.json';
 
 
 interface NavBarProps {
@@ -12,14 +13,11 @@ interface NavBarProps {
   onSearch: () => void;
 }
 
-// const NavBar: React.FC<NavBarProps> = ({ searchTerm, selectedCategory, onSearchTermChange, onCategoryChange, onSearch }) => {
-// const categories = ['All', 'Business', 'Entertainment', 'Health', 'Science', 'Sports', 'Technology'];
-
-const NavBar: React.FC<NavBarProps> = ({ onSearchTermChange, onCategoryChange, onSearch }) => {
-  const sources = ['Wired', 'Gizmodo.com', 'Business Insider'];
-  const [localSearchTerm] = useState<string>('');
-  const [localSelectedCategory, setLocalSelectedCategory] = useState<string>('All');
+const NavBar: React.FC<NavBarProps> = ({ searchTerm, selectedCategory, onSearchTermChange, onCategoryChange, onSearch }) => {
+  const categories = ['All', 'Business', 'Entertainment', 'Health', 'Science', 'Sports', 'Technology'];
   const [dayMessage, setDayMessage] = useState('');
+  const [localSearchTerm, setLocalSearchTerm] = useState('');
+
 
   useEffect(() => {
     const time = new Date();
@@ -67,7 +65,7 @@ const NavBar: React.FC<NavBarProps> = ({ onSearchTermChange, onCategoryChange, o
       <span className="navbar-name">News Reader</span>
       <div className="day-message">{dayMessage}</div>
       <form className="navbar-search" onSubmit={(e) => { e.preventDefault(); onSearch(); }}>
-        {/* <select
+        <select
           id="categorySelect"
           name="categorySelect"
           onChange={(e) => onCategoryChange(e.target.value)}
@@ -79,29 +77,18 @@ const NavBar: React.FC<NavBarProps> = ({ onSearchTermChange, onCategoryChange, o
               {category}
             </option>
           ))}
-        </select> */}
-        <select
-          id="categorySelect"
-          name="categorySelect"
-          onChange={(e) => setLocalSelectedCategory(e.target.value)}
-          value={localSelectedCategory}
-        >
-          <option value="">Search or select a source...</option>
-          {sources.map(source => (
-            <option key={source} value={source}>
-              {source}
-            </option>
-          ))}
         </select>
-
         <input
-          id="searchInput"
-          name="searchInput"
-          type="text"
-          placeholder="Search..."
-          value={localSearchTerm}
-          onChange={(e) => onSearchTermChange(e.target.value)}
-        />
+    id="searchInput"
+    name="searchInput"
+    type="text"
+    placeholder="Search..."
+    value={localSearchTerm}
+    onChange={(e) => {
+        setLocalSearchTerm(e.target.value);
+        onSearchTermChange(e.target.value);
+    }}
+/>
         <button type="submit">Search</button>
         {localSearchTerm && <button type="button" onClick={() => onSearchTermChange('')}>Clear</button>}
       </form>

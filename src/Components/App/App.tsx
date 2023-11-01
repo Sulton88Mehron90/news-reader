@@ -6,6 +6,8 @@ import NavBar from '../NavBar/NavBar';
 import { fetchNews } from '../../apiCalls';
 import '../ArticleList/ArticleList.css';
 import { Article } from '../ArticleList/ArticleList';
+// import mockData from '../../mockData.json';
+
 
 
 function App() {
@@ -27,7 +29,7 @@ function App() {
         setError('Failed to fetch articles. Please try again later.');
         setLoading(false);
       });
-  }, [useMockData]);
+  }, [useMockData, searchTerm, selectedCategory]);
 
   const handleSearchTermChange = (term: string) => {
     setSearchTerm(term);
@@ -37,24 +39,19 @@ function App() {
     setSelectedCategory(category);
   }
 
-
   const handleSearch = () => {
-    const filteredArticles = articles.filter(article => 
-      (selectedCategory === 'All' || article.source.name === selectedCategory) && 
-      article.title.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-    setArticles(filteredArticles);
-  }
-  
-  // const handleSearch = () => {
-  //   // Call the API or filter the articles here based on searchTerm and selectedCategory
-  //   // For now, we'll filter the articles
-  //   const filteredArticles = articles.filter(article => 
-  //     (selectedCategory === 'All' || article.category === selectedCategory) && 
-  //     article.title.toLowerCase().includes(searchTerm.toLowerCase())
-  //   );
-  //   setArticles(filteredArticles);
-  // }
+    setLoading(true);
+    fetchNews(searchTerm, 1, useMockData, selectedCategory)
+        .then((data: any) => {
+            setArticles(data.articles);
+            setLoading(false);
+        })
+        .catch((error: any) => {
+            console.error("Error fetching articles:", error);
+            setError('Failed to fetch articles. Please try again later.');
+            setLoading(false);
+        });
+}
 
   if (loading) return <div>Loading...</div>;
   if (error) return <div>{error}</div>;
