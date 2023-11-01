@@ -124,7 +124,6 @@ function App() {
     handleSearch();
 }, []);
 
-
   const handleSearch = () => {
     setLoading(true);
     fetchNews(searchTerm, 1, useMockData, selectedCategory)

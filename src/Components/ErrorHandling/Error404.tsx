@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import "./Error404.css";
-import oldNewsPaper from "../Images/old-news-paper.png";
+import oldNewsPaper from "../Images/Paper-404-Error.png";
 
 const newsPaperFacts = [
   "First Published: The first newspaper was publicly available in the early 17th century.",
