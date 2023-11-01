@@ -3,7 +3,6 @@ import { fetchNews } from '../../apiCalls';
 import '../ArticleList/ArticleList.css';
 import { Link } from 'react-router-dom';
 import missingImg from '../Images/missing-img.png';
-// import mockData from '../../mockData.json';
 
 export type Article = {
   title: string;
@@ -22,28 +21,30 @@ export type Article = {
 interface Props {
   useMockData: boolean;
   articles: Article[];
+  searchTerm?: string;
+  selectedCategory?: string; 
 }
 
-const ArticleList: React.FC<Props> = ({ useMockData }) => {
+const ArticleList: React.FC<Props> = ({ useMockData, searchTerm = "", selectedCategory = "All" }) => {
   const [articles, setArticles] = useState<Article[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  // const [retryCount, setRetryCount] = useState(0);
 
   useEffect(() => {
-    fetchNews("bitcoin", 1, useMockData)
-      .then((data: any) => {
-        setArticles(data.articles);
-        setLoading(false);
-      })
-      .catch((error: any) => {
-        console.error("Error fetching articles:", error);
-        setError('Failed to fetch articles. Please try again later.');
-        setLoading(false);
-      });
-  }, [useMockData, 
-    // retryCount
-  ]);
+    console.log("Fetching news...");
+
+    fetchNews(searchTerm, 1, useMockData, selectedCategory)
+        .then((data: any) => {
+            console.log("Data fetched:", data);
+            setArticles(data.articles);
+            setLoading(false);
+        })
+        .catch((error: any) => {
+            console.error("Error fetching articles:", error);
+            setError('Failed to fetch articles. Please try again later.');
+            setLoading(false);
+        });
+  }, [useMockData, searchTerm, selectedCategory]);
 
   return (
     <div className="article-list-container">

@@ -3,7 +3,6 @@ import { useParams, Link } from 'react-router-dom';
 import { Article } from '../ArticleList/ArticleList'; 
 import '../ArticleDetail/ArticleDetail.css';
 import missingImg from '../Images/missing-img.png';
-// import mockData from '../../mockData.json';
 
 interface ArticleDetailProps {
   articles: Article[];
