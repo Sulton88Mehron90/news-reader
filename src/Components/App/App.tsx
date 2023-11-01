@@ -32,31 +32,30 @@ function App() {
 
   const handleSearch = useCallback(() => {
     setLoading(true);
-
-    if (selectedCategory && selectedCategory !== 'All') {
-      fetchTopHeadlines('us', selectedCategory, 1, useMockData)
-        .then((data: any) => {
-          setArticles(data.articles);
-          setLoading(false);
-        })
-        .catch((error: any) => {
-          console.error("Error fetching top headlines:", error);
-          setError('Failed to fetch top headlines. Please try again later.');
-          setLoading(false);
-        });
-    } else {
-      fetchNews(searchTerm, 1, useMockData)
-        .then((data: any) => {
-          setArticles(data.articles);
-          setLoading(false);
-        })
-        .catch((error: any) => {
-          console.error("Error fetching articles:", error);
-          setError('Failed to fetch articles. Please try again later.');
-          setLoading(false);
-        });
-    }
+    const searchAction = selectedCategory !== 'All'
+      ? fetchTopHeadlines('us', selectedCategory, 1, useMockData)
+      : fetchNews(searchTerm, 1, useMockData);
+  
+    searchAction
+      .then((data: any) => {
+        setArticles(data.articles);
+        setLoading(false);
+      })
+      .catch((error: any) => {
+        console.error("Error fetching data:", error);
+        setError(`Failed to fetch data. Please try again later.`);
+        setLoading(false);
+      });
   }, [searchTerm, selectedCategory, useMockData]);
+  
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      handleSearch();
+    }, 500);
+  
+    return () => clearTimeout(timer);   
+  }, [searchTerm, selectedCategory, useMockData, handleSearch]);
+  
 
   useEffect(() => {
     handleSearch();
@@ -87,7 +86,7 @@ function App() {
                 {useMockData ? "Switch to Live Data" : "Switch to Mock Data"}
               </button>
             </div>
-            <ArticleList articles={articles} useMockData={useMockData} />
+            <ArticleList articles={articles} />
           </>
         } />
         <Route path="/article/:id" element={

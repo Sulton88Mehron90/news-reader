@@ -40,10 +40,12 @@ const NavBar: React.FC<NavBarProps> = ({
   const [dayMessage, setDayMessage] = useState('');
 
   const handleSearchTermChange = (term: string) => {
+    console.log('Search term changed:', term);//delete
     onSearchTermChange(term);
   };
 
   const handleCategoryChange = (category: string) => {
+    console.log('Category changed:', category);//delete
     onCategoryChange(category);
   };
 

@@ -28,6 +28,7 @@ function fetchNews(
   sort?: string,
   filter?: string
 ) {
+  console.log('fetchNews called with:', { query, page, useMockData, sort, filter });//delete
   if (useMockData) {
     return Promise.resolve(newsData);
   } else {
@@ -57,6 +58,10 @@ function fetchNews(
           throw new Error('Failed to fetch news');
         }
         return response.json();
+      })
+      .then(data => {
+        console.log('Fetched data:', data); // dont forget to delete
+        return data; 
       });
   }
 }
@@ -86,6 +91,10 @@ function fetchTopHeadlines(
           throw new Error('Failed to fetch top headlines');
         }
         return response.json();
+      })
+      .then(data => {
+        console.log('Fetched top headlines:', data); // delete
+        return data; 
       });
   }
 }
@@ -103,6 +112,10 @@ function fetchNewsSources() {
         throw new Error('Failed to fetch news sources');
       }
       return response.json();
+    })
+    .then(data => {
+      console.log('Fetched news sources:', data); // delete
+      return data;
     });
 }
 
