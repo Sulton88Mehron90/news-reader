@@ -97,7 +97,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ArticleList from '../ArticleList/ArticleList';
 import ArticleDetail from '../ArticleDetail/ArticleDetail';
 import NavBar from '../NavBar/NavBar';
-import { fetchNews } from '../../apiCalls';
+import { fetchNews, fetchTopHeadlines } from '../../apiCalls';
 import '../ArticleList/ArticleList.css';
 import { Article } from '../ArticleList/ArticleList';
 import Spinner from '../Spinner/Spinner';
@@ -126,19 +126,48 @@ function App() {
     setSelectedCategory(category);
   };
 
+  // const handleSearch = () => {
+  //   setLoading(true);
+  //   const category = selectedCategory !== 'All' ? selectedCategory : undefined;
+  //   fetchNews(searchTerm, 1, useMockData, category)
+  //     .then((data: any) => {
+  //       setArticles(data.articles);
+  //       setLoading(false);
+  //     })
+  //     .catch((error: any) => {
+  //       console.error("Error fetching articles:", error);
+  //       setError('Failed to fetch articles. Please try again later.');
+  //       setLoading(false);
+  //     });
+  // };  
+
   const handleSearch = () => {
     setLoading(true);
-    const category = selectedCategory !== 'All' ? selectedCategory : undefined;
-    fetchNews(searchTerm, 1, useMockData, category)
-      .then((data: any) => {
-        setArticles(data.articles);
-        setLoading(false);
-      })
-      .catch((error: any) => {
-        console.error("Error fetching articles:", error);
-        setError('Failed to fetch articles. Please try again later.');
-        setLoading(false);
-      });
+    // Check if a category is selected and if so, call fetchTopHeadlines instead
+    if (selectedCategory && selectedCategory !== 'All') {
+      fetchTopHeadlines('us', selectedCategory, 1, useMockData)
+        .then((data: any) => {
+          setArticles(data.articles);
+          setLoading(false);
+        })
+        .catch((error: any) => {
+          console.error("Error fetching top headlines:", error);
+          setError('Failed to fetch top headlines. Please try again later.');
+          setLoading(false);
+        });
+    } else {
+      // No category selected, proceed with fetchNews
+      fetchNews(searchTerm, 1, useMockData)
+        .then((data: any) => {
+          setArticles(data.articles);
+          setLoading(false);
+        })
+        .catch((error: any) => {
+          console.error("Error fetching articles:", error);
+          setError('Failed to fetch articles. Please try again later.');
+          setLoading(false);
+        });
+    }
   };  
 
     const renderContent = () => {

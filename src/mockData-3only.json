@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "totalResults": 515,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Tim Hardwick",
+      "title": "Gurman: USB-C AirPods Max Not Coming Until 'Late 2024'",
+      "description": "Apple won't update the AirPods Max until late 2024 and apart from fresh colors and USB-C charging, no other major changes are expected. That's according to Bloomberg's Mark Gurman. Writing in the latest edition of his Power On newsletter, Gurman says Apple...",
+      "url": "https://www.macrumors.com/2023/10/29/gurman-usb-c-airpods-max-late-2024/",
+      "urlToImage": "https://images.macrumors.com/t/WIvogoanwYXmZE4y6O7MPoPRgos=/1600x/article-new/2022/04/airpods-max-spring-blue.jpg",
+      "publishedAt": "2023-10-29T13:52:43Z",
+      "content": "Apple won't update the AirPods Max until late 2024 and apart from fresh colors and USB-C charging, no other major changes are expected. That's according to Bloomberg's Mark Gurman. Writing in the latest edition of his Power On newsletter, Gurman says Apple..."
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNET"
+      },
+      "author": "Zachary McAuliffe",
+      "title": "This iOS 17 Feature Blocks Unsolicited Nudes on Your iPhone - CNET",
+      "description": "The feature works in Apple services, like Messages and AirDrop.",
+      "url": "https://www.cnet.com/tech/services-and-software/this-ios-17-feature-blocks-unsolicited-nudes-on-your-iphone/",
+      "urlToImage": "https://www.cnet.com/a/img/resize/32c24538cfcb439859a182df9b509a6e4086b657/hub/2023/10/17/95bd467a-3783-4698-b495-57ea3d853554/gettyimages-1676557935.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "publishedAt": "2023-10-29T11:00:07Z",
+      "content": "Apple released iOS 17 on Sept. 18, and the OS included a handful of fun new features and improvements, like Live Stickers and offline maps. But one new feature included in iOS 17 is designed to help..."
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Iphones.ru"
+      },
+      "author": "Павел",
+      "title": "Как обойти надоедливую автонумерацию списков в Заметках. Проблеме 5 лет, решил за Apple",
+      "description": "Списки в Заметках формируются автоматически: приложение понимает, что вы делите что-то по пунктам, и номерует или ставит маркеры (• точки) после перехода на следующую строку. Это удобно в быстрых записях, но мешает в работе. Каждый раз, когда копирую автоматич...",
+      "url": "https://www.iphones.ru/iNotes/kak-oboyti-razdrazhayushchee-avtomaticheskoe-sozdanie-spiskov-v-zametkah-10-28-2023",
+      "urlToImage": "https://www.iphones.ru/wp-content/plugins/wonderm00ns-simple-facebook-open-graph-tags/fbimg.php?img=https%3A%2F%2Fwww.iphones.ru%2Fwp-content%2Fuploads%2F2023%2F10%2FCover2.jpg",
+      "publishedAt": "2023-10-29T06:30:27Z",
+      "content": ": , - , ( ) . Списки в Заметках формируются автоматически: приложение понимает, что вы делите что-то по пунктам, и номерует или ставит маркеры..."
+    }
+  ]
+}
