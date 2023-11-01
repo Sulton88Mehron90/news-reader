@@ -1,5 +1,4 @@
-import newsData from './mockData.json';
-
+import newsData from './testData/mockData.json';
 
 export type apiResponse = {
   status: string;
