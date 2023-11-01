@@ -14,7 +14,7 @@
 }
 
 .general-error-msg h1 {
-  font-size: 3em;
+  font-size: 2em;
   margin-bottom: 1em;
   text-align: center;
   border-bottom: 3px solid #d2a45b;
@@ -31,13 +31,14 @@
 }
 
 .general-error-msg img {
-  width: 40%;
+  width: 30%;
   margin: 2% auto;
-  max-width: 50rem;
+  max-width: 30rem; 
   margin-top: 1rem;
-  border-radius: 10%;
+  border-radius: 3%;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
+
 
 .general-error-go-home-button {
   margin-top: 20px;

@@ -103,7 +103,30 @@
   }
 }
 
+.old-news-paper {
+  width: 100%;
+  height: auto;
+}
+
+/* Larger devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .old-news-paper {
+    width: 50%; 
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .old-news-paper {
+    width: 70%;
+  }
+}
+
 @media only screen and (min-width: 481px) and (max-width: 768px) {
+
+  .old-news-paper {
+    width: 100%; 
+  }
   .not-found-page-container .not-found-heading h1 {
     font-size: 2.5em;
   }

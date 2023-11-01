@@ -46,15 +46,14 @@ const Error404: React.FC = () => {
         </h2>
 
         <p className="ref-fact">
-  {refFact 
-    ? <>
-        <strong>{refFact.split(":")[0]}:</strong> 
-        {refFact.split(":")[1]}
-      </>
-    : "No facts available at the moment."
-  }
-</p>
-
+          {refFact
+            ? <>
+              <strong>{refFact.split(":")[0]}:</strong>
+              {refFact.split(":")[1]}
+            </>
+            : "No facts available at the moment."
+          }
+        </p>
       </div>
       <div className="image-container">
         <img src={oldNewsPaper} alt="old-news-paper" className="old-news-paper" />
