@@ -1,591 +1,383 @@
 {
   "status": "ok",
-  "totalResults": 9511,
+  "totalResults": 2271,
   "articles": [
+  {
+  "source": {
+  "id": "engadget",
+  "name": "Engadget"
+  },
+  "author": "Stephanie Barnes",
+  "title": "Apple finally kills off the 13-inch Touch Bar MacBook Pro",
+  "description": "Apple's Scary Fast event was an unexpected but welcome treat for Mac fans this season. And in true Halloween slasher movie fashion, Apple has officially ended the life of one of its most controversial laptops: the 13-inch MacBook Pro. For years, this model wa…",
+  "url": "https://www.engadget.com/apple-finally-kills-off-the-13-inch-touch-bar-macbook-pro-004008890.html",
+  "urlToImage": "https://s.yimg.com/ny/api/res/1.2/W7a8XUpZ009LigTVilXNRQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2023-10/91d352b0-7762-11ee-9aef-242f84f9738a",
+  "publishedAt": "2023-10-31T00:40:08Z",
+  "content": "Apple's Scary Fast event was an unexpected but welcome treat for Mac fans this season. And in true Halloween slasher movie fashion, Apple has officially ended the life of one of its most controversia… [+2204 chars]"
+  },
+  {
+  "source": {
+  "id": "engadget",
+  "name": "Engadget"
+  },
+  "author": "Jeff Dunn",
+  "title": "How to pre-order the new Apple MacBook Pros and iMac with M3",
+  "description": "Apple's \"Scary Fast\" event is in the books, and a new set of Macs have arrived in its wake. The company unveiled three new computers on Monday, including refreshed versions of the 14- and 16-inch MacBook Pro and an updated 24-inch iMac. Each device is mostly …",
+  "url": "https://www.engadget.com/how-to-pre-order-the-new-apple-macbook-pros-and-imac-with-m3-013325603.html",
+  "urlToImage": "https://s.yimg.com/ny/api/res/1.2/4wCwx63GiYHnVUYVo4aKMQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03MjA-/https://s.yimg.com/os/creatr-uploaded-images/2023-10/e1a0baf0-776a-11ee-b0dd-eae17f056fb9",
+  "publishedAt": "2023-10-31T01:33:25Z",
+  "content": "Apple's \"Scary Fast\" event is in the books, and a new set of Macs have arrived in its wake. The company unveiled three new computers on Monday, including refreshed versions of the 14- and 16-inch Mac… [+6947 chars]"
+  },
+  {
+  "source": {
+  "id": "engadget",
+  "name": "Engadget"
+  },
+  "author": "Sam Rutherford",
+  "title": "Apple updates its 14-inch and 16-inch MacBook Pros with new M3 chips",
+  "description": "On Monday at its “Scary Fast” event, Apple announced an updated line of 14- and 16-inch MacBook Pros featuring a range of new M3 chips and Space Black chassis.\nCompared to a similarly specced M2 model, a base M3 14-inch MacBook Pro will now start at $1,599 ($…",
+  "url": "https://www.engadget.com/apple-updates-its-14-inch-and-16-inch-macbook-pros-with-new-m3-chips-specs-price-003015893.html",
+  "urlToImage": "https://s.yimg.com/ny/api/res/1.2/TvmiZepuC1JkuFFLHYnCsw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://s.yimg.com/os/creatr-uploaded-images/2023-10/9cca7880-7783-11ee-af3f-5c2e7a187a88",
+  "publishedAt": "2023-10-31T00:30:15Z",
+  "content": "On Monday at its Scary Fast event, Apple announced an updated line of 14- and 16-inch MacBook Pros featuring a range of new M3 chips and Space Black chassis.\r\nCompared to a similarly specced M2 model… [+2618 chars]"
+  },
+  {
+  "source": {
+  "id": "engadget",
+  "name": "Engadget"
+  },
+  "author": "Devindra Hardawar",
+  "title": "Apple's M3 chips bring ray tracing to Macs",
+  "description": "There's nothing truly spooky about Apple's new M3 chips — except, perhaps, for how scared they'll make Intel, AMD and Qualcomm. During its \"Scary Fast\" Halloween Eve product event (at 8PM Eastern Apple, really?) the company officially debuted its new M3, M3 P…",
+  "url": "https://www.engadget.com/apples-m3-chips-pro-max-003004080.html",
+  "urlToImage": "https://s.yimg.com/ny/api/res/1.2/IkgIGhNe5JcBmEgt4h5bkQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDU-/https://s.yimg.com/os/creatr-uploaded-images/2023-10/8456ced0-7773-11ee-bff7-f2a7f54bd607",
+  "publishedAt": "2023-10-31T00:30:04Z",
+  "content": "There's nothing truly spooky about Apple's new M3 chips except, perhaps, for how scared they'll make Intel, AMD and Qualcomm. During its \"Scary Fast\" Halloween Eve product event (at 8PM Eastern Apple… [+3477 chars]"
+  },
+  {
+  "source": {
+  "id": "engadget",
+  "name": "Engadget"
+  },
+  "author": "Kris Holt",
+  "title": "Apple's 'Scary Fast' Mac event: Everything announced about M3 MacBook Pro and M3 iMac",
+  "description": "It’s perhaps The Addams Family’s favorite time of year, but Apple’s pre-Halloween “Scary Fast” event was neither mysterious nor spooky. Thanks to M3 chip leaks and rumors, all of the company’s announcements were largely expected. And though the showcase inexp…",
+  "url": "https://www.engadget.com/apples-scary-fast-mac-event-everything-announced-about-m3-macbook-pro-and-m3-imac-153056716.html",
+  "urlToImage": "https://s.yimg.com/ny/api/res/1.2/uEuDeS768eKMuREXngaAqQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://s.yimg.com/os/creatr-uploaded-images/2023-10/66a04ef0-77fc-11ee-aafb-f953a745c14b",
+  "publishedAt": "2023-10-31T15:30:56Z",
+  "content": "Its perhaps The Addams Familys favorite time of year, but Apples pre-Halloween Scary Fast event was neither mysterious nor spooky. Thanks to M3 chip leaks and rumors, all of the companys announcement… [+5622 chars]"
+  },
   {
   "source": {
   "id": "wired",
   "name": "Wired"
   },
-  "author": "Gideon Lichfield, Lauren Goode",
-  "title": "Where Does Crypto Go From Here?",
-  "description": "We talk with Michael Casey, the chief content officer of CoinDesk, almost one year after the news site brought down Sam Bankman-Fried’s cryptocurrency empire FTX.",
-  "url": "https://www.wired.com/story/have-a-nice-future-podcast-24/",
-  "urlToImage": "https://media.wired.com/photos/6525c8ac419624284be05210/191:100/w_1280,c_limit/HANF-Michael%20Casey.jpg",
-  "publishedAt": "2023-10-11T11:00:00Z",
-  "content": "Gideon Lichfield: You said just now that what Sam Bankman-Fried did was allegedly illegal. Is there a world in which it wasn't illegal?\r\nMichael Casey: I think we allI know. I'm trying to be a good j… [+2082 chars]"
+  "author": "Kate O'Flaherty",
+  "title": "Apple, Google, and Microsoft Just Patched Some Spooky Security Flaws",
+  "description": "Plus: Major vulnerability fixes are now available for a number of enterprise giants, including Cisco, VMWare, Citrix, and SAP.",
+  "url": "https://www.wired.com/story/apple-google-microsoft-critical-update-october-2023/",
+  "urlToImage": "https://media.wired.com/photos/65404e0a352da9040257eeb8/191:100/w_1280,c_limit/Security-illo-Spoooky.png",
+  "publishedAt": "2023-10-31T11:00:00Z",
+  "content": "Another scary flaw in the System tracked as CVE-2023-40129 is rated as critical. The [vulnerability] could lead to remote code execution with no additional execution privileges needed, Google said.\r\n… [+3129 chars]"
+  },
+  {
+  "source": {
+  "id": "wired",
+  "name": "Wired"
+  },
+  "author": "Ryan Waniata",
+  "title": "Bose QuietComfort Ultra Review: Killer Noise-Canceling That Costs",
+  "description": "These headphones offer the most silence, and some of the best features, we've ever heard.",
+  "url": "https://www.wired.com/review/bose-quietcomfort-ultra/",
+  "urlToImage": "https://media.wired.com/photos/65400ad713bedd057a1d6e41/191:100/w_1280,c_limit/Bose-QuietComfort-Ultra-Headphones-Gear.jpg",
+  "publishedAt": "2023-10-31T12:00:00Z",
+  "content": "The physical controls are supplemented by a loaded Bose Music app, which lets you customize performance significantly, from adjusting the timing of the automatic power-down to tuning the various soun… [+2864 chars]"
   },
   {
   "source": {
   "id": null,
   "name": "Gizmodo.com"
   },
-  "author": "Maxwell Zeff",
-  "title": "Crypto Exchanges, Not Just FTX, Are All a Mess Right Now",
-  "description": "The founders of cryptocurrency exchanges face a mountain of regulatory challenges and billions in personal losses. Binance CEO Changpeng Zhao personally lost $12 billion this year as trading volumes on Binance declined, according to a Bloomberg report Friday.…",
-  "url": "https://gizmodo.com/crypto-exchanges-ftx-binance-genesis-gemini-are-a-mess-1850968083",
-  "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/46326bbf3c33c4ddb3f18069c82167d7.jpg",
-  "publishedAt": "2023-10-27T20:10:00Z",
-  "content": "The founders of cryptocurrency exchanges face a mountain of regulatory challenges and billions in personal losses. Binance CEO Changpeng Zhao personally lost $12 billion this year as trading volumes … [+1852 chars]"
+  "author": "Kyle Barr",
+  "title": "The MacBook Pro is Back in Black, Now Powered with M3",
+  "description": "It’s Halloween eve, and Apple brought along a few new desktop products to bask in the dark joys of spooky season, most notably a new Space Black color for the company’s leading laptops. Gizmodo had the opportunity to trick or treat through the new M3-powered …",
+  "url": "https://gizmodo.com/the-macbook-pro-is-back-in-black-now-powered-with-m3-1850975312",
+  "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/8234e0778a5c2d50a923ee145a353de9.jpg",
+  "publishedAt": "2023-10-31T02:35:00Z",
+  "content": "Its Halloween eve, and Apple brought along a few new desktop products to bask in the dark joys of spooky season, most notably a new Space Black color for the companys leading laptops. Gizmodo had the… [+1634 chars]"
   },
   {
   "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
+  "id": "bbc-news",
+  "name": "BBC News"
   },
-  "author": "Matthew Fox",
-  "title": "Bitcoin briefly spiked 10% after a false report said the SEC approved BlackRock's spot bitcoin ETF",
-  "description": "\"We apologize for a tweet that led to the dissemination of inaccurate information regarding the Blackrock Bitcoin ETF,\" CoinTelegraph said.",
-  "url": "https://markets.businessinsider.com/news/currencies/bitcoin-price-false-report-said-sec-approved-spot-bitcoin-etf-2023-10",
-  "urlToImage": "https://i.insider.com/652d698c55f52b01b3606b6c?width=1200&format=jpeg",
-  "publishedAt": "2023-10-16T16:51:00Z",
-  "content": "NurPhoto / Contributor\r\n<ul><li>Bitcoin briefly popped 10% on Monday after a false report said the SEC approved a spot bitcoin ETF from BlackRock.</li><li>BlackRock told Bloomberg that its ETF is, in… [+2410 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Aruni Soni",
-  "title": "Bitcoin may see a 'supply shock' as available tokens hit their lowest level since 2018 with a potential ETF likely to jolt demand, analyst says",
-  "description": "There's a dwindling amount of bitcoin available to trade on crypto exchanges, and an ETF approval would further boost demand.",
-  "url": "https://markets.businessinsider.com/news/currencies/bitcoin-price-supply-shock-tokens-spot-etf-crypto-exchange-sec-2023-10",
-  "urlToImage": "https://i.insider.com/653bb6950487ff031cb0368b?width=1200&format=jpeg",
-  "publishedAt": "2023-10-27T15:47:54Z",
-  "content": "Namthip Muanthongthae/Getty Images\r\n<ul>\n<li>The supply of available bitcoin to trade on crypto exchanges is at its lowest level in five years.</li>\n<li>That could set up a supply shock with potentia… [+1845 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Phil Rosen",
-  "title": "Bitcoin jumps as ETF hopes drive the token to $30,000",
-  "description": "Earlier this week, crypto bull Mike Novogratz forecasted a spot bitcoin ETF will be approved this year.",
-  "url": "https://markets.businessinsider.com/news/currencies/bitcoin-price-etf-cryptocurrency-bulls-token-rally-currency-markets-novogratz-2023-10",
-  "urlToImage": "https://i.insider.com/617308b64f9d8b0011afb912?width=1200&format=jpeg",
-  "publishedAt": "2023-10-20T14:03:17Z",
-  "content": "bitcoin cryptocurrency - stock illustrationGetty\r\n<ul>\n<li>Bitcoin jumped as high as $30,000 on Friday, hovering about 4.5% higher in early trading.</li>\n<li>The token spiked 10% briefly on Tuesday a… [+2058 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Aruni Soni",
-  "title": "Bitcoin rockets to $35,000 for the first time in 17 months on optimism that an ETF will be approved",
-  "description": "Excitement for a spot bitcoin ETF has been building, with commentators and experts saying pressure is growing for the SEC to approve a fund.",
-  "url": "https://markets.businessinsider.com/news/currencies/bitcoin-rockets-35000-since-2022-spot-etf-approval-optimism-sec-2023-10",
-  "urlToImage": "https://i.insider.com/63d3cd594589790018e56ee6?width=1200&format=jpeg",
-  "publishedAt": "2023-10-24T14:33:35Z",
-  "content": "Yuichiro Chino/Getty Images\r\n<ul>\n<li>Bitcoin hit $35,000 on Tuesday, its highest since May 2022, amid hopes of a spot ETF approval.</li>\n<li>Optimism surrounding the ETF approval has been driving a … [+2288 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Hannah Getahun",
-  "title": "US officials say they're worried a Chinese-owned bitcoin mine in Wyoming will pose a national security threat, NYT reports",
-  "description": "Microsoft relayed concerns to the US government that a Cheyenne, Wyoming, Bitcoin mining operation could pose a national security threat.",
-  "url": "https://www.businessinsider.com/pentagon-chinese-owned-bitcoin-operation-cheyenne-wyoming-microsoft-2023-10",
-  "urlToImage": "https://i.insider.com/652a2ce855f52b01b35fba5a?width=1200&format=jpeg",
-  "publishedAt": "2023-10-14T06:32:41Z",
-  "content": "Bitcoin.Getty Images\r\n<ul><li>A Bitcoin mine in Wyoming is on the radar of Pentagon officials. </li><li>The mine is connected to multiple Chinese companies and sits across from a Microsoft data cente… [+2995 chars]"
+  "author": "https://www.facebook.com/bbcnews",
+  "title": "Apple alert: Indian opposition leaders raise alarm about warning",
+  "description": "Around a dozen opposition MPs say they got an alert about 'state-sponsored attackers' targeting their phone.",
+  "url": "https://www.bbc.co.uk/news/world-asia-india-67269978",
+  "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/9D2D/production/_131573204_applethreatani.jpg",
+  "publishedAt": "2023-10-31T10:49:57Z",
+  "content": "A row has broken out in India after several opposition leaders and journalists received a warning from Apple about \"state-sponsored attackers\" targeting their phone.\r\nThe alert did not specify who th… [+3804 chars]"
   },
   {
   "source": {
   "id": null,
-  "name": "Slashdot.org"
+  "name": "Android Central"
   },
-  "author": "msmash",
-  "title": "Why the US Government Has $5 Billion in Bitcoin",
-  "description": "The U.S. government is one of the world's biggest holders of bitcoin, but unlike other crypto whales, it doesn't care if the digital currency goes up or down in value. From a report: That is because Uncle Sam's stash of some 200,000 bitcoin was seized from cy…",
-  "url": "https://news.slashdot.org/story/23/10/16/123235/why-the-us-government-has-5-billion-in-bitcoin",
-  "urlToImage": "https://a.fsdn.com/sd/topics/bitcoin_64.png",
-  "publishedAt": "2023-10-16T14:01:00Z",
-  "content": "That is because Uncle Sam's stash of some 200,000 bitcoin was seized from cybercriminals and darknet markets. It is primarily offline in encrypted, password-protected storage devices known as hardwar… [+927 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Phil Rosen",
-  "title": "Bitcoin's sudden and sharp rally just cost crypto bears $178 million in 24 hours",
-  "description": "Trading data shows a mountain of losses for bearish bets across top crypto exchanges as bitcoin rallied past $34,000.",
-  "url": "https://markets.businessinsider.com/news/currencies/bitcoin-price-rally-etf-crypto-bears-loss-spot-token-markets-2023-10",
-  "urlToImage": "https://i.insider.com/6537e4a096f7540cd063f6d5?width=1200&format=jpeg",
-  "publishedAt": "2023-10-24T15:52:41Z",
-  "content": "Namthip Muanthongthae/Getty Images\r\n<ul>\n<li>Bitcoin jumped more than 12% to $35,000 Tuesday, its highest level since May 2022.</li>\n<li>Bearish crypto traders have lost roughly $178 million over the… [+1801 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Filip De Mott",
-  "title": "Vanguard CEO says asset-management giant won't pursue a bitcoin ETF, unlike rivals",
-  "description": "Rivals such as BlackRock and Fidelity are waiting to get their applications for a spot bitcoin ETF approved by regulators.",
-  "url": "https://markets.businessinsider.com/news/currencies/vanguard-ceo-crypto-currency-bitcoin-etf-blackrock-novogratz-digital-2023-10",
-  "urlToImage": "https://i.insider.com/652a2ce855f52b01b35fba5a?width=1200&format=jpeg",
-  "publishedAt": "2023-10-30T20:22:17Z",
-  "content": "Bitcoin.Getty Images\r\n<ul>\n<li>Vanguard CEO Tim Buckley told CNBC that the firm will not be pursuing a bitcoin ETF.</li>\n<li>Rival asset managers such as BlackRock and Fidelity are waiting to get the… [+2403 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "George Glover",
-  "title": "The US government owns $5.5 billion worth of bitcoin. Whether it holds or sells its stash could have a big impact on the token's price.",
-  "description": "Several high-profile seizures have made the US government one of the world's largest bitcoin \"whales\", per a recent analysis.",
-  "url": "https://markets.businessinsider.com/news/currencies/bitcoin-price-outlook-government-cryptocurrency-seizures-crypto-investing-analysis-21shares-2023-10",
-  "urlToImage": null,
-  "publishedAt": "2023-10-21T09:45:01Z",
-  "content": "The US government owns over $5 billion worth of bitcoin, according to a recent analysis.Getty Images\r\n<ul>\n<li>The US government has seized at least $5.5 billion worth of bitcoin since 2020, accordin… [+2197 chars]"
+  "author": "sam.dunsiger@gmail.com (Samuel Dunsiger)",
+  "title": "Meta introduces ad-free plans for Facebook and Instagram users in Europe",
+  "description": "As a means to satisfy EU regulators, Meta is rolling out an ad-free subscription plan to Facebook and Instagram users in Europe.",
+  "url": "https://www.androidcentral.com/apps-software/meta-ad-free-facebook-instagram-subscription-europe",
+  "urlToImage": "https://cdn.mos.cms.futurecdn.net/XWYAStdB7tewzGVkxFGbAR-1200-80.jpg",
+  "publishedAt": "2023-10-31T00:21:43Z",
+  "content": "<ul><li>Meta is rolling out an ad-free subscription option beginning in November for Facebook and Instagram users in the European Union, European Economic Area and Switzerland.</li><li>Users will be … [+2444 chars]"
   },
   {
   "source": {
   "id": null,
-  "name": "Slashdot.org"
+  "name": "MacRumors"
   },
-  "author": "BeauHD",
-  "title": "Bitcoin Blasts Past $33,000 As Optimism For BTC Spot ETF Surges",
-  "description": "Bitcoin has surged past $33,000 per coin on Monday, rising nearly 11% in 24 hours. According to CoinGecko, the coin is up more than 17% in the past seven days. Decrypt reports: Bulls have flooded the space as talk about a spot Bitcoin ETF has investors hopefu…",
-  "url": "https://slashdot.org/story/23/10/24/0044223/bitcoin-blasts-past-33000-as-optimism-for-btc-spot-etf-surges",
-  "urlToImage": "https://a.fsdn.com/sd/topics/bitcoin_64.png",
-  "publishedAt": "2023-10-24T00:45:00Z",
-  "content": "Bulls have flooded the space as talk about a spot Bitcoin ETF has investors hopeful that the long-awaited crypto product will soon get approval from the U.S. Securities and Exchange Commission. A Mon… [+918 chars]"
-  },
-  {
-  "source": {
-  "id": null,
-  "name": "Slashdot.org"
-  },
-  "author": "BeauHD",
-  "title": "Across US, Chinese Bitcoin Mines Draw National Security Scrutiny",
-  "description": "According to the New York Times, Chinese-owned bitcoin mining operations in the United States are causing security concerns due to their proximity to important sites and the potential for cyber threats. The Crypto Times reports: There are some mining faciliti…",
-  "url": "https://news.slashdot.org/story/23/10/13/2113211/across-us-chinese-bitcoin-mines-draw-national-security-scrutiny",
-  "urlToImage": "https://a.fsdn.com/sd/topics/bitcoin_64.png",
-  "publishedAt": "2023-10-14T00:45:00Z",
-  "content": "There are some mining facilities close to critical sites such as Microsoft data center for Pentagon's Air Force nuclear's missile base in Wyoming USA. Officials in U.S. fear Chinese espionage activit… [+630 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Theron Mohamed",
-  "title": "Legendary investor Jeremy Grantham warns the S&P is likely to crash by 30% - and could nosedive 50% if the 'wheels fall off'",
-  "description": "Jeremy Grantham expects stocks to plunge, house prices to slump, and a recession to strike next year. He also views bitcoin as an \"elaborate scam.\"",
-  "url": "https://markets.businessinsider.com/news/stocks/grantham-spx-stock-market-outlook-crash-house-prices-recession-bitcoin-2023-10",
-  "urlToImage": "https://i.insider.com/61eaa3802b43ff00185df654?width=1200&format=jpeg",
-  "publishedAt": "2023-10-06T10:53:06Z",
-  "content": "Jeremy Grantham.Alison Yin/AP Images for DivestInvest\r\n<ul>\n<li>The S&P 500 will likely plunge by 30%, and could be cut in half, Jeremy Grantham says.</li>\n<li>The bubble expert predicts a recession … [+3154 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Theron Mohamed",
-  "title": "Be ready for the S&P 500 to crash by 50%, house prices to slide, and a recession to strike, Jeremy Grantham says. Here are the elite investor's 16 best quotes from a new interview.",
-  "description": "Elite investor Jeremy Grantham blasted bitcoin and issued bleak forecasts for stocks, home prices, and the US economy in a recent interview.",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-forecast-grantham-crash-house-prices-recession-bitcoin-ai-2023-10",
-  "urlToImage": "https://i.insider.com/6290d7a9f099c40019569bb7?width=1200&format=jpeg",
-  "publishedAt": "2023-10-07T10:35:01Z",
-  "content": "Jeremy Grantham.Alison Yin/AP Images for DivestInvest\r\n<ul>\n<li>Stocks are in a bubble and could crash by over 50% if it ends badly, Jeremy Grantham says.</li>\n<li>The elite investor sees house price… [+4764 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Phil Rosen",
-  "title": "Bitcoin spikes to its highest level in 2 months, leading crypto stocks higher as traders try to kick off 4th quarter rally",
-  "description": "The rally to kick off the fourth quarter comes as markets eye the start of Sam Bankman-Fried's criminal trial in New York.",
-  "url": "https://markets.businessinsider.com/news/currencies/bitcoin-crypto-stocks-traders-fuel-rally-btc-bankman-fried-ftx-2023-10",
-  "urlToImage": "https://i.insider.com/651abb0a5e3a3c00199a31bc?width=1200&format=jpeg",
-  "publishedAt": "2023-10-02T13:48:30Z",
-  "content": "Visual representation of the digital cryptocurrency bitcoinChesnot/Getty Images\r\n<ul>\n<li>Bitcoin surged to a two-month high and crypto-related stocks moved higher Monday.</li>\n<li>Bitcoin hovered ar… [+1838 chars]"
+  "author": "Juli Clover",
+  "title": "Everything Apple Announced at Tonight's 'Scary Fast' Event",
+  "description": "Apple's \"Scary Fast\" 5:00 p.m. Pacific Time event was over in the blink of an eye, but if you missed it because of the unusual time, we have a quick overview of everything that Apple announced. If you want to watch the video in full, it only lasted a half an …",
+  "url": "https://www.macrumors.com/2023/10/30/everything-apple-announced-october-2023-event/",
+  "urlToImage": "https://images.macrumors.com/t/MvnQNq1OsA9gIBpMmPKbBITnR_Y=/2500x/article-new/2023/10/Everything-Announced-at-Scary-Fast-Thumb-1.jpg",
+  "publishedAt": "2023-10-31T01:47:34Z",
+  "content": "Apple's \"Scary Fast\" 5:00 p.m. Pacific Time event was over in the blink of an eye, but if you missed it because of the unusual time, we have a quick overview of everything that Apple announced. If yo… [+599 chars]"
   },
   {
   "source": {
   "id": null,
-  "name": "ReadWrite"
+  "name": "MacRumors"
   },
-  "author": "Michael Graw",
-  "title": "13 New Bitcoin Casinos to Join in 2023",
-  "description": "The integration of blockchain technology into the iGaming industry gave rise to numerous new crypto casino sites. Only a handful, […]\nThe post 13 New Bitcoin Casinos to Join in 2023 appeared first on ReadWrite.",
-  "url": "https://readwrite.com/cryptocurrency/new-bitcoin-casinos/",
-  "urlToImage": "https://readwrite.com/wp-content/uploads/2023/10/new-bitcoin-casinos.png",
-  "publishedAt": "2023-10-04T11:02:53Z",
-  "content": "The integration of blockchain technology into the iGaming industry gave rise to numerous newcrypto casino sites. Only a handful, however, have the makings of top-quality gaming platforms. To help you… [+31784 chars]"
-  },
-  {
-  "source": {
-  "id": null,
-  "name": "Slashdot.org"
-  },
-  "author": "EditorDavid",
-  "title": "NChain's CEO 'Departs', Claims Evidence Craig Wright Manipulated Bitcoin Creation Documents",
-  "description": "Bitcoin creator Satoshi Nakamoto may or may not be businessman Craig Wright, who in 2015 founded the blockchain-tech company nChain. \n\nBut nChain's recently-departed CEO Christen Ager-Hanssen's thinks Wright is not Satoshi — and that's just the beginning. Acc…",
-  "url": "https://slashdot.org/story/23/10/08/0318205/nchains-ceo-departs-claims-evidence-craig-wright-manipulated-bitcoin-creation-documents",
-  "urlToImage": "https://a.fsdn.com/sd/topics/bitcoin_64.png",
-  "publishedAt": "2023-10-08T11:34:00Z",
-  "content": "Bitcoin creator Satoshi Nakamoto may or may not be businessman Craig Wright, who in 2015 founded the blockchain-tech company nChain.But nChain's recently-departed CEO Christen Ager-Hanssen's thinks W… [+2493 chars]"
+  "author": "Joe Rossignol",
+  "title": "Touch Bar Fully Discontinued on New MacBooks After Seven Years",
+  "description": "Just over seven years after it was introduced, the Touch Bar has now been fully discontinued on all new MacBooks sold by Apple, marking the end of an era for a hardware feature that was loved by some users and derided by others.\n\n\n\n\n\nThe first MacBook Pro mod…",
+  "url": "https://www.macrumors.com/2023/10/31/touch-bar-discontinued/",
+  "urlToImage": "https://images.macrumors.com/t/xwPVlnXXwJrbmhIzXSr71cf7snw=/1600x/article-new/2022/07/Touch-Bar-13-Inch-MacBook-Pro.jpg",
+  "publishedAt": "2023-10-31T13:43:38Z",
+  "content": "Just over seven years after it was introduced, the Touch Bar has now been fully discontinued on all new MacBooks sold by Apple, marking the end of an era for a hardware feature that was loved by some… [+1238 chars]"
   },
   {
   "source": {
   "id": null,
-  "name": "Slashdot.org"
+  "name": "MacRumors"
   },
-  "author": "BeauHD",
-  "title": "FTX Thief Cashes Out Millions During Bankman-Fried Trial",
-  "description": "An anonymous reader quotes a report from the BBC: A thief who stole more than $470 million in cryptocurrency when FTX crashed is trying to cash it out while the exchange's founder is on trial. Sam Bankman-Fried's high-profile court case began last week. The f…",
-  "url": "https://news.slashdot.org/story/23/10/13/237232/ftx-thief-cashes-out-millions-during-bankman-fried-trial",
-  "urlToImage": "https://a.fsdn.com/sd/topics/bitcoin_64.png",
-  "publishedAt": "2023-10-14T13:00:00Z",
-  "content": "A thief who stole more than $470 million in cryptocurrency when FTX crashed is trying to cash it out while the exchange's founder is on trial. Sam Bankman-Fried's high-profile court case began last w… [+1880 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Theron Mohamed",
-  "title": "'Rich Dad Poor Dad' author echoes Warren Buffett's signature warning against trying to time the market",
-  "description": "Robert Kiyosaki took a leaf out of Warren Buffett's book, telling casual investors to buy and hold for the long term and use dollar-cost averaging.",
-  "url": "https://markets.businessinsider.com/news/stocks/rich-poor-dad-kiyosaki-buffett-dollar-cost-averaging-market-timing-2023-10",
-  "urlToImage": "https://i.insider.com/5e2b32d662fa813e064000cb?width=1200&format=jpeg",
-  "publishedAt": "2023-10-23T11:08:59Z",
-  "content": "Robert Kiyosaki.Matt Carasella/Patrick McMullan/Getty Images\r\n<ul>\n<li>Warren Buffett advises against trying to time the market, and recommends holding for the long term.</li>\n<li>Robert Kiyosaki jus… [+2797 chars]"
+  "author": "Juli Clover",
+  "title": "Apple's New MacBooks With M3 Chips Offer Up to 22 Hours of Battery Life",
+  "description": "The new MacBook Pro models that Apple announced today feature Apple's latest 3-nanometer M3 chips, with the new technology bringing a notable improvement in battery life. The new models offer the \"longest battery life ever in a Mac,\" according to Apple.\n\n\n\n\n\n…",
+  "url": "https://www.macrumors.com/2023/10/30/m3-macbook-pro-models-battery-life/",
+  "urlToImage": "https://images.macrumors.com/t/rmBhnfuUDLusl9Do1EfX0-tuqLo=/2000x/article-new/2023/10/m3-macbook-pro.jpg",
+  "publishedAt": "2023-10-31T00:59:05Z",
+  "content": "The new MacBook Pro models that Apple announced today feature Apple's latest 3-nanometer M3 chips, with the new technology bringing a notable improvement in battery life. The new models offer the \"lo… [+1074 chars]"
   },
   {
   "source": {
   "id": null,
-  "name": "Lifehacker.com"
+  "name": "MacRumors"
   },
-  "author": "Pranay Parab",
-  "title": "Kagi Lets You Search the Internet Without Ads (but It Will Cost You)",
-  "description": "When you think searching the internet, you undoubtedly think of Google (unless you’re the one person who thinks first of Bing). The search giant is ubiquitous because it’s fast, free, and better at what it does than most of its competitors. But not everything…",
-  "url": "https://lifehacker.com/kagi-paid-search-engine-review-1850936944",
-  "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/00f126dfe9f9fed8a2050e9a296f7d85.png",
-  "publishedAt": "2023-10-18T16:00:00Z",
-  "content": "When you think searching the internet, you undoubtedly think of Google (unless youre the one person who thinks first of Bing). The search giant is ubiquitous because its fast, free, and better at wha… [+5511 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Phil Rosen",
-  "title": "US stocks rise amid diplomatic efforts to ease the Israel-Hamas conflict",
-  "description": "Secretary of State Antony Blinken visited Israel on Monday, and President Joe Biden is weighing a visit to help prevent the conflict from expanding.",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-dow-oil-prices-israel-hamas-diplomacy-2023-10",
-  "urlToImage": "https://i.insider.com/652d86fc6561dd877e7baeb7?width=1200&format=jpeg",
-  "publishedAt": "2023-10-16T20:08:08Z",
-  "content": "President Joe Biden.AP Photo/Patrick Semansky\r\n<ul>\n<li>US stocks climbed Monday amid diplomacy efforts in the Middle East.</li>\n<li>Secretary of State Antony Blinken visited Israel Monday, and Presi… [+2648 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Filip De Mott",
-  "title": "Ether could jump 400% in a few years before staging a longer-term rally to $35,000, Standard Chartered says",
-  "description": "The second largest cryptocurrency will climb to $8,000 by the end of 2026, given improving blockchain efficiency and boosted demand.",
-  "url": "https://markets.businessinsider.com/news/currencies/ether-price-prediction-8000-bitcoin-crypto-nft-ethereum-standard-chartered-2023-10",
-  "urlToImage": "https://i.insider.com/6526b0136561dd877e777cbf?width=1200&format=jpeg",
-  "publishedAt": "2023-10-11T15:45:12Z",
-  "content": "EtherNurphoto / Getty Images\r\n<ul>\n<li>Ether could hit $8,000 by end-2026, Standard Chartered analyst Geoff Kendrick wrote.</li>\n<li>Improving Ethereum architecture will lower costs, while gaming and… [+3250 chars]"
+  "author": "Tim Hardwick",
+  "title": "Apple Video Reveals How 'Scary Fast' Event Was Shot on iPhone 15 Pro Max",
+  "description": "Apple has shared a behind-the-scenes look at the video production of its recent \"Scary Fast\" M3 MacBook Pro event, which was shot entirely on iPhone 15 Pro Max and edited on Mac.\n\n\n\n \r\n\n\nTitled \"Behind the Scenes: An Apple Event\" and running two minutes and 1…",
+  "url": "https://www.macrumors.com/2023/10/31/apple-video-scary-fast-event-shot-iphone-15-pro/",
+  "urlToImage": "https://images.macrumors.com/t/aUR_1W3YzkoLcxGqEnQKiNkcoIk=/2880x/article-new/2023/10/Apple-Shot-on-iPhone-Apple-Log.jpg",
+  "publishedAt": "2023-10-31T16:03:04Z",
+  "content": "Apple has shared a behind-the-scenes look at the video production of its recent \"Scary Fast\" M3 MacBook Pro event, which was shot entirely on iPhone 15 Pro Max and edited on Mac.\r\nTitled \"Behind the … [+1914 chars]"
   },
   {
   "source": {
   "id": null,
-  "name": "ReadWrite"
+  "name": "MacRumors"
   },
-  "author": "Vijay Kumar",
-  "title": "Unveiling the Best Cryptocurrency Interoperability Solutions in 2023",
-  "description": "Cryptocurrencies have revolutionized the financial landscape; nevertheless, a significant challenge persists. The lack of interoperability and compatibility between different cryptocurrency […]\nThe post Unveiling the Best Cryptocurrency Interoperability Solut…",
-  "url": "https://readwrite.com/unveiling-the-best-cryptocurrency-interoperability-solutions-in-2023/",
-  "urlToImage": "https://readwrite.com/wp-content/uploads/2023/08/pexels-rdne-stock-project-8370748.jpg",
-  "publishedAt": "2023-10-03T15:00:36Z",
-  "content": "Cryptocurrencies have revolutionized the financial landscape; nevertheless, a significant challenge persists. The lack of interoperability and compatibility between different cryptocurrency networks.… [+10326 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "George Glover",
-  "title": "Gold is set to rack up its best month since November 2022 with the Israel-Hamas war boosting demand for safe havens",
-  "description": "Investors have piled into so-called \"safe-haven\" assets since Hamas attacked Israel on October 7, pushing gold prices past $2,000 an ounce.",
-  "url": "https://markets.businessinsider.com/news/commodities/gold-price-outlook-commodities-israel-hamas-war-yields-safe-havens-2023-10",
-  "urlToImage": "https://markets.businessinsider.com/public/assets/MI/US/og-image-logo-social.png",
-  "publishedAt": "2023-10-31T10:06:09Z",
-  "content": "Gold prices have surged over the past month, with geopolitical tensions pushing up demand for safe havens.Doug Armand/Getty Images\r\n<ul>\n<li>Spot gold prices have jumped 8% since the end of September… [+1832 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Filip De Mott",
-  "title": "Dow drops 332 points as oil jumps and Treasury yields hit fresh 16-year highs",
-  "description": "The 30-year Treasury yield passed the 5% barrier, with the 10-year close behind, though Wednesday's 20-year auction saw a return of demand.",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-oil-rise-israel-hamas-treasury-yields-2023-10",
-  "urlToImage": "https://i.insider.com/65303abd96f7540cd05fd069?width=1200&format=jpeg",
-  "publishedAt": "2023-10-18T20:08:21Z",
-  "content": "Rocket barrages launched towards Israel from Gaza.REUTERS\r\n<ul>\n<li>Stocks fell Wednesday as escalating tensions in the Middle East pushed oil up.</li>\n<li>Treasury yields also pressure equities, wit… [+3284 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "fdemott@insider.com (Filip De Mott)",
-  "title": "US stocks trade mixed as consumer inflation comes in stronger than expected",
-  "description": "The headline CPI for September came in slightly above estimates, growing 0.4% from a month ago, and 3.7% from a year ago.",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-cpi-inflation-dow-sp500-bond-yields-2023-10",
-  "urlToImage": "https://i.insider.com/63d910f50a08ae0018a62423?width=1200&format=jpeg",
-  "publishedAt": "2023-10-12T13:43:28Z",
-  "content": "US stocks traded mixed on Thursday as investors took in the latest inflation data, which came in slightly hotter than projected.\r\nSeptember's consumer price index grew 0.4% from the prior month and 3… [+1392 chars]"
+  "author": "Joe Rossignol",
+  "title": "Apple's USB-C to MagSafe 3 Cable Now Available to Order in Space Black",
+  "description": "The new 14-inch and 16-inch MacBook Pro models announced today are available in a new Space Black finish when configured with M3 Pro or M3 Max chips. Accordingly, Apple has released its USB-C to MagSafe 3 cable in Space Black for $49.\n\n\n\n\n\nApple already inclu…",
+  "url": "https://www.macrumors.com/2023/10/30/usb-c-to-magsafe-3-cable-space-black/",
+  "urlToImage": "https://images.macrumors.com/t/ArlVYAKUBL4CzhKJoiLAQ5vuTSw=/2500x/article-new/2023/10/MacBook-Pro-Space-Black-Topdown-Feature.jpg",
+  "publishedAt": "2023-10-31T00:54:34Z",
+  "content": "The new 14-inch and 16-inch MacBook Pro models announced today are available in a new Space Black finish when configured with M3 Pro or M3 Max chips. Accordingly, Apple has released its USB-C to MagS… [+677 chars]"
   },
   {
   "source": {
   "id": null,
-  "name": "MarketWatch"
+  "name": "MacRumors"
   },
-  "author": "Frances Yue",
-  "title": "Crypto: Bitcoin ETFs are not approved yet, but analysts think they could become a reality in January",
-  "description": "A false report that the U.S. approved a crypto-based exchange-traded fund led to a bitcoin price rally Monday. But it may be a question of when, not if.",
-  "url": "https://www.marketwatch.com/story/bitcoin-etfs-are-not-approved-yet-but-analysts-think-they-could-become-a-reality-in-january-b237fdae",
-  "urlToImage": "https://images.mktw.net/im-677689/social",
-  "publishedAt": "2023-10-16T17:03:00Z",
-  "content": "A false report that the U.S. approved a crypto-based exchange-traded fund led to a bitcoin price rally Monday. However, such products are likely to be greenlighted in January next year, analysts said… [+2399 chars]"
-  },
-  {
-  "source": {
-  "id": "vice-news",
-  "name": "Vice News"
-  },
-  "author": "Jordan Pearson, chloe angyal",
-  "title": "'Satoshi Nakamoto' Just Posted. WTF Is Going On?",
-  "description": "Did the anonymous inventor of Bitcoin really just break their silence? Let's go down the rabbit hole.",
-  "url": "https://www.vice.com/en/article/ak347b/satoshi-nakamoto-just-posted-wtf-is-going-on",
-  "urlToImage": "https://video-images.vice.com/articles/651c493b9a53b786b2fac9c9/lede/1696352970517-your-paragraph-text-17.jpeg?image-resize-opts=Y3JvcD0xeHc6MXhoO2NlbnRlcixjZW50ZXImcmVzaXplPTEyMDA6KiZyZXNpemU9MTIwMDoq",
-  "publishedAt": "2023-10-03T17:10:23Z",
-  "content": "Few mysteries in the tech world surpass that of Satoshi Nakamoto, the pseudonymous inventor of Bitcoin whose identity has not been discovered more than a decade after cryptocurrencies took off. So, w… [+4868 chars]"
+  "author": "Juli Clover",
+  "title": "M3 iMac Gains More Maximum Memory, Wi-Fi 6E and Bluetooth 5.3",
+  "description": "Apple's 24-inch iMac has been updated with the new M3 chip that offers notable speed improvements over the prior M1, but as it has not been refreshed since 2021, there are also a few other new features. \n\n\n\n\n\nThe machine's design has not been updated, and it …",
+  "url": "https://www.macrumors.com/2023/10/30/imac-max-memory-wi-fi-6e/",
+  "urlToImage": "https://images.macrumors.com/t/fvu4TPzKfS7IAPeQWk5vqQQLwjs=/2500x/article-new/2023/10/iMac-M3-Blue-Feature.jpg",
+  "publishedAt": "2023-10-31T01:15:49Z",
+  "content": "Apple's 24-inch iMac has been updated with the new M3 chip that offers notable speed improvements over the prior M1, but as it has not been refreshed since 2021, there are also a few other new featur… [+1001 chars]"
   },
   {
   "source": {
   "id": null,
-  "name": "MarketWatch"
+  "name": "MacRumors"
   },
-  "author": "Frances Yue",
-  "title": "Distributed Ledger: Treasury yields are surging, while bitcoin and gold are resilient",
-  "description": "Higher Treasury yields often weigh on gold and bitcoin, raising the opportunity costs of holding such assets, which do not generate any interest",
-  "url": "https://www.marketwatch.com/story/treasury-yields-are-surging-while-bitcoin-and-gold-are-resilient-289cc4e4",
-  "urlToImage": "https://images.mktw.net/im-783732/social",
-  "publishedAt": "2023-10-19T20:36:00Z",
-  "content": "Welcome back to Distributed Ledger. This is Frances Yue, reporter at MarketWatch.A false report that the U.S. approved a bitcoin-based exchange-traded fund led to the cryptos price rally on Monday, w… [+2997 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Filip De Mott",
-  "title": "US stocks rise on strong earnings while bond yields stabilize",
-  "description": "Investors are looking to Microsoft earnings after the close on Tuesday, while Amazon and Meta will report later this week.",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-dow-nasdaq-earnings-bond-yields-bitcoin-2023-10",
-  "urlToImage": "https://i.insider.com/6537c71d96f7540cd063b318?width=1200&format=jpeg",
-  "publishedAt": "2023-10-24T13:45:08Z",
-  "content": "Associated Press\r\n<ul>\n<li>US stocks rose Tuesday as investors cheered strong earnings from top names like GE, Coca-Cola and 3M.</li>\n<li>Investors are also looking to Microsoft after the close on Tu… [+1673 chars]"
+  "author": "Mitchel Broussard",
+  "title": "Get the AirPods Pro 2 With USB-C for Best-Ever Price of $189.99 Thanks to Amazon's $59 Discount",
+  "description": "Apple's AirPods Pro 2 with USB-C are available for the all-time low price of $189.99 today on Amazon, down from $249.00. This is a match of the previous low price that we tracked during Prime Day earlier in the month.\n\n\n\nNote: MacRumors is an affiliate partne…",
+  "url": "https://www.macrumors.com/2023/10/31/airpods-pro-2-with-usb-c-189/",
+  "urlToImage": "https://images.macrumors.com/t/eOWOtbszaejBJSJQ2OXVzwvUpEQ=/2500x/article-new/2023/05/Airpods-Pro-2-Discount-Feature-Purple.jpg",
+  "publishedAt": "2023-10-31T14:17:40Z",
+  "content": "Apple's AirPods Pro 2 with USB-C are available for the all-time low price of $189.99 today on Amazon, down from $249.00. This is a match of the previous low price that we tracked during Prime Day ear… [+1306 chars]"
   },
   {
   "source": {
   "id": null,
-  "name": "ReadWrite"
+  "name": "MacRumors"
   },
-  "author": "Kane Pepi",
-  "title": "6 Best Telegram Casinos & Gambling Bots in 2023",
-  "description": "Telegram – one of the world’s most popular messaging apps for privacy, is now home to a range of casinos. […]\nThe post 6 Best Telegram Casinos & Gambling Bots in 2023 appeared first on ReadWrite.",
-  "url": "https://readwrite.com/cryptocurrency/best-telegram-casinos/",
-  "urlToImage": "https://readwrite.com/wp-content/uploads/2023/10/best-telegram-casinos.png",
-  "publishedAt": "2023-10-17T11:20:29Z",
-  "content": "Top Telegram Casinos Reviewed\r\nWe’ve ranked the best Telegram casinos – now let’s delve into our comprehensive reviews. Read on to discover the best providers when gambling on Telegram in 2023.\r\n1. M… [+21340 chars]"
+  "author": "Juli Clover",
+  "title": "Google Chrome for iOS Now Lets You Move URL Bar to Bottom of iPhone",
+  "description": "Google Chrome users on the iPhone can now opt to move the Chrome address bar to the bottom of the ‌iPhone‌'s display, mirroring a design change that Apple implemented in Safari last year.\n\n\n\n\n\nChrome for iOS can be customized to have the URL bar at the top or…",
+  "url": "https://www.macrumors.com/2023/10/31/chrome-ios-address-bar-reposition/",
+  "urlToImage": "https://images.macrumors.com/t/DNMlI7a0S_mRF82OH2ytBW4fpw0=/2000x/article-new/2023/10/chrome-address-bar-ios.jpg",
+  "publishedAt": "2023-10-31T16:00:18Z",
+  "content": "Google Chrome users on the iPhone can now opt to move the Chrome address bar to the bottom of the ‌iPhone‌'s display, mirroring a design change that Apple implemented in Safari last year.\r\nChrome for… [+430 chars]"
   },
   {
   "source": {
   "id": null,
-  "name": "Boing Boing"
+  "name": "CNET"
   },
-  "author": "Jason Weisberger",
-  "title": "MAGA snake eating its tail: GOP reps in trouble regardless of how they voted on the Speaker debacle",
-  "description": "MAGA Republicans are in trouble regardless of where they stood on tossing Speaker McCarthy. The chaos just wasn't chaotic enough! \n\n\n\nFlorida's Gaetz was being blasted from all sides for his move to yank the rug out from under former Speaker Kevin McCarthy, b…",
-  "url": "https://boingboing.net/2023/10/04/maga-snake-eating-its-tail-gop-reps-in-trouble-regardless-of-how-they-voted-on-the-speaker-debacle.html",
-  "urlToImage": "https://i0.wp.com/boingboing.net/wp-content/uploads/2023/10/GOP-Elephant.jpg?fit=1200%2C800&ssl=1",
-  "publishedAt": "2023-10-04T15:18:19Z",
-  "content": "MAGA Republicans are in trouble regardless of where they stood on tossing Speaker McCarthy. The chaos just wasn't chaotic enough! \r\nFlorida's Gaetz was being blasted from all sides for his move to ya… [+1438 chars]"
+  "author": "John Kim",
+  "title": "Apple Debuts 24-inch iMac with M3 Chips video - CNET",
+  "description": "The new, faster computers come in seven colors and have the same $1,300 starting price.",
+  "url": "https://www.cnet.com/videos/apple-debuts-24-inch-imac-with-m3-chips/",
+  "urlToImage": "https://www.cnet.com/a/img/resize/0986bb193751a2215dc9a4d6ba0a1e8376e71b7a/hub/2023/10/31/1de5c2f0-0c0d-4a78-880d-982616861f0b/apple-unveils-new-24-inch-imac-with-m3-processor-mp4-00-00-08-12-still001.jpg?auto=webp&fit=crop&height=675&width=1200",
+  "publishedAt": "2023-10-31T00:53:59Z",
+  "content": ""
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "CNET"
+  },
+  "author": "Celso Bulgatti",
+  "title": "Apple Unveils 14-inch, 16-inch MacBook Pros with M3 Processors video - CNET",
+  "description": "At Apple's 'Scary Fast' event, the company debuts new 14-inch and 16-inch MacBook Pros with M3, M3 Pro and M3 Max processors. Apple says these are the most powerful laptops the company has ever made.",
+  "url": "https://www.cnet.com/videos/apple-unveils-14-inch-16-inch-macbook-pros-with-m3-processors/",
+  "urlToImage": "https://www.cnet.com/a/img/resize/94866a58edca1b6e87750b95ca666b7974927306/hub/2023/10/31/17c8894d-880b-46da-95fa-0f6cc686d9d5/pic.jpg?auto=webp&fit=crop&height=675&width=1200",
+  "publishedAt": "2023-10-31T01:50:17Z",
+  "content": ""
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "CNET"
+  },
+  "author": null,
+  "title": "Watch Everything Apple Announced at Its 'Scary Fast' MacBook Pro and iMac Event video - CNET",
+  "description": "At Apple's 'Scary Fast' event, the company revealed an all-new iMac M3 and an update to its MacBook Pro line with a M3 processor and 14-inch and 16-inch displays.",
+  "url": "https://www.cnet.com/videos/watch-everything-apple-announced-at-its-scary-fast-macbook-pro-and-imac-event/",
+  "urlToImage": "https://www.cnet.com/a/img/resize/84c90994a639374937cdb7c8ef1375fd85433aaa/hub/2023/10/31/a4b472e1-e79f-40ad-a7b9-e9a6cd4cb811/231030-site-apple-scary-fast-apple-event.jpg?auto=webp&fit=crop&height=675&width=1200",
+  "publishedAt": "2023-10-31T00:41:14Z",
+  "content": ""
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "CNET"
+  },
+  "author": "Mary-Elisabeth Combs",
+  "title": "Here's Everything to Know About NameDrop on iPhone - CNET",
+  "description": "If you're sick of swapping phones to share your contact info, NameDrop could be the answer.",
+  "url": "https://www.cnet.com/tech/mobile/heres-everything-to-know-about-namedrop-on-iphone/",
+  "urlToImage": "https://www.cnet.com/a/img/resize/2ee69e6fa1506a8302e76ce286ad761f288d00c8/hub/2023/09/14/ee8d22a1-97f8-410a-be19-4d9f9a9adfc2/namedrop-ios-17.png?auto=webp&fit=crop&height=675&width=1200",
+  "publishedAt": "2023-10-31T09:00:07Z",
+  "content": "Apple fans have been playing around with all of the exciting new features that iOS 17 brought to compatible iPhones earlier this fall. These new upgrades include several exciting additions, including… [+2534 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "MacRumors"
+  },
+  "author": "Hartley Charlton",
+  "title": "Apple Announces iMac With M3 Chip",
+  "description": "Apple today announced an updated version of the 24-inch iMac featuring the all-new M3 chip.\n\n\n\n\n\nThe ‌iMac‌ with M3 is up to 2x faster than the previous ‌iMac‌, which featured the M1 chip. It retains the same seven color options. For those upgrading from an I…",
+  "url": "https://www.macrumors.com/2023/10/30/apple-announces-imac-with-m3-chip/",
+  "urlToImage": "https://images.macrumors.com/t/38K6r-OX2SrbG7JYIv7w_Ghj2Zg=/1600x/article-new/2023/10/m3-imac.jpg",
+  "publishedAt": "2023-10-31T00:28:16Z",
+  "content": "Apple today announced an updated version of the 24-inch iMac featuring the all-new M3 chip.\r\nThe ‌iMac‌ with M3 is up to 2x faster than the previous ‌iMac‌, which featured the M1 chip. It retains the… [+378 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "MacRumors"
+  },
+  "author": "Joe Rossignol",
+  "title": "Apple's Event Was Missing These 4 Announcements",
+  "description": "At its \"Scary Fast\" event, Apple announced new 14-inch MacBook Pro, 16-inch MacBook Pro, and 24-inch iMac models with M3 series chips. It was a very quick and tidy 30-minute event, with no other products or surprises revealed.\n\n\n\n\n\nBelow, we have listed some …",
+  "url": "https://www.macrumors.com/2023/10/31/apple-scary-fast-event-missing-announcements/",
+  "urlToImage": "https://images.macrumors.com/t/FoiyfgEOp2yV01nDp1wnadXce80=/2048x/article-new/2023/10/Apple-Event-October-2023.jpeg",
+  "publishedAt": "2023-10-31T15:15:12Z",
+  "content": "At its \"Scary Fast\" event, Apple announced new 14-inch MacBook Pro, 16-inch MacBook Pro, and 24-inch iMac models with M3 series chips. It was a very quick and tidy 30-minute event, with no other prod… [+1976 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "MacRumors"
+  },
+  "author": "Hartley Charlton",
+  "title": "Magic Keyboard, Magic Trackpad, and Magic Mouse Still Feature Lightning Instead of USB-C",
+  "description": "The newly announced M3 iMac is still accompanied by peripherals with a Lightning port for pairing and charging, rather than USB-C as rumored.\n\n\n\n\n\nIn recent months, Apple was widely expected to be planning to switch the Magic Keyboard, Magic Trackpad, and Mag…",
+  "url": "https://www.macrumors.com/2023/10/30/magic-accessories-still-feature-lightning/",
+  "urlToImage": "https://images.macrumors.com/t/scrveIBf9uitPrctOMflyt6LEcs=/1600x/article-new/2023/10/m3-imac-whats-in-the-box.jpg",
+  "publishedAt": "2023-10-31T00:52:25Z",
+  "content": "The newly announced M3 iMac is still accompanied by peripherals with a Lightning port for pairing and charging, rather than USB-C as rumored.\r\nIn recent months, Apple was widely expected to be planni… [+763 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "MacRumors"
+  },
+  "author": "Mitchel Broussard",
+  "title": "Touch Bar Fans: Get the 13-Inch M2 MacBook Pro for $250 Off Before It's Gone",
+  "description": "The 13-inch M2 MacBook Pro has been discontinued in the wake of the announcement of the new 14-inch and 16-inch MacBook Pro. Because of this, we're tracking a few last-chance deals on the previous generation computer that should be enticing for anyone who wan…",
+  "url": "https://www.macrumors.com/2023/10/31/touch-bar-fans-m2-macbook-pro/",
+  "urlToImage": "https://images.macrumors.com/t/1NnFf7Tlo75N_2YQO-rfzr7vKbw=/1600x/article-new/2023/08/macbook-pro-school.jpg",
+  "publishedAt": "2023-10-31T15:52:02Z",
+  "content": "The 13-inch M2 MacBook Pro has been discontinued in the wake of the announcement of the new 14-inch and 16-inch MacBook Pro. Because of this, we're tracking a few last-chance deals on the previous ge… [+992 chars]"
   },
   {
   "source": {
   "id": "business-insider",
   "name": "Business Insider"
   },
-  "author": "Filip De Mott",
-  "title": "US stocks trade mixed as 10-year Treasury yield jumps ahead of Jerome Powell's speech",
-  "description": "Fed Chairman Jerome Powell will speak at a roundtable discussion on Monday, and could discuss the path of future rate policy.",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-treasury-yields-federal-reserve-powell-speech-2023-10",
-  "urlToImage": "https://i.insider.com/640768f437125e0018a155a0?width=1200&format=jpeg",
-  "publishedAt": "2023-10-02T13:40:38Z",
-  "content": "AP Photo/Andrew Harnik\r\n<ul>\n<li>US stocks traded mixed Monday as Treasury yields continued to spike higher.</li>\n<li>The US 10-year yield rose over 7 basis points as investors weigh the path of mone… [+1762 chars]"
+  "author": "William Antonelli",
+  "title": "Apple just announced 3 new Mac computers with faster M3 processors — here's what you need to know and how to order",
+  "description": "Apple launched two new MacBook Pro models and an updated iMac computer backed by the company's new M3 chipset.",
+  "url": "https://www.businessinsider.com/guides/tech/m3-macbook-pro-imac-price-specs-how-to-order-2023-10",
+  "urlToImage": "https://i.insider.com/65404c0796f7540cd069e606?width=1200&format=jpeg",
+  "publishedAt": "2023-10-31T01:11:15Z",
+  "content": "When you buy through our links, Insider may earn an affiliate commission. Learn more\r\nAt its \"Scary Fast\" event on Monday, Apple unveiled new versions of its wildly popular MacBook Pro laptops and iM… [+4072 chars]"
   },
   {
   "source": {
   "id": "business-insider",
   "name": "Business Insider"
   },
-  "author": "Filip De Mott",
-  "title": "US stocks trade mixed as bond yields jump after Fed officials stay hawkish",
-  "description": "An Institute for Supply Management report also showed US manufacturing activity improved in September.",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-stocks-mixed-bond-yields-interest-rate-2023-10",
-  "urlToImage": "https://i.insider.com/651b144e42ecf94db475b15c?width=1200&format=jpeg",
-  "publishedAt": "2023-10-02T20:07:57Z",
-  "content": "Federal Reserve Chairman Jerome Powell appears during a Senate Banking Committee hearing on Capitol Hill in Washington, Tuesday, Nov. 30, 2021.Andrew Harnik/AP Photo\r\n<ul>\n<li>US stocks fell as the 1… [+2298 chars]"
+  "author": "Kwan Wei Kevin Tan",
+  "title": "'It's not that Huawei is superior, it's that Apple is inferior': What the Chinese internet is saying about the iPhone 15",
+  "description": "\"Other than Apple's software, everything else is worse. Their prices are so much higher,\" a person wrote on microblogging site, Weibo.",
+  "url": "https://www.businessinsider.com/new-phone-15-apple-people-china-reaction-2023-10",
+  "urlToImage": "https://i.insider.com/654068c3356802a56be818cc?width=1200&format=jpeg",
+  "publishedAt": "2023-10-31T09:20:50Z",
+  "content": "Customers trying out Apple's iPhone 15 at an Apple store in Shanghai, China.CFOTO/Future Publishing via Getty Images\r\n<ul><li>People in China just aren't that enamored with Apple's iPhone 15.</li><li… [+3372 chars]"
   },
   {
   "source": {
   "id": "business-insider",
   "name": "Business Insider"
   },
-  "author": "Jennifer Sor",
-  "title": "US stocks trade mixed as bond yields spike after hot retail sales data",
-  "description": "The yield on the 10-year US Treasury surged 12 basis points on Tuesday, topping 4.8%.",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-bond-yields-retail-sales-dow-sp500-nasdaq-2023-10",
-  "urlToImage": "https://i.insider.com/652edd49be9edfa8eda316dd?width=1200&format=jpeg",
-  "publishedAt": "2023-10-17T20:07:10Z",
-  "content": "The yield on the 10-year US Treasury surged, trading around 4.8%.Thomson Reuters\r\n<ul>\n<li>Stocks traded mixed on Tuesday as bond yields surged after a blowout retail sales report.</li>\n<li>Retail sa… [+2409 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Matthew Fox",
-  "title": "US stocks rise as bond yields continue to see downside pressure",
-  "description": "\"I believe that we are at the point where we can hold rates where they are. Look, we did a lot, and we did it very fast.\"",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-bond-yields-fall-dovish-fed-comments-2023-10",
-  "urlToImage": "https://i.insider.com/642c22c8fcb86b0018030c80?width=1200&format=jpeg",
-  "publishedAt": "2023-10-13T13:39:26Z",
-  "content": "Lucas Jackson/Reuters\r\n<ul><li>US stocks jumped on Friday as bond yields continue to see downward pressure.</li><li>The 10-year Treasury yield fell 10 basis points to 4.60%, which is 28 basis points … [+2228 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Phil Rosen",
-  "title": "US stocks climb as trader nerves settle amid the continuing Israel-Hamas conflict",
-  "description": "This week, 11% of the S&P 500 is scheduled to publish earnings reports, including key names like Tesla, Bank of America, and Netflix.",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-indexes-earnings-israel-hamas-investors-dow-2023-10",
-  "urlToImage": "https://i.insider.com/652d363c6561dd877e7b3321?width=1200&format=jpeg",
-  "publishedAt": "2023-10-16T13:35:19Z",
-  "content": "Spencer Platt/Getty Images\r\n<ul>\n<li>US stocks climbed Monday, with investors monitoring the ongoing conflict between Israel and Hamas.</li>\n<li>Investors are also focused on key earnings rolling out… [+2245 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Filip De Mott",
-  "title": "US stocks drop as blowout jobs report sends Treasury yields soaring",
-  "description": "The 10-year yield spiked as much as 14 basis points to 4.85% after the Labor Department reported that 336,000 new jobs were added in September.",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-jobs-report-treasury-bond-yields-dow-2023-10",
-  "urlToImage": "https://i.insider.com/6513380051acc80019f0db1f?width=1200&format=jpeg",
-  "publishedAt": "2023-10-06T13:34:03Z",
-  "content": "A trader at the New York Stock Exchange puts his hand on his face in September 2008.Richard Drew/AP\r\n<ul>\n<li>Stock futures fell Friday after the blowout September jobs report sent US bond yields soa… [+2197 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Filip De Mott",
-  "title": "US stocks jump, reversing up after bond yields come off highs",
-  "description": "\"Since most of the job gains were in sectors with lower paying jobs, this report is not necessarily giving markets an inflationary signal.\"",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-equities-reverse-treasury-bond-yields-jobs-2023-10",
-  "urlToImage": "https://i.insider.com/65205b059f7ca8b2bbdc61f0?width=1200&format=jpeg",
-  "publishedAt": "2023-10-06T20:18:18Z",
-  "content": "STAN HONDA/AFP via Getty Images)\r\n<ul>\n<li>US stocks rebounded sharply Friday, after a spike in bond yields in the morning.</li>\n<li>September's jobs report came in hotter than expected, and could in… [+2460 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Theron Mohamed",
-  "title": "Warren Buffett's Berkshire Hathaway has likely scored a 93% gain on Nubank stock this year, making the crypto-friendly bank its best performer",
-  "description": "Warren Buffett's company has notched big gains on Apple, Amazon, and Nubank this year, but other stocks like Coca-Cola and Kraft Heinz have slumped.",
-  "url": "https://markets.businessinsider.com/news/stocks/warren-buffett-berkshire-hathaway-nubank-stock-performance-portfolio-crypto-bank-2023-10",
-  "urlToImage": "https://i.insider.com/5f3aa95ae89ebf001f04541f?width=1200&format=jpeg",
-  "publishedAt": "2023-10-12T10:28:44Z",
-  "content": "Warren Buffett.Getty Images / Bill Pugliano\r\n<ul>\n<li>Berkshire Hathaway's best-performing stock this year is likely Nubank-owner Nu Holdings, up 93%.</li>\n<li>Warren Buffett's company invested in th… [+2527 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Matthew Fox",
-  "title": "US stocks drop after Treasury yields once again surge to a new cycle high",
-  "description": "The rise in interest rates comes a day after Fed President Loretta Mester said that one more interest rate hike might be necessary later this year.",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-treasury-yields-cycle-high-dow-nasdaq-2023-10",
-  "urlToImage": "https://i.insider.com/651c13c7617692f0d03d7337?width=1200&format=jpeg",
-  "publishedAt": "2023-10-03T13:37:55Z",
-  "content": "A trader at the New York Stock Exchange puts his hand on his face in September 2008.Richard Drew/AP\r\n<ul><li>US stocks dropped on Tuesday after Treasury yields once again hit a new cycle high.</li><l… [+2255 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Filip De Mott",
-  "title": "US stocks fall as escalating Mideast tensions send oil prices higher",
-  "description": "A Gaza hospital explosion that killed around 500 people is concerning investors that Middle Eastern tensions are at risk of escalating.",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-hamas-israel-gaza-hospital-oil-prices-2023-10",
-  "urlToImage": "https://i.insider.com/652fd99696f7540cd05f2d3f?width=1200&format=jpeg",
-  "publishedAt": "2023-10-18T13:40:24Z",
-  "content": "A view of the surroundings of Al-Ahli Baptist Hospital after it was hit in Gaza City, Gaza on October 18, 2023.Ali Jadallah/Anadolu via Getty Images\r\n<ul>\n<li>US stocks dipped after a hospital explos… [+2208 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Matthew Fox",
-  "title": "US stocks rise as key Treasury yield nears 5% ahead of Powell's speech",
-  "description": "Of the 64 S&P 500 companies that have reported earnings results so far, 73% have beaten profit estimates by a median of 6%.",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-powell-speech-treasury-yield-5-fedspeak-2023-10",
-  "urlToImage": "https://i.insider.com/64c173eb42834d00193e631b?width=1200&format=jpeg",
-  "publishedAt": "2023-10-19T13:41:06Z",
-  "content": "Federal Reserve Board Chairman Jerome Powell speaks during a news conference.Alex Wong/Getty Images\r\n<ul><li>US stocks edged higher on Thursday as investors prepare for more comments from central ban… [+2366 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Jennifer Sor",
-  "title": "US stocks trade mixed as investors take in Fed's preferred inflation gauge, latest earnings",
-  "description": "The Fed's favorite inflation measure came in as expected, with prices up 3.7% in September year over year.",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-inflation-pce-economy-sp500-earnings-2023-10",
-  "urlToImage": "https://i.insider.com/5c76a5492628981fae21b586?width=1200&format=jpeg",
-  "publishedAt": "2023-10-27T13:46:38Z",
-  "content": "The Fed's favorite inflation measure came in as expected the past month, with prices up 3.7% year over year.AP/Mark Lennihan\r\n<ul>\n<li>US stocks opened mixed on Friday as investors took in new data f… [+2453 chars]"
+  "author": "Jordan Hart",
+  "title": "The iPod is officially 'vintage retro tech' now, and restored models sold out at Gen Z-favorite Urban Outfitters",
+  "description": "The older-model iPods sold by Urban Outfitters don't have touch screens, but they do have fans.",
+  "url": "https://www.businessinsider.com/vintage-ipod-sold-out-urban-outfitters-2023-10",
+  "urlToImage": "https://i.insider.com/6540029f0487ff031cb26608?width=1200&format=jpeg",
+  "publishedAt": "2023-10-31T08:58:01Z",
+  "content": "Apple introduced the fifth generation iPod Classic in 2007 for $249.Justin Sullivan/Getty Images\r\n<ul><li>iPods are now considered \"vintage retro tech\" instead of the hip new MP3 players they once we… [+2900 chars]"
   },
   {
   "source": {
@@ -602,276 +394,42 @@
   },
   {
   "source": {
-  "id": "vice-news",
-  "name": "Vice News"
+  "id": "business-insider",
+  "name": "Business Insider"
   },
-  "author": "Jordan Pearson, Jordan Pearson",
-  "title": "How One False Viral Tweet Cost Bitcoin Investors $84 Million in Minutes",
-  "description": "A viral tweet caused a huge price movement that burned investors. It was false.",
-  "url": "https://www.vice.com/en/article/wxj7em/how-one-false-viral-tweet-cost-bitcoin-investors-dollar84-million-in-minutes",
-  "urlToImage": "https://video-images.vice.com/articles/652e87405f2cff3d7b7734d8/lede/1697548881056-gettyimages-700712909.jpeg?image-resize-opts=Y3JvcD0xeHc6MC44NDE2eGg7MHh3LDB4aCZyZXNpemU9MTIwMDoqJnJlc2l6ZT0xMjAwOio",
-  "publishedAt": "2023-10-17T13:27:10Z",
-  "content": "On Monday, a post on X from cryptocurrency news outlet Cointelegraph elated investors: regulators had approved major asset manager BlackRock’s Bitcoin exchange-traded fund (ETF), an investment produc… [+1991 chars]"
+  "author": "Theron Mohamed",
+  "title": "Charlie Munger rips into VCs, saying they're closer to gamblers than investors and get rich at others' expense",
+  "description": "Warren Buffett's right-hand man, Charlie Munger, slammed venture capitalists for exploiting their financial backers and company founders.",
+  "url": "https://markets.businessinsider.com/news/stocks/charlie-munger-acquired-podcast-vc-venture-capital-berkshire-warren-buffett-2023-10",
+  "urlToImage": "https://i.insider.com/621f53c575b649001845a081?width=1200&format=jpeg",
+  "publishedAt": "2023-10-31T14:28:58Z",
+  "content": "Charlie Munger (right) and Warren Buffett.Scott Morgan/Reuters\r\n<ul>\n<li>Venture capitalists are more like rash gamblers than prudent investors, Charlie Munger said.</li>\n<li>Warren Buffett's busines… [+3192 chars]"
   },
   {
   "source": {
   "id": "business-insider",
   "name": "Business Insider"
   },
-  "author": "Jennifer Sor",
-  "title": "US stocks trade mixed as bond yields ease, investors wait on earnings",
-  "description": "After surging above 5%, the 10-year US Treasury yield dipped 8 basis points to trade around 4.84% on Monday.",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-bond-yield-treasury-market-earnings-dow-2023-10",
-  "urlToImage": "https://i.insider.com/5a79937770ca4431008b47d6?width=1200&format=jpeg",
-  "publishedAt": "2023-10-23T20:09:56Z",
-  "content": "A trader reacts as he watches screens on the floor of the New York Stock Exchange in New YorkReuters/Brendan McDermid\r\n<ul>\n<li>US stocks traded mixed as investors digested the latest moves in the Tr… [+2439 chars]"
+  "author": "Riddhi Kanetkar,Tasmin Lockwood",
+  "title": "'They're not reaching out to us': How the Israel-Hamas war demolished Gaza's struggling tech economy",
+  "description": "The Israel-Hamas war has had debilitating impacts on the tech community in the Palestinian territories – which was previously finding its feet.",
+  "url": "https://www.businessinsider.com/palestinian-tech-industry-struggles-amid-israel-hamas-crossfire-2023-10",
+  "urlToImage": "https://i.insider.com/65329a9dbe9edfa8eda5f1c9?width=1200&format=jpeg",
+  "publishedAt": "2023-10-31T14:30:01Z",
+  "content": "The Palestinian tech ecosystem has been hobbled by the Israel-Hamas war.Majdi Mohammed / AP\r\n<ul>\n<li>Israel's war against Hamas has decimated parts of Gaza — and its tech ecosystem.</li>\n<li>Palesti… [+6519 chars]"
   },
   {
   "source": {
   "id": "business-insider",
   "name": "Business Insider"
   },
-  "author": "Jennifer Sor",
-  "title": "US stocks tumble as 10-year Treasury yield hits 5% for first time since 2007",
-  "description": "Investors are also eyeing more earnings as mega-cap tech giants Alphabet, Microsoft, Meta, and Amazon report later this week.",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-treasury-bond-crash-10-year-yield-2023-10",
-  "urlToImage": "https://i.insider.com/651bdb432ce014759e730ec1?width=1200&format=jpeg",
-  "publishedAt": "2023-10-23T13:32:25Z",
-  "content": "Don Emmert /AFP/GettyImages\r\n<ul>\n<li>US stocks tumbled on Monday as bond yields continued to surge.</li>\n<li>The yield on the 10-year US Treasury topped 5% for the first time since 2007.</li>\n<li>Me… [+1883 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Matthew Fox",
-  "title": "US stocks trade mixed after mega-cap tech earnings from Microsoft and Alphabet",
-  "description": "Of the 127 S&P 500 companies that have reported third-quarter earnings so far, 80% are beating profit estimates by a median of 7%.",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-tech-q3-earnings-microsoft-alphabet-msft-2023-10",
-  "urlToImage": "https://i.insider.com/65391497356802a56be336a5?width=1200&format=jpeg",
-  "publishedAt": "2023-10-25T13:37:07Z",
-  "content": "Spencer Platt/Getty Images\r\n<ul><li>US stocks were mixed on Wednesday as investors digested earnings from Microsoft and Alphabet.</li><li>Microsoft posted strong cloud growth and saw its stock pop, w… [+2146 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Filip De Mott",
-  "title": "Dow soars more than 500 points as stocks jump amid easing Mideast conflict fears",
-  "description": "Brent crude, the international benchmark, fell as much as 4% in intraday trade as fears of a bigger regional conflict abated.",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-dow-soars-middle-east-oil-crude-2023-10",
-  "urlToImage": "https://i.insider.com/654009ea96f7540cd069b450?width=1200&format=jpeg",
-  "publishedAt": "2023-10-30T20:17:19Z",
-  "content": "Israel soldiers inspect burnt cars at the site of the Hamas terrorist attacks on the Nova music festival in southern Israel.Amir Cohen/Reuters\r\n<ul>\n<li>The Dow jumped more than 500 points on Monday … [+1844 chars]"
-  },
-  {
-  "source": {
-  "id": null,
-  "name": "Science Daily"
-  },
-  "author": null,
-  "title": "Bitcoin mining has 'very worrying' impacts on land and water, not only carbon",
-  "description": "As bitcoin and other cryptocurrencies have grown in market share, they've been criticized for their heavy carbon footprint: Cryptocurrency mining is an energy-intensive endeavor. Mining has massive water and land footprints as well, according to a new study t…",
-  "url": "https://www.sciencedaily.com/releases/2023/10/231024234041.htm",
-  "urlToImage": "https://www.sciencedaily.com/images/scidaily-icon.png",
-  "publishedAt": "2023-10-25T03:40:41Z",
-  "content": "As bitcoin and other cryptocurrencies have grown in market share, they've been criticized for their heavy carbon footprint: Cryptocurrency mining is an energy-intensive endeavor. Mining has massive w… [+5654 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Jennifer Sor",
-  "title": "US stocks end mixed to close out worst month of 2023 as investors brace for a government shutdown",
-  "description": "The S&P 500 ended September 5% lower, notching its second-straight losing month. For the third quarter, it lost about 4%.",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-sp500-government-shutdown-us-debt-spending-2023-9",
-  "urlToImage": "https://i.insider.com/59413077bf76bb1c008b5d64?width=1200&format=jpeg",
-  "publishedAt": "2023-09-29T20:07:02Z",
-  "content": "September marks the second straight losing month for stocks.Reuters / Marcos Brindicci\r\n<ul>\n<li>US stocks traded mixed on Friday as a government shutdown looked increasingly likely.</li>\n<li>The ses… [+2532 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Jennifer Sor",
-  "title": "US stocks rise as investors parse Fed minutes and await September inflation report",
-  "description": "Around two-thirds of Fed members predicted one more rate hike before 2023-end, according to the Fed's latest meeting minutes.",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-inflation-september-cpi-fed-rates-bonds-2023-10",
-  "urlToImage": "https://i.insider.com/58c334915f3ca8a6008b4976?width=1200&format=jpeg",
-  "publishedAt": "2023-10-11T20:06:46Z",
-  "content": "Bryan R Smith\r\n<ul>\n<li>Stocks inched higher Wednesday as investors read through the latest Fed minutes.</li>\n<li>Central bankers remained mostly hawkish on their approach to inflation at the last po… [+3032 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Matthew Fox",
-  "title": "US stocks trade mixed but notch weekly gains as interest rates fall ahead of Q3 earnings season",
-  "description": "JPMorgan, Wells Fargo, Citigroup, and BlackRock kicked off third-quarter earnings season with profit and revenue that beat views.",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-investors-digest-lower-rates-q3-earnings-2023-10",
-  "urlToImage": "https://i.insider.com/65299dc06561dd877e7a968d?width=1200&format=jpeg",
-  "publishedAt": "2023-10-13T20:08:18Z",
-  "content": "REUTERS/Brendan McDermid\r\n<ul><li>US stocks ended mixed but made weekly gains as investors digested lower interest rates and prepare for third-quarter earnings.</li><li>The 10-year Treasury yield fel… [+2875 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Phil Rosen",
-  "title": "US stocks jump as bond yields tumble after Fed officials hint rate hikes may be over",
-  "description": "Bond yields dropped Tuesday on more dovish comments from Fed officials, while oil prices pulled back after spiking following Hamas's attack against Israel.",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-indexes-bond-yields-fed-rate-hikes-treasury-2023-10",
-  "urlToImage": "https://i.insider.com/65259e9d6561dd877e76789c?width=1200&format=jpeg",
-  "publishedAt": "2023-10-10T20:27:10Z",
-  "content": "REUTERS/Brendan McDermid\r\n<ul>\n<li>US stocks climbed on Tuesday, with the Dow jumping more than 130 points.</li>\n<li>Bond yields tumbled after Fed officials hinted that the end of rate hikes may be n… [+3042 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Jennifer Sor",
-  "title": "US stocks slip as traders mull jobless claims and brace for September jobs report",
-  "description": "Jobless claims came in at 207,000 over the last week, slightly under the expected 210,000. Nonfarm payroll data for September will be released Friday.",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-jobs-unemployment-us-economy-bond-yields-2023-10",
-  "urlToImage": "https://i.insider.com/5f2812f5aee6a8135a59cde4?width=1200&format=jpeg",
-  "publishedAt": "2023-10-05T13:45:42Z",
-  "content": "John Moore/Getty Images\r\n<ul>\n<li>US stocks slid on Thursday as traders braced for the September jobs report.</li>\n<li>Jobless claims jumped 207,000 over the last week, slightly under the expected 21… [+2822 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Lloyd Lee,Katie Balevic",
-  "title": "SBF's attorney tried to blame the FTX collapse on the turbulence of cryptocurrency in general",
-  "description": "An attorney for Sam Bankman-Fried pointed to the volatility of the cryptocurrency market and how it could overwhelm burgeoning companies like FTX.",
-  "url": "https://www.businessinsider.com/sam-bankman-fried-ftx-crypto-fraud-trial-attorney-cryptocurrency-market-2023-10",
-  "urlToImage": "https://i.insider.com/651dd263617692f0d03f7c9a?width=1200&format=jpeg",
-  "publishedAt": "2023-10-04T21:57:08Z",
-  "content": "Former FTX CEO Sam Bankman-Fried.Michael M. Santiago via Getty Images\r\n<ul><li>Billions of dollars of customer funds were lost after the price of crypto dipped and FTX collapsed.</li><li>Prosecutors … [+3098 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Matthew Fox",
-  "title": "US stocks fall as the 10-year US Treasury yield approaches 5% and Powell says inflation 'still too high'",
-  "description": "\"Does it feel like policy is too tight right now? I would have to say no,\" Powell said, adding that the Fed is committed to its 2% inflation target.",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-jerome-powell-says-inflation-too-high-2023-10",
-  "urlToImage": "https://i.insider.com/653186cdbe9edfa8eda53123?width=1200&format=jpeg",
-  "publishedAt": "2023-10-19T20:05:40Z",
-  "content": "Federal Reserve Board Chairman Jerome Powell speaks during a news conference after a Federal Open Market Committee meeting on February 01, 2023 in Washington, DC.Kevin Dietsch/Getty Images\r\n<ul><li>U… [+2964 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Jennifer Sor",
-  "title": "US stocks end mixed as investors digest latest earnings and inflation data",
-  "description": "All three benchmark indexes notched weekly losses, with the S&P 500 sliding into correction territory on Friday.",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-dow-sp500-earnings-correction-inflation-pce-2023-10",
-  "urlToImage": "https://i.insider.com/5231d23569bedd7d1d966704?width=1200&format=jpeg",
-  "publishedAt": "2023-10-27T20:08:49Z",
-  "content": "AP\r\n<ul>\n<li>US stocks traded mixed on Friday as investors took in fresh inflation data and corporate earnings.</li>\n<li>The Fed's preferred inflation measure was in line with economists' expectation… [+2608 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Phil Rosen",
-  "title": "US stocks trade mixed as traders assess strongest GDP growth since 2021",
-  "description": "The US economy grew at the fastest pace since 2021, but the data did little to change markets' expectations for coming Fed policy.",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-indexes-nasdaq-gdp-outlook-fed-recession-2023-10",
-  "urlToImage": "https://i.insider.com/653a66480487ff031caefec2?width=1200&format=jpeg",
-  "publishedAt": "2023-10-26T13:32:26Z",
-  "content": "A trader works on the floor of the New York Stock Exchange (NYSE) a day after the market closed for over three hours yesterday due to a 'technical glitch' on July 9, 2015 in New York City. The market… [+2558 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Matthew Fox",
-  "title": "US stocks fall amid tech earnings while weak Treasury auction sends bond yields higher",
-  "description": "Tech shares plunged Wednesday amid weak earnings and a fresh a rise in bond yields, with the 10-year US Treasury rebounding to 4.94%.",
-  "url": "https://www.businessinsider.com/stock-market-news-today-tech-plunge-earnings-higher-interest-rates-2023-10",
-  "urlToImage": "https://i.insider.com/60bf9b2793c6fa00195e5bb0?width=1200&format=jpeg",
-  "publishedAt": "2023-10-25T20:05:32Z",
-  "content": "Traders work on the floor of the New York Stock Exchange (NYSE) in New York, U.S., March 9, 2020.Bryan R Smith/Reuters\r\n<ul><li>US stocks fell on Wednesday, dragged down by a sharp sell-off in mega-c… [+3096 chars]"
-  },
-  {
-  "source": {
-  "id": null,
-  "name": "Small Business Trends"
-  },
-  "author": "Samson Haileyesus",
-  "title": "What is Cardano?",
-  "description": "Cardano (ADA) is considered a third-generation blockchain, following in the footsteps of Bitcoin and Ethereum.",
-  "url": "https://smallbiztrends.com/2023/10/what-is-cardano.html",
-  "urlToImage": "https://media.smallbiztrends.com/2023/10/what-is-cardano-3-1024x576.png",
-  "publishedAt": "2023-10-02T16:00:13Z",
-  "content": "Cardano (ADA) is considered a third-generation blockchain, following in the footsteps of Bitcoin and Ethereum. Cardano aims to compete directly with Ethereum, a decentralized application (DApp) devel… [+5818 chars]"
-  },
-  {
-  "source": {
-  "id": null,
-  "name": "MarketWatch"
-  },
-  "author": "Frances Yue",
-  "title": "Distributed Ledger: Surging Treasury yields cap crypto price rises. Expect volatility ahead.",
-  "description": "This is the latest Distributed Ledger column from MarketWatch: a weekly look at the most important moves and news in crypto.",
-  "url": "https://www.marketwatch.com/story/surging-treasury-yields-cap-crypto-price-rises-expect-volatility-ahead-cb85897a",
-  "urlToImage": "https://images.mktw.net/im-783732/social",
-  "publishedAt": "2023-10-05T20:40:00Z",
-  "content": "Welcome back to Distributed Ledger. This is Frances Yue, reporter at MarketWatch.During the past week, the first ether futures-based exchange-traded funds debuted in the U.S., as ProShares, VanEck an… [+2652 chars]"
-  },
-  {
-  "source": {
-  "id": null,
-  "name": "kottke.org"
-  },
-  "author": "Jason Kottke",
-  "title": "They Cracked the Code to a Locked USB Drive Worth $235 Million...",
-  "description": "They Cracked the Code to a Locked USB Drive Worth $235 Million in Bitcoin. Then It Got Weird. The owner of the USB drive doesn&#82",
-  "url": "https://kottke.org/23/10/0043310-they-cracked-the-code-to",
-  "urlToImage": "",
-  "publishedAt": "2023-10-25T19:46:18Z",
-  "content": "They Cracked the Code to a Locked USB Drive Worth $235 Million in Bitcoin. Then It Got Weird. The owner of the USB drive doesn’t actually want them to unlock it."
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Tessa Campbell",
-  "title": "Robinhood vs. SoFi Invest: Which is best?",
-  "description": "Robinhood and SoFi are both strong, low-fee investment apps that offer a 1% IRA match on eligible deposits. Here's how the brokerages compare. Start investing today.",
-  "url": "https://www.businessinsider.com/personal-finance/robinhood-vs-sofi",
-  "urlToImage": "https://i.insider.com/6532c12196f7540cd061f1ae?width=1200&format=jpeg",
-  "publishedAt": "2023-10-24T20:29:41Z",
-  "content": "Our experts answer readers' investing questions and write unbiased product reviews (here's how we assess investing products). Paid non-client promotion: In some cases, we receive a commission from ou… [+10931 chars]"
-  },
-  {
-  "source": {
-  "id": null,
-  "name": "Ritholtz.com"
-  },
-  "author": "Barry Ritholtz",
-  "title": "10 Monday AM Reads",
-  "description": "My what am I doing in Orlando morning plane reads: • It’s Time to Stop Crying About Bonds and Buy Them Instead: Treasuries have had one of their worst three-year stretches on record. Why it can’t get much worse. (Barron’s) • Is E.S.G. Falling Out of Favor? Ch…",
-  "url": "https://ritholtz.com/2023/10/10-monday-am-reads-406/",
-  "urlToImage": "https://ritholtz.com/wp-content/uploads/2023/10/confidence.png",
-  "publishedAt": "2023-10-30T10:30:33Z",
-  "content": "Its Time to Stop Crying About Bonds and Buy Them Instead: Treasuries have had one of their worst three-year stretches on record. Why it can’t get much worse. (Barron’s)\r\nIs E.S.G. Falling Out of Favo… [+3366 chars]"
+  "author": "Dan DeFrancesco",
+  "title": "The death of downtowns",
+  "description": "Vacant storefronts are popping up across the country and remaining empty. But it's not just a product of the post-pandemic world.",
+  "url": "https://www.businessinsider.com/news-today-october-31-downtown-retail-stores-banks-2023-10",
+  "urlToImage": "https://i.insider.com/653ff86d0487ff031cb2539d?width=1200&format=jpeg",
+  "publishedAt": "2023-10-31T13:16:50Z",
+  "content": "Retail spaces in New York City often sat vacant for more than a year — and that was before the COVID pandemic cut daytime walk-in customer numbers.UCG/Getty Images\r\n<ul>\n<li>This post originally appe… [+8361 chars]"
   },
   {
   "source": {
@@ -879,429 +437,870 @@
   "name": "Boing Boing"
   },
   "author": "Boing Boing's Shop",
-  "title": "Get lifetime access to Rosetta Stone along with hundreds of online courses for only $159.97!",
-  "description": "TL;DR: Put your thinking cap on and score the ultimate learning bundle featuring Rosetta Stone and StackSkills for only $159.97, an exclusive price only available until October 31st!\n\n\n\nIt may have been a while since you've sat behind the desk in some stuffy …",
-  "url": "https://boingboing.net/2023/10/27/get-lifetime-access-to-rosetta-stone-along-with-hundreds-of-online-courses-for-only-159-97.html",
-  "urlToImage": "https://i0.wp.com/boingboing.net/wp-content/uploads/2023/10/320416_LifetimeLearningBundleftRosettaStone-1.jpg?fit=1200%2C800&ssl=1",
-  "publishedAt": "2023-10-27T15:00:00Z",
-  "content": "TL;DR: Put your thinking cap on and score the ultimate learning bundle featuring Rosetta Stone and StackSkills for only $159.97, an exclusive price only available until October 31st!\r\nIt may have bee… [+2145 chars]"
+  "title": "This 3-in-1 USB-C charging cable eliminates the hassle of multiple cords and it's only $18.99",
+  "description": "TL;DR: The number of devices, attachments, and cords we need on a daily basis can be overwhelming. This 3-in-1 USB-C Charging Cable For Apple Watch, iPhone & AirPods is a game-changer for keeping all of your electronic device batteries full, and it's on sale …",
+  "url": "https://boingboing.net/2023/10/31/this-3-in-1-usb-c-charging-cable-eliminates-the-hassle-of-multiple-cords-and-its-only-18-99.html",
+  "urlToImage": "https://i0.wp.com/boingboing.net/wp-content/uploads/2023/10/sale_320762_article_image-3.jpg?fit=1200%2C800&ssl=1",
+  "publishedAt": "2023-10-31T15:00:00Z",
+  "content": "TL;DR: The number of devices, attachments, and cords we need on a daily basis can be overwhelming. This 3-in-1 USB-C Charging Cable For Apple Watch, iPhone &amp; AirPods is a game-changer for keeping… [+1567 chars]"
   },
   {
   "source": {
   "id": null,
-  "name": "Quartz India"
+  "name": "Hipertextual"
   },
-  "author": "Grete Suarez",
-  "title": "Bitcoin pumped and dumped on false BlackRock spot ETF approval report",
-  "description": "BlackRock, the world’s largest asset manager, denied social media reports on Monday (Oct. 16) that the US Securities and Exchange Commission (SEC) had approved its long-awaited bitcoin exchange-traded fund (ETF).Read more...",
-  "url": "https://qz.com/bitcoin-pumped-and-dumped-on-false-blackrock-spot-etf-a-1850929840",
-  "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/769d2118c9c68cf82622679a3968ba6d.jpg",
-  "publishedAt": "2023-10-16T19:02:55Z",
-  "content": "BlackRock, the worlds largest asset manager, denied social media reports on Monday (Oct. 16) that the US Securities and Exchange Commission (SEC) had approved its long-awaited bitcoin exchange-traded… [+2625 chars]"
-  },
-  {
-  "source": {
-  "id": null,
-  "name": "Slate Magazine"
-  },
-  "author": "Ben McKenzie",
-  "title": "I Mistrusted SBF After an Hour With Him. Michael Lewis Had More Than a Year. What Happened?",
-  "description": "The author got too close to see his subject clearly.",
-  "url": "https://slate.com/technology/2023/10/michael-lewis-going-infinite-sam-bankman-fried-ben-mckenzie-review.html",
-  "urlToImage": "https://compote.slate.com/images/a67cf2e6-15af-48cf-b842-7fd0acc3e5ac.jpeg?crop=1560%2C1040%2Cx0%2Cy0&width=1560",
-  "publishedAt": "2023-10-05T18:35:24Z",
-  "content": "Sam Bankman-Fried deduced at an early age that neither Santa Claus nor God is real. Mass delusions are a property of the world, as it turns out, he tells Michael Lewis. Its an insight into the power … [+17037 chars]"
+  "author": "Ebenizer Pinedo",
+  "title": "Apple presenta los M3, M3 Pro y M3 Max, los bestiales chips que dan vida a los nuevos Mac",
+  "description": "Por primera vez, Apple ha presentado tres nuevos procesadores en un mismo evento. Los M3, M3 Pro y M3 Max ya están aquí, y al menos sobre el papel, son unas auténticas bestias. Son, además, los primeros en producirse bajo un proceso litográfico de 3 nanómetro…",
+  "url": "http://hipertextual.com/2023/10/apple-presenta-los-m3-m3-pro-y-m3-max-caracteristicas-novedades",
+  "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2023/10/m3-apple.jpg",
+  "publishedAt": "2023-10-31T01:04:10Z",
+  "content": "Por primera vez, Apple ha presentado tres nuevos procesadores en un mismo evento. Los M3, M3 Pro y M3 Max ya están aquí, y al menos sobre el papel, son unas auténticas bestias. Son, además, los prime… [+3841 chars]"
   },
   {
   "source": {
   "id": null,
-  "name": "Uncrate.com"
+  "name": "Hipertextual"
   },
-  "author": "Uncrate",
-  "title": "Whole Earth Index",
-  "description": "In 1968, Stewart Brand founded the Whole Earth Catalog.. The publication was born from the idea of self-sufficiency and a \"do it yourself\" mentality while reviewing anything from books to tools. It quickly became a cultural phenomenon, and its legacy...",
-  "url": "https://uncrate.com/whole-earth-index/",
-  "urlToImage": "https://uncrate.com/p/2023/10/whole-earth-index.jpg",
-  "publishedAt": "2023-10-13T23:00:21Z",
-  "content": "Fine wine returned 13.1% in 2022, outperforming S&amp;P 500, Bitcoin, and even gold, while rare whiskey returned 395% from 2013 to 2023. Vinovest is making this widely untapped resource more accessib… [+668 chars]"
-  },
-  {
-  "source": {
-  "id": null,
-  "name": "Uncrate.com"
-  },
-  "author": "Uncrate",
-  "title": "Garb: Light",
-  "description": "Luca Faloni Cashmere Zip-Up / $375. Norse Projects Anton Organic Flannel Shirt / $172. Daily Paper Ron Cap / $60. London Sock Co. Simply Sartorial Socks / $22. Veja V-10 Chromefree Sneakers / $195. OGL Kingsman Leather Long Wallet /...",
-  "url": "https://uncrate.com/garb-light/",
-  "urlToImage": "https://uncrate.com/p/2023/10/garb-light.jpg",
-  "publishedAt": "2023-10-02T20:10:00Z",
-  "content": "Fine wine returned 13.1% in 2022, outperforming S&amp;P 500, Bitcoin, and even gold, while rare whiskey returned 395% from 2013 to 2023. Vinovest is making this widely untapped resource more accessib… [+668 chars]"
+  "author": "Rubén Chicharro",
+  "title": "Apple recomienda no cargar tu iPhone en estos modelos de coche",
+  "description": "Muchos de los coches actuales, ya sean eléctricos o de combustión, incluyen cargadores inalámbricos en el salpicadero u otros compartimentos con el objetivo de suministrar batería al móvil mientras la persona va conduciendo. Es, sin duda, un componente muy út…",
+  "url": "http://hipertextual.com/2023/10/apple-recomienda-no-cargar-tu-iphone-en-estos-modelos-de-coche",
+  "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2023/09/DSC07029-scaled.jpg",
+  "publishedAt": "2023-10-31T15:33:35Z",
+  "content": "Muchos de los coches actuales, ya sean eléctricos o de combustión, incluyen cargadores inalámbricos en el salpicadero u otros compartimentos con el objetivo de suministrar batería al móvil mientras l… [+2320 chars]"
   },
   {
   "source": {
   "id": null,
-  "name": "Archive.org"
+  "name": "Hipertextual"
   },
-  "author": "akosner",
-  "title": "Sequoia Captials Puff piece on SBF just before FTX's collapse",
-  "description": "The founder of FTX lives his life by a calculus of altruistic impact. By Adam Fisher.",
-  "url": "https://web.archive.org/web/20221027181005/https://www.sequoiacap.com/article/sam-bankman-fried-spotlight/",
-  "urlToImage": "https://web.archive.org/web/20221027181005im_/https://www.sequoiacap.com/wp-content/uploads/sites/6/2022/09/SFB-Hero.gif",
-  "publishedAt": "2023-10-04T16:35:53Z",
-  "content": "Listen to this article\r\nEvery startup has a startup story. Apple was two hackers in a Los Altos garage. Google was two grad students in a Stanford dorm room. Alameda Research was just one guy in a Be… [+32508 chars]"
-  },
-  {
-  "source": {
-  "id": null,
-  "name": "Slate Magazine"
-  },
-  "author": "Luke Winkie",
-  "title": "The Crypto Drama Is Strong in the Sam Bankman-Fried Trial. But There’s Another, Far Weirder Part.",
-  "description": "Only one woman could be responsible for these demented, Dalí-level interpretations.",
-  "url": "https://slate.com/culture/2023/10/sam-bankman-fried-trial-crypto-ftx-courtroom-sketch-jane-rosenberg.html",
-  "urlToImage": "https://compote.slate.com/images/1a226229-e364-4612-be70-be2b0ee4b91c.jpeg?crop=1560%2C1040%2Cx0%2Cy0&width=1560",
-  "publishedAt": "2023-10-13T18:56:02Z",
-  "content": "I made peace with the fact that I dont understand anything about cryptocurrency a long time ago. That isnt for a lack of trying. Yes, Ive attempted to parse the insanely outré nuances of the Bitcoin … [+6042 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Phil Rosen",
-  "title": "US stocks fall as traders assess rate outlook after key bond yield hits 5%",
-  "description": "Cleveland Fed President Loretta Mester on Friday said the central bank is nearing the end of its policy tightening campaign.",
-  "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-rate-fed-hike-treasury-bond-yields-2023-10",
-  "urlToImage": "https://i.insider.com/6532dc3fbe9edfa8eda6821f?width=1200&format=jpeg",
-  "publishedAt": "2023-10-20T20:12:54Z",
-  "content": "US stocks ended lower Friday as the benchmark 10-year Treasury edged lower but stuck close to 5%.Timothy A. Clary/Getty Images\r\n<ul>\n<li>US stocks dropped Friday as the 10-year Treasury yield pulled … [+3574 chars]"
+  "author": "Alberto Martín",
+  "title": "Además de los Macbook Pro y los chips M3, el evento Scary Fast de Apple tuvo un protagonista inesperado",
+  "description": "Aunque sobre el papel los nuevos chips M3 y los recién renovados MacBook Pro fueron los protagonistas absolutos del evento Scary Fast de Apple, lo cierto es que, entre bambalinas, también hubo un invitado inesperado: el iPhone 15 Pro. No fue hasta el final de…",
+  "url": "http://hipertextual.com/2023/10/scary-fast-de-apple-se-grabo-con-un-iphone-15-pro",
+  "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2023/10/scary-fast-scaled.jpg",
+  "publishedAt": "2023-10-31T10:18:50Z",
+  "content": "Aunque sobre el papel los nuevos chips M3 y los recién renovados MacBook Pro fueron los protagonistas absolutos del evento Scary Fast de Apple, lo cierto es que, entre bambalinas, también hubo un inv… [+2273 chars]"
   },
   {
   "source": {
   "id": null,
-  "name": "Phys.Org"
+  "name": "Hipertextual"
   },
-  "author": "Science X",
-  "title": "Study reveals the hidden environmental impacts of bitcoin: Carbon is not the only harmful byproduct",
-  "description": "The extraordinary rise in cryptocurrency prices over the previous decade has prompted huge investments in the cryptocurrency sector. Undeniably, digital currencies have won the faith of the world's top investors, ranging from large corporations and tech milli…",
-  "url": "https://phys.org/news/2023-10-reveals-hidden-environmental-impacts-bitcoin.html",
-  "urlToImage": "https://scx2.b-cdn.net/gfx/news/hires/2023/un-study-reveals-the-h.jpg",
-  "publishedAt": "2023-10-24T13:58:10Z",
-  "content": "The extraordinary rise in cryptocurrency prices over the previous decade has prompted huge investments in the cryptocurrency sector. Undeniably, digital currencies have won the faith of the world's t… [+6244 chars]"
-  },
-  {
-  "source": {
-  "id": null,
-  "name": "Forbes"
-  },
-  "author": "Mickey Koss, Contributor, \n Mickey Koss, Contributor\n https://www.forbes.com/sites/mikalkoss/",
-  "title": "Bitcoin Is A Network And An Asset: Here’s The Difference",
-  "description": "As US markets brace for the inevitable bitcoin ETF approval, it is important to understand the difference between Bitcoin and bitcoin.",
-  "url": "https://www.forbes.com/sites/digital-assets/2023/10/19/bitcoin-is-a-network-and-an-asset-heres-the-difference/",
-  "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/653023ed0abaa6a72db62bd5/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-  "publishedAt": "2023-10-19T16:25:13Z",
-  "content": "MIAMI, FLORIDA - JUNE 04: Jack Dorsey creator, co-founder, and Chairman of Twitter and co-founder &amp; ... [+] CEO of Square speaks on stage at the Bitcoin 2021 Convention, a crypto-currency confere… [+6665 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "Huileng Tan",
-  "title": "China and India are so far into frenemy zone that they may never join forces to topple the dollar",
-  "description": "The BRICS bloc is exploring the idea of a common currency. But China and India are strategic competitors, and their relationship is under strain.",
-  "url": "https://www.businessinsider.com/dedollarization-china-india-brics-common-currency-jim-oneill-economy-dollar-2023-9",
-  "urlToImage": "https://i.insider.com/65116955e2c0220019ef3fe9?width=1200&format=jpeg",
-  "publishedAt": "2023-10-03T00:55:02Z",
-  "content": "China's leader, Xi Jinping, with Indian Prime Minister Narendra Modi.REUTERS/Amit Dave\r\n<ul>\n<li>The BRICS group of emerging nations is exploring the idea of a common currency.</li>\n<li>But China and… [+6404 chars]"
+  "author": "Juan Carlos Figueroa",
+  "title": "Apple mata el MacBook Pro de 13″ y, con él, a la Touch Bar",
+  "description": "Apple presentó su nueva familia de MacBook Pros en su evento Scary Fast este lunes. Entre ellas, una nueva versión básica del MacBook Pro de 14 pulgadas, que reemplaza al MacBook Pro de 13''. Y, con esto, la despedida de la Touch Bar. La Touch Bar apareció po…",
+  "url": "http://hipertextual.com/2023/10/apple-mata-el-macbook-pro-de-13-y-con-el-a-la-touch-bar",
+  "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2019/10/hipertextual-nueva-imagen-filtrada-macbook-pro-16-revela-cambios-touch-bar-2019877432.jpg",
+  "publishedAt": "2023-10-31T01:09:26Z",
+  "content": "Apple presentó su nueva familia de MacBook Pros en su evento Scary Fast este lunes. Entre ellos, una nueva versión básica del MacBook Pro de 14 pulgadas, que reemplaza al MacBook Pro de 13''. Y, con … [+1840 chars]"
   },
   {
   "source": {
   "id": null,
-  "name": "Biztoc.com"
+  "name": "Hipertextual"
   },
-  "author": "cryptopotato.com",
-  "title": "Silk Road Founder Ross Ulbricht: A Decade Behind Bars Ignites Controversy",
-  "description": "Silk Road, a darknet marketplace, revolutionized illicit trade with Bitcoin. $1.2 billion in sales, 9.5 million Bitcoin exchanged. #bitcoin",
-  "url": "https://biztoc.com/x/5922753dfe346659",
-  "urlToImage": "https://c.biztoc.com/p/5922753dfe346659/s.webp",
-  "publishedAt": "2023-10-08T16:52:08Z",
-  "content": "Silk Road, a darknet marketplace, revolutionized illicit trade with Bitcoin. $1.2 billion in sales, 9.5 million Bitcoin exchanged.\r\n#bitcoin\r\nThis story appeared on cryptopotato.com, ."
-  },
-  {
-  "source": {
-  "id": null,
-  "name": "Dnyuz.com"
-  },
-  "author": "New York Times",
-  "title": "Across America, Beijing Bitcoin Mines Draw National Security Scrutiny...",
-  "description": "Across America, Beijing Bitcoin Mines Draw National Security Scrutiny...\r\n\n \n \n \n (Second column, 2nd story, link)\r\n\n \r\n\n \r\n\n \n Related stories:REPORT: USA must be ready for simultaneous wars with China, Russia...",
-  "url": "https://dnyuz.com/2023/10/13/across-u-s-chinese-bitcoin-mines-draw-national-security-scrutiny/",
-  "urlToImage": "https://dnyuz.com/wp-content/uploads/2023/10/Across-US-Chinese-Bitcoin-Mines-Draw-National-Security-Scrutiny.jpg",
-  "publishedAt": "2023-10-13T11:43:37Z",
-  "content": "When a company with Chinese origins broke ground last year on a crypto-mining operation in Cheyenne, Wyo., a team at Microsoft that assesses national security threats sounded the alarm.\r\nNot only was… [+15926 chars]"
-  },
-  {
-  "source": {
-  "id": "bbc-news",
-  "name": "BBC News"
-  },
-  "author": "https://www.facebook.com/bbcnews",
-  "title": "FTX thief cashes out millions during Bankman-Fried trial",
-  "description": "Chunks of the stolen $470m in cryptocurrency have been laundered every day since the trial began",
-  "url": "https://www.bbc.co.uk/news/technology-67090501",
-  "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/57F8/production/_131402522_0499b66d-a66d-4f83-96c5-fcf34bdd3417.jpg",
-  "publishedAt": "2023-10-12T13:07:33Z",
-  "content": "A thief who stole more than $470m (£383m) in cryptocurrency when FTX crashed is trying to cash it out while the exchange's founder is on trial.\r\nSam Bankman-Fried's high profile court case began last… [+3607 chars]"
+  "author": "Luis Miranda",
+  "title": "Es 2023 y Apple sigue vendiendo Magic Mouse con conector Lightning",
+  "description": "Apple anunció su nueva línea de procesadores M3, los cuales impulsarán el iMac de 24 pulgadas, los MacBook Pro y otros equipos a futuro. Pese al avance en el desarrollo de su tecnología, existe un apartado que parece no importar mucho a los de Cupertino: los …",
+  "url": "http://hipertextual.com/2023/10/apple-sigue-vendiendo-magic-mouse-con-conector-lightning",
+  "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2023/10/magicmouse-apple-lightning.jpg",
+  "publishedAt": "2023-10-31T03:50:01Z",
+  "content": "Apple anunció su nueva línea de procesadores M3, los cuales impulsarán el iMac de 24 pulgadas, los MacBook Pro y otros equipos a futuro. Pese al avance en el desarrollo de su tecnología, existe un ap… [+2611 chars]"
   },
   {
   "source": {
   "id": null,
-  "name": "Phandroid - News for Android"
+  "name": "Hipertextual"
   },
-  "author": "Tyler Lee",
-  "title": "DEAL: Give your PC a GPU upgrade with these awesome Prime Day deals!",
-  "description": "If you’re looking to upgrade your PC’s GPU, then Prime Day is your best friend as these GPUs are currently on sale.\nThe post DEAL: Give your PC a GPU upgrade with these awesome Prime Day deals! appeared first on Phandroid.",
-  "url": "https://phandroid.com/2023/10/11/deal-give-your-pc-a-gpu-upgrade-with-these-awesome-prime-day-deals/",
-  "urlToImage": "https://phandroid.com/wp-content/uploads/2023/04/GeForce-RTX-4070.png",
-  "publishedAt": "2023-10-11T13:28:18Z",
-  "content": "Due to the craze in mining for bitcoin and other types of cryptocurrency, it has resulted in the prices of GPUs shooting to the moon. This has made buying a GPU for your PC a bit more expensive, but … [+784 chars]"
-  },
-  {
-  "source": {
-  "id": null,
-  "name": "Biztoc.com"
-  },
-  "author": "cointelegraph.com",
-  "title": "Grayscale GBTC discount falls to 16% as markets bet on Bitcoin ETF approval",
-  "description": "Grayscale’s Bitcoin investment vehicle, Grayscale Bitcoin Trust (GBTC) is trading at its lowest discount in nearly two years, as spot Bitcoin ETFs continue to inch toward potential approval in the United States. The latest data from YCharts shows GBTC’s disco…",
-  "url": "https://biztoc.com/x/463a873f41e3512d",
-  "urlToImage": "https://c.biztoc.com/p/463a873f41e3512d/s.webp",
-  "publishedAt": "2023-10-16T03:36:06Z",
-  "content": "Grayscales Bitcoin investment vehicle, Grayscale Bitcoin Trust (GBTC) is trading at its lowest discount in nearly two years, as spot Bitcoin ETFs continue to inch toward potential approval in the Uni… [+282 chars]"
+  "author": "Nicolás Rivera",
+  "title": "Nuevo MacBook Pro con M3, M3 Pro y M3 Max: una bestia que ahora es más asequible que antes",
+  "description": "En un evento atípico tanto por formato como por horario, Apple ha presentado oficialmente la nueva generación del MacBook Pro, el portátil más avanzado de la compañía americana. Este, como se esperaba, llega de la mano de los también nuevos procesadores M3, M…",
+  "url": "http://hipertextual.com/2023/10/apple-macbook-m3-pro-max",
+  "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2023/10/apple-macbook-pro-m3-pro.jpg",
+  "publishedAt": "2023-10-31T00:21:44Z",
+  "content": "En un evento atípico tanto por formato como por horario, Apple ha presentado oficialmente la nueva generación del MacBook Pro, el portátil más avanzado de la compañía americana. Este, como se esperab… [+1616 chars]"
   },
   {
   "source": {
   "id": null,
-  "name": "Biztoc.com"
+  "name": "Hipertextual"
   },
-  "author": "cointelegraph.com",
-  "title": "Bitcoiner drops BitVM paper",
-  "description": "A Bitcoin developer has proposed a new way to bring more expressive off-chain smart contracts to Bitcoin (BTC) without needing a soft fork. Announced in an Oct.9 white paper titled “BitVM: Compute Anything on Bitcoin” by ZeroSync’s project lead Robin Linus, B…",
-  "url": "https://biztoc.com/x/213c28ae4a31d414",
-  "urlToImage": "https://c.biztoc.com/p/213c28ae4a31d414/s.webp",
-  "publishedAt": "2023-10-10T00:46:07Z",
-  "content": "A Bitcoin developer has proposed a new way to bring more expressive off-chain smart contracts to Bitcoin (BTC) without needing a soft fork.Announced in an Oct.9 white paper titled BitVM: Compute Anyt… [+287 chars]"
-  },
-  {
-  "source": {
-  "id": null,
-  "name": "Biztoc.com"
-  },
-  "author": "beincrypto.com",
-  "title": "Forget Bitcoin",
-  "description": "For years, the mainstream media has demonized Bitcoin over its energy consumption. The rise in artificial intelligence (AI) and the power-hungry processors that drive it may push aside the world’s most popular digital currency. The pivot of Bitcoin mining to …",
-  "url": "https://biztoc.com/x/576ba5f4d34082ae",
-  "urlToImage": "https://c.biztoc.com/p/576ba5f4d34082ae/s.webp",
-  "publishedAt": "2023-10-02T09:56:09Z",
-  "content": "For years, the mainstream media has demonized Bitcoin over its energy consumption. The rise in artificial intelligence (AI) and the power-hungry processors that drive it may push aside the worlds mos… [+291 chars]"
+  "author": "Luis Miranda",
+  "title": "El nuevo iMac de 24 pulgadas con M3 es dos veces más potente que su antecesor",
+  "description": "Apple aprovechó su evento Scary fast para anunciar los nuevos procesadores M3 que potenciarán su línea Mac. Si bien los reflectores están puestos sobre el MacBook Pro, la tecnológica presentó una actualización al iMac de 24 pulgadas. Tal como se había rumorea…",
+  "url": "http://hipertextual.com/2023/10/imac-24-pulgadas-apple-chip-m3",
+  "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2023/10/apple-imac-24-m3-portada.jpg",
+  "publishedAt": "2023-10-31T00:43:04Z",
+  "content": "Apple aprovechó su evento Scary fast para anunciar los nuevos procesadores M3 que potenciarán su línea Mac. Si bien los reflectores están puestos sobre el MacBook Pro, la tecnológica presentó una act… [+406 chars]"
   },
   {
   "source": {
   "id": null,
-  "name": "Forbes"
+  "name": "Hipertextual"
   },
-  "author": "Susie Violet Ward, Contributor, \n Susie Violet Ward, Contributor\n https://www.forbes.com/sites/susievioletward/",
-  "title": "Pro-Bitcoin Congressman Patrick McHenry May Provide The Final Push To Unlock Growing Pressures To Greenlight A Spot Bitcoin ETF",
-  "description": "Rep. Patrick McHenry, a known advocate for bitcoin, has assumed a temporary leadership role in the U.S. House of Representatives, providing a possible boost for bitcoin.",
-  "url": "https://www.forbes.com/sites/digital-assets/2023/10/04/pro-bitcoin-congressman-patrick-mchenry-may-provide-the-final-push-to-unlock-growing-pressures-to-greenlight-a-spot-bitcoin-etf/",
-  "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/651d1667fa0fd6d36cb78f04/0x0.jpg?format=jpg&width=1200",
-  "publishedAt": "2023-10-04T08:00:46Z",
-  "content": "Photo By Tom Williams/CQ-Roll Call\r\nCQ-Roll Call, Inc via Getty Images\r\nRep. Patrick McHenry, a known advocate for bitcoin, has assumed a temporary leadership role in the U.S. House of Representative… [+2485 chars]"
-  },
-  {
-  "source": {
-  "id": null,
-  "name": "Forbes"
-  },
-  "author": "Billy Bambrough, Senior Contributor, \n Billy Bambrough, Senior Contributor\n https://www.forbes.com/sites/billybambrough/",
-  "title": "Buy ‘Gold And Bitcoin’: ‘Cataclysmic’ U.S. Dollar Crisis Triggers Serious Recession Warning That Could Cause Ethereum, XRP And Crypto Price Chaos",
-  "description": "Bitcoin and Subscribe now to Forbes' CryptoAsset & Blockchain Advisor and successfully navigate the bitcoin and crypto market rollercoaster ahead of next year's histor...",
-  "url": "https://www.forbes.com/sites/digital-assets/2023/10/11/buy-gold-and-bitcoin-cataclysmic-us-dollar-crisis-triggers-serious-recession-warning-that-could-cause-ethereum-xrp-and-crypto-price-chaos/",
-  "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/6456424532c7f204c1e31892/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-  "publishedAt": "2023-10-11T12:15:58Z",
-  "content": "BitcoinBTC\r\n, ethereum, XRPXRP\r\n and other major cryptocurrencies have struggled to hold onto their early 2023 gains recently as the U.S. wages \"war\" on crypto.\r\nSubscribenow to Forbes' CryptoAsset &… [+3266 chars]"
+  "author": "Gabriel Erard",
+  "title": "Estos son los precios de los nuevos iMac y MacBook Pro M3 en España y México",
+  "description": "Después de tremenda expectación, el evento Scary Fast de Apple nos ha entregado nuevos iMac y MacBook Pro con chip M3. No hubo lugar a sorpresas ni a anuncios extravagantes pese a lo atípico del evento, tanto por su horario de realización como por la duración…",
+  "url": "http://hipertextual.com/2023/10/precios-macbook-pro-imac-m3-espana-y-mexico",
+  "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2023/10/Apple-MacBook-Pro-2up-231030-scaled.jpg",
+  "publishedAt": "2023-10-31T02:01:54Z",
+  "content": "Después de tremenda expectación, el evento Scary Fast de Apple nos ha entregado nuevos iMac y MacBook Procon chip M3. No hubo lugar a sorpresas ni a anuncios extravagantes pese a lo atípico del event… [+4763 chars]"
   },
   {
   "source": {
   "id": null,
-  "name": "Forbes"
+  "name": "Hipertextual"
   },
-  "author": "Susie Violet Ward, Contributor, \n Susie Violet Ward, Contributor\n https://www.forbes.com/sites/susievioletward/",
-  "title": "Europe’s Largest Bitcoin Conference: Insights And Highlights",
-  "description": "The Bitcoin Amsterdam conference in 2023 brought together an assembly of bitcoin luminaries and tackled a host of weighty themes, most notably the issue of censorship.",
-  "url": "https://www.forbes.com/sites/digital-assets/2023/10/16/europes-largest-bitcoin-conference-insights-and-highlights/",
-  "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/652d090e4b4c4c661638c753/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-  "publishedAt": "2023-10-16T10:53:09Z",
-  "content": "Edward Snowden\r\nPhoto credit: SlackerX collage with NurPhoto, Lionel Bonaventure &amp; Marco Bello\r\nThe Bitcoin Amsterdam conference in 2023 brought together an assembly of bitcoin luminaries and tac… [+4644 chars]"
-  },
-  {
-  "source": {
-  "id": null,
-  "name": "Forbes"
-  },
-  "author": "Steve Larsen, Contributor, \n Steve Larsen, Contributor\n https://www.forbes.com/sites/stevelarsen/",
-  "title": "Bitcoin Suddenly Leaps To $30,000 Following Refuted IShares Spot ETF Approval Report",
-  "description": "Cryptocurrency markets experienced a sudden surge in bitcoin prices following a now-debunked report on bitcoin ETF approval by the U.S. Securities and Exchange Commiss...",
-  "url": "https://www.forbes.com/sites/digital-assets/2023/10/16/bitcoin-suddenly-leaps-to-30000-following-refuted-ishares-spot-etf-approval-report/",
-  "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/652d5c2de929ea4c79e02910/0x0.jpg?format=jpg&crop=2851,1603,x0,y94,safe&height=900&width=1600&fit=bounds",
-  "publishedAt": "2023-10-16T17:58:32Z",
-  "content": "The headquarters for BlackRock, an Investment management and financial services firm, in New York ... [+] City. (Photo by Gary Hershorn/Getty Images)\r\nGetty Images\r\nCryptocurrency markets experienced… [+2895 chars]"
+  "author": "Rubén Chicharro",
+  "title": "La batería de los MacBook Pro M3, comparada con los modelos anteriores: ¿mejora o empeora?",
+  "description": "Los recién anunciados MacBook Pro de 14 y 16 pulgadas con chips M3, M3 Pro y M3 Max incluyen mejoras significativas en rendimiento respecto a los modelos anteriores. Esta, sin embargo, no es la única novedad. Apple también afirma que sus nuevos portátiles cue…",
+  "url": "http://hipertextual.com/2023/10/bateria-macbook-pro-m3",
+  "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2023/10/Apple-MacBook-Pro-2up-231030-scaled.jpg",
+  "publishedAt": "2023-10-31T09:34:40Z",
+  "content": "Los recién anunciadosMacBook Pro de 14 y 16 pulgadas con chips M3, M3 Pro y M3 Max incluyen mejoras significativas en rendimiento respecto a los modelos anteriores. Esta, sin embargo, no es la única … [+3247 chars]"
   },
   {
   "source": {
   "id": null,
-  "name": "Forbes"
+  "name": "Hipertextual"
   },
-  "author": "Steve Larsen, Contributor, \n Steve Larsen, Contributor\n https://www.forbes.com/sites/stevelarsen/",
-  "title": "Bitcoin Suddenly Leaps To $30K Following Refuted IShares Spot ETF Approval Report",
-  "description": "Cryptocurrency markets experienced a sudden surge in bitcoin prices following a now-debunked report on bitcoin ETF approval by the U.S. Securities and Exchange Commiss...",
-  "url": "https://www.forbes.com/sites/digital-assets/2023/10/16/bitcoin-suddenly-leaps-to-30k-following-refuted-ishares-spot-etf-approval-report/",
-  "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/652d5c2de929ea4c79e02910/0x0.jpg?format=jpg&crop=2851,1603,x0,y94,safe&height=900&width=1600&fit=bounds",
-  "publishedAt": "2023-10-16T17:58:32Z",
-  "content": "The headquarters for BlackRock, an Investment management and financial services firm, in New York ... [+] City. (Photo by Gary Hershorn/Getty Images)\r\nGetty Images\r\nCryptocurrency markets experienced… [+2895 chars]"
-  },
-  {
-  "source": {
-  "id": "business-insider",
-  "name": "Business Insider"
-  },
-  "author": "fdemott@insider.com (Filip De Mott)",
-  "title": "'Shark Tank' star Kevin O'Leary laughs off idea that institutional investors want bitcoin - 'They don't own any of it'",
-  "description": "\"You know, people talk about, 'there's great institutional interest in bitcoin.' No, there isn't. They don't own any of it,\" he told CoinDesk.",
-  "url": "https://markets.businessinsider.com/news/currencies/shark-tank-kevin-oleary-institutional-investors-bitcoin-spot-etf-crypto-2023-10",
-  "urlToImage": "https://i.insider.com/64ca9fafce6977001984ae0c?width=1200&format=jpeg",
-  "publishedAt": "2023-10-04T14:43:02Z",
-  "content": "Despite optimism that top institutions on Wall Street are going to step into bitcoin investing, that's not actually happening, \"Shark Tank\" star Kevin O'Leary said.\r\nIn recent months, asset managers … [+1816 chars]"
+  "author": "Gabriel Erard",
+  "title": "Esto es todo lo que sabemos del ‘AI Pin’, el enigmático primer dispositivo de Humane",
+  "description": "Poco más de 6 meses atrás, Humane estaba en boca de todos, pero en circunstancias bastante peculiares. Por entonces, la startup fundada por dos exempleados de Apple había cerrado una nueva ronda de inversión multimillonaria, cuando prácticamente nadie sabía a…",
+  "url": "http://hipertextual.com/2023/10/todo-lo-que-sabemos-ai-pin-humane",
+  "urlToImage": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2023/10/Humane.jpg?fit=2048%2C1152&quality=50&strip=all&ssl=1",
+  "publishedAt": "2023-10-31T07:16:00Z",
+  "content": "Poco más de 6 meses atrás, Humane estaba en boca de todos, pero en circunstancias bastante peculiares. Por entonces, la startup fundada por dos exempleados de Apple había cerrado una nueva ronda de i… [+7274 chars]"
   },
   {
   "source": {
   "id": null,
-  "name": "Ritholtz.com"
+  "name": "Xataka.com"
   },
-  "author": "Barry Ritholtz",
-  "title": "10 Tuesday AM Reads",
-  "description": "My Two-for-Tuesday morning train reads: • Why High Interest Rates and Energy Prices Are Stressing the Economy: Treasury rates and oil and gasoline prices have been increasing, putting the Fed in a difficult spot, our columnist says. (New York Times) see also …",
-  "url": "https://ritholtz.com/2023/10/10-tuesday-am-reads-444/",
-  "urlToImage": "https://ritholtz.com/wp-content/uploads/2023/09/poweredtheworld.jpeg",
-  "publishedAt": "2023-10-03T10:30:52Z",
-  "content": "Why High Interest Rates and Energy Prices Are Stressing the Economy: Treasury rates and oil and gasoline prices have been increasing, putting the Fed in a difficult spot, our columnist says. (New Yor… [+3282 chars]"
-  },
-  {
-  "source": {
-  "id": null,
-  "name": "Forbes"
-  },
-  "author": "Leigh Cuen, Forbes Staff, \n Leigh Cuen, Forbes Staff\n https://www.forbes.com/sites/digital-assets/people/Leigh-Cuen/",
-  "title": "How To Earn Bitcoin: Introducing A Beginner’s Guide To Getting Free Bitcoin",
-  "description": "A Forbes email course offering tips on earning bitcoin for free, including basics for beginners, cryptocurrency tax information, networking and investing tools.",
-  "url": "https://www.forbes.com/sites/digital-assets/2023/10/10/how-to-earn-bitcoin-introducing-a-beginners-guide-to-getting-free-bitcoin/",
-  "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/6514836fc44dab8dc3adb95a/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-  "publishedAt": "2023-10-10T18:23:14Z",
-  "content": "Miles Suter, Bitcoin Product Lead at Cash App, speaks during the Bitcoin 2022 Conference at the ... [+] Miami Beach Convention Center on April 7, 2022. Going to bitcoin events and using mainstream cu… [+4059 chars]"
+  "author": "Javier Pastor",
+  "title": "Los Apple M3 son decepcionantes en rendimiento de CPU y creemos saber la razón: Apple escatima en transistores",
+  "description": "El evento de presentación de los nuevos Apple M3, MacBook Pro e iMac nos ha permitido conocer la renovada apuesta de la compañía en este segmento. Se ha confirmado el salto a una fotolitografía de 3 nm, pero lo curioso es que esa característica ha resultado s…",
+  "url": "https://www.xataka.com/componentes/apple-m3-decepcionantes-rendimiento-cpu-creemos-saber-razon-apple-escatima-transistores",
+  "urlToImage": "https://i.blogs.es/12adc8/captura-de-pantalla-2023-10-31-a-las-11.46.39/840_560.jpeg",
+  "publishedAt": "2023-10-31T11:31:55Z",
+  "content": "El evento de presentación de los nuevos Apple M3, MacBook Pro e iMac nos ha permitido conocer la renovada apuesta de la compañía en este segmento. Se ha confirmado el salto a una fotolitografía de 3 … [+4743 chars]"
   },
   {
   "source": {
   "id": null,
-  "name": "Biztoc.com"
+  "name": "Xataka.com"
   },
-  "author": "simplybitcoin.substack.com",
-  "title": "Fidelity's Bullish Bitcoin Report",
-  "description": "In a recent report, Fidelity Digital Assets made a striking assertion: \"Bitcoin is better than gold\" and stands apart from any other “digital asset”. Fidelity just said, “There is no second best.” In an era where traditional financial pillars waver, Bitcoin e…",
-  "url": "https://biztoc.com/x/1d932fdd64c10735",
-  "urlToImage": "https://c.biztoc.com/p/1d932fdd64c10735/s.webp",
-  "publishedAt": "2023-10-14T22:02:15Z",
-  "content": "In a recent report, Fidelity Digital Assets made a striking assertion: \"Bitcoin is better than gold\" and stands apart from any other digital asset.Fidelity just said, There is no second best.In an er… [+276 chars]"
-  },
-  {
-  "source": {
-  "id": null,
-  "name": "Biztoc.com"
-  },
-  "author": "barrons.com",
-  "title": "Bitcoin Remains Under Pressure",
-  "description": "A crypto selloff in recent days has retraced much of Bitcoin's latest rally, but the token could now be stabilizing, albeit back in a stagnant trading range.",
-  "url": "https://biztoc.com/x/1f19c8f5f958db52",
-  "urlToImage": "https://c.biztoc.com/p/1f19c8f5f958db52/s.webp",
-  "publishedAt": "2023-10-13T10:50:31Z",
-  "content": "A crypto selloff in recent days has retraced much of Bitcoin's latest rally, but the token could now be stabilizing, albeit back in a stagnant trading range.\r\nThis story appeared on barrons.com, ."
+  "author": "Javier Marquez",
+  "title": "Apple M3, M3 Pro y M3 Max: los nuevos chips de Apple presumen un rendimiento descomunal (y estrenan arquitectura gráfica)",
+  "description": "Los rumores eran ciertos. En un evento completamente fuera de lo común llamado ‘Scary Fast’, traducido al español como ‘Una salvajada’, Apple ha actualizado este martes parte de su línea de ordenadores Mac, en concreto los MacBook Pro e iMac, y también ha pre…",
+  "url": "https://www.xataka.com/ordenadores/apple-m3-m3-pro-m3-max-nuevos-chips-apple-presumen-rendimiento-descomunal-estrenan-arquitectura-grafica",
+  "urlToImage": "https://i.blogs.es/392561/apple/840_560.jpeg",
+  "publishedAt": "2023-10-31T01:12:03Z",
+  "content": "Los rumores eran ciertos. En un evento completamente fuera de lo común llamado Scary Fast, traducido al español como Una salvajada, Apple ha actualizado este martes parte de su línea de ordenadores M… [+4254 chars]"
   },
   {
   "source": {
   "id": null,
-  "name": "Forbes"
+  "name": "Xataka.com"
   },
-  "author": "Billy Bambrough, Senior Contributor, \n Billy Bambrough, Senior Contributor\n https://www.forbes.com/sites/billybambrough/",
-  "title": "‘Shocking’ Leak Blows Up Mystery Of Bitcoin Creator Satoshi Nakamoto",
-  "description": "Bitcoin and cryptocurrency devotees have been gripped by the mystery of Satoshi Nakamoto—bitcoin's anonymous creator—for more than a decade as bitcoin has rocked the world's of finance and technology...",
-  "url": "https://www.forbes.com/sites/digital-assets/2023/10/02/shocking-leak-blows-up-mystery-of-bitcoin-creator-satoshi-nakamoto/",
-  "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/651aab55b9e97320bd806012/0x0.jpg?format=jpg&width=1200",
-  "publishedAt": "2023-10-02T12:40:02Z",
-  "content": "Bitcoin and cryptocurrency devotees have been gripped by the mystery of Satoshi Nakamotobitcoin's anonymous creatorfor more than a decade as bitcoin has rocked the world's of finance and technology.\r… [+3403 chars]"
-  },
-  {
-  "source": {
-  "id": null,
-  "name": "Biztoc.com"
-  },
-  "author": "investors.com",
-  "title": "Bitcoin Price Roars Above $34000 As Crypto Regains Confidence. Cathie Wood Cashes In",
-  "description": "Cryptocurrency prices soared Tuesday as bitcoin continues to rally on hopes a spot bitcoin exchange-traded fund will launch soon. Bitcoin price rallied above $35,000 intraday Tuesday - its highest level since May 2022. Bitcoin led cryptocurrency prices higher…",
-  "url": "https://biztoc.com/x/d7f728eafcb8c06d",
-  "urlToImage": "https://c.biztoc.com/p/d7f728eafcb8c06d/og.webp",
-  "publishedAt": "2023-10-24T21:10:11Z",
-  "content": "Cryptocurrency prices soared Tuesday as bitcoin continues to rally on hopes a spot bitcoin exchange-traded fund will launch soon. Bitcoin price rallied above $35,000 intraday Tuesday - its highest le… [+317 chars]"
+  "author": "Javier Pastor",
+  "title": "Una unidad de 2 TB cuesta 100 euros. Si la quieres en los nuevos MacBook Pro, te costará siete veces más",
+  "description": "Apple cumplió las expectativas y hace unas horas presentó sus nuevos chips Apple M3 fabricados con fotolitografía de 3 nanómetros. Dichos SoC han debutado tanto en los nuevos iMac de 24 pulgadas como en los nuevos MacBook Pro de 14 y 16 pulgadas. Esos chips s…",
+  "url": "https://www.xataka.com/componentes/unidad-2-tb-cuesta-100-euros-quieres-nuevos-macbook-pro-te-costara-siete-veces",
+  "urlToImage": "https://i.blogs.es/edd4ea/apple2/840_560.jpeg",
+  "publishedAt": "2023-10-31T08:40:01Z",
+  "content": "Apple cumplió las expectativas y hace unas horas presentó sus nuevos chips Apple M3 fabricados con fotolitografía de 3 nanómetros. Dichos SoC han debutado tanto en los nuevos iMac de 24 pulgadas como… [+4498 chars]"
   },
   {
   "source": {
   "id": null,
-  "name": "Biztoc.com"
+  "name": "Xataka.com"
   },
-  "author": "coinspeaker.com",
-  "title": "Valkyrie Amends Prospectus for Spot Bitcoin ETF Application",
-  "description": "Coinspeaker Valkyrie Amends Prospectus for Spot Bitcoin ETF Application Asset manager Valkyrie has recently made waves due to its decision to amend its prospectus for a spot Bitcoin (BTC) ETF filed with the US Securities and Exchange Commission (SEC). The Val…",
-  "url": "https://biztoc.com/x/ee5029761c46b17c",
-  "urlToImage": "https://c.biztoc.com/p/ee5029761c46b17c/s.webp",
-  "publishedAt": "2023-10-31T13:44:10Z",
-  "content": "CoinspeakerValkyrie Amends Prospectus for Spot Bitcoin ETF ApplicationAsset manager Valkyrie has recently made waves due to its decision to amend its prospectus for a spot Bitcoin (BTC) ETF filed wit… [+324 chars]"
-  },
-  {
-  "source": {
-  "id": null,
-  "name": "Forbes"
-  },
-  "author": "Sean Stein Smith, Contributor, \n Sean Stein Smith, Contributor\n https://www.forbes.com/sites/seansteinsmith/",
-  "title": "Bitcoin’s Continued Dominance Highlights Future Trends For Crypto",
-  "description": "Bitcoin leadership is essential for continued crypto development",
-  "url": "https://www.forbes.com/sites/digital-assets/2023/10/15/bitcoins-continued-dominance-highlights-future-trends-for-crypto/",
-  "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/64cb60b7d4f6dd03de6b2a65/0x0.jpg?format=jpg&crop=2735,1281,x0,y94,safe&height=900&width=1600&fit=bounds",
-  "publishedAt": "2023-10-15T15:26:56Z",
-  "content": "Bitcoin continues to lead crypto forward\r\nGetty Images\r\nEven with multiple challengers to its reign atop the crypto market, and the FTX trial providing daily fodder for crypto skeptics, bitcoin has r… [+5596 chars]"
+  "author": "Eduardo Marín",
+  "title": "Nuevos MacBook Pro con chip M3: potencia salvaje y nuevo color para graduarse como el auténtico portátil profesional",
+  "description": "Apple ha presentado la nueva generación de sus portátiles para profesionales que llevan en su interior los potentes chips M3, M3 Pro y M3 Max, que la compañía también ha presentado durante el mismo evento. Los nuevos MacBook Pro de 14 y 16 pulgadas llegan ape…",
+  "url": "https://www.xataka.com/ordenadores/nuevos-apple-macbook-pro-m3-2023-caracteristicas-precio-ficha-tecnica",
+  "urlToImage": "https://i.blogs.es/4e1a97/macbook-pro-2023-m3/840_560.jpeg",
+  "publishedAt": "2023-10-31T02:15:00Z",
+  "content": "Apple ha presentado la nueva generación de sus portátiles para profesionales que llevan en su interior los potentes chips M3, M3 Pro y M3 Max, que la compañía también ha presentado durante el mismo e… [+6802 chars]"
   },
   {
   "source": {
   "id": null,
-  "name": "Biztoc.com"
+  "name": "Xataka.com"
   },
-  "author": "cryptopotato.com",
-  "title": "This Is How Much Bitcoin Institutions Are Trading On The CME",
-  "description": "While Binance remains the largest venue in the world for Bitcoin futures trading, another more regulated market is now following closely behind. CME Bitcoin Futures now stands as the second-largest Bitcoin futures exchange in the world by open interest, signa…",
-  "url": "https://biztoc.com/x/46e4c0fdc4253f72",
-  "urlToImage": "https://c.biztoc.com/p/46e4c0fdc4253f72/s.webp",
-  "publishedAt": "2023-10-30T22:36:06Z",
-  "content": "While Binance remains the largest venue in the world for Bitcoin futures trading, another more regulated market is now following closely behind.CME Bitcoin Futures now stands as the second-largest Bi… [+285 chars]"
+  "author": "Juan Carlos López",
+  "title": "La microarquitectura de los Apple M3, M3 Pro y M3 Max, explicada: salto abismal para su GPU, aunque más modesto para su CPU",
+  "description": "La familia de procesadores M3 de Apple ya está aquí. Y promete. Los de Cupertino han presentado tres chips con diferentes prestaciones y una microarquitectura común: las CPU M3, M3 Pro y M3 Max. De momento no hay ni rastro de un muy probable procesador M3 Ult…",
+  "url": "https://www.xataka.com/componentes/microarquitectura-apple-m3-m3-pro-m3-max-explicada-salto-abismal-para-su-gpu-modesto-para-su-cpu",
+  "urlToImage": "https://i.blogs.es/b7f375/applem3-ap/840_560.jpeg",
+  "publishedAt": "2023-10-31T10:31:57Z",
+  "content": "La familia de procesadores M3 de Apple ya está aquí. Y promete. Los de Cupertino han presentado tres chips con diferentes prestaciones y una microarquitectura común: las CPU M3, M3 Pro y M3 Max. De m… [+9893 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "Xataka.com"
+  },
+  "author": "Javier Marquez",
+  "title": "El nuevo Apple iMac (2023) se renueva a lo grande con el chip M3: el diseño es continuista, las mejoras van por dentro",
+  "description": "En el evento ‘Una salvajada’ de este martes a la madrugada en España (lunes por la tarde en Cupertino), Apple ha presentado nuevos procesadores, los Apple Silicon M3, M3 Pro y M3 Max, y nuevos ordenadores, los renovados MacBook Pro de 14 y 16 pulgadas, y el r…",
+  "url": "https://www.xataka.com/ordenadores/apple-imac-2023-caracteristicas-precio-ficha-tecnica",
+  "urlToImage": "https://i.blogs.es/d301ba/proyecto-quitar-fondo/840_560.jpeg",
+  "publishedAt": "2023-10-31T02:48:44Z",
+  "content": "En el evento Una salvajada de este martes a la madrugada en España (lunes por la tarde en Cupertino), Apple ha presentado nuevos procesadores, los Apple Silicon M3, M3 Pro y M3 Max, y nuevos ordenado… [+4795 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "Xataka.com"
+  },
+  "author": "Manu García (Visnuh)",
+  "title": "Es el iPhone más barato este año y esta es la mejor oferta que vas a encontrar hoy para comprarlo",
+  "description": "Hoy por hoy, el iPhone más razonable que puedes comprar, al menos atendiendo a la relación calidad precio, es sin duda el iPhone 13. El terminal de entrada para este año, además, es fácil de encontrar en oferta. Por ejemplo, en Amazon lo tienes ahora mismo a …",
+  "url": "https://www.xataka.com/seleccion/iphone-barato-este-ano-esta-mejor-oferta-que-vas-a-encontrar-hoy-para-comprarlo",
+  "urlToImage": "https://i.blogs.es/24b52e/iphone_13/840_560.jpeg",
+  "publishedAt": "2023-10-31T09:45:35Z",
+  "content": "Hoy por hoy, el iPhone más razonable que puedes comprar, al menos atendiendo a la relación calidad precio, es sin duda el iPhone 13. El terminal de entrada para este año, además, es fácil de encontra… [+2919 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "Xataka.com"
+  },
+  "author": "Alberto de la Torre",
+  "title": "Volkswagen aspiraba a ser una empresa de software única en el mercado del automóvil. Ya se plantea 2.000 despidos",
+  "description": "La transición al coche eléctrico prometió grandes cambios en la industria del automóvil. El desarrollo de un software a la altura para cada fabricante es uno de los grandes escollos a los que se están enfrentando las compañías más tradicionales. Y no siempre …",
+  "url": "https://www.xataka.com/movilidad/volkswagen-aspiraba-a-ser-empresa-software-unica-mercado-automovil-se-plantea-2-000-despidos",
+  "urlToImage": "https://i.blogs.es/452590/captura-de-pantalla-2023-10-30-a-las-16.48.25-p.-m./840_560.jpeg",
+  "publishedAt": "2023-10-31T11:01:56Z",
+  "content": "La transición al coche eléctrico prometió grandes cambios en la industria del automóvil. El desarrollo de un software a la altura para cada fabricante es uno de los grandes escollos a los que se está… [+7158 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "Xataka.com"
+  },
+  "author": "Ricardo Aguilar",
+  "title": "Las ventas de plegables se disparan en China. El principal responsable es una gran sorpresa",
+  "description": "El mercado chino está empezando a mostrar ciertas tendencias en el territorio de los móviles plegables. Pese a tener una presencia marginal, el crecimiento de este segmento ha superado el 90% interanual en el tercer trimestre de 2023, con 1,96 millones de uni…",
+  "url": "https://www.xataka.com/moviles/ventas-plegables-se-disparan-china-principal-responsable-gran-sorpresa",
+  "urlToImage": "https://i.blogs.es/4c8ce6/1366_2000/840_560.jpeg",
+  "publishedAt": "2023-10-31T09:01:57Z",
+  "content": "El mercado chino está empezando a mostrar ciertas tendencias en el territorio de los móviles plegables. Pese a tener una presencia marginal, el crecimiento de este segmento ha superado el 90% interan… [+2646 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "Xataka.com"
+  },
+  "author": "John Tones",
+  "title": "Nuevo choque entre Taylor Swift y las discográficas: los contratos cambian para evitar que otros artistas sigan sus pasos",
+  "description": "Cuando Taylor Swift anunció en 2021 que iba a regrabar todos los discos que editó con Big Machine Records, su decisión fue recibida con cierto excepticismo, ya que la artista estaba en medio de una cruenta guerra por la recuperación de sus masters y se entend…",
+  "url": "https://www.xataka.com/musica/nuevo-choque-taylor-swift-discograficas-contratos-cambian-para-evitar-que-otros-artistas-sigan-sus-pasos",
+  "urlToImage": "https://i.blogs.es/131409/taylor-swift-red-cr-beth-garrabrant-press-2021-billboard-1548-1636735410/840_560.jpeg",
+  "publishedAt": "2023-10-31T13:01:55Z",
+  "content": "Cuando Taylor Swift anunció en 2021 que iba a regrabar todos los discos que editó con Big Machine Records, su decisión fue recibida con cierto excepticismo, ya que la artista estaba en medio de una c… [+4004 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "Digital Trends"
+  },
+  "author": "Nadeem Sarwar",
+  "title": "Apple did something surprising with the iPhone last night",
+  "description": "Last night's Apple event was all about new Macs. But the iPhone also made a surprise appearance, and Apple did something pretty impressive with it.",
+  "url": "https://www.digitaltrends.com/mobile/apple-scary-fast-event-shot-on-iphone-15-pro-max-camera/",
+  "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2023/10/iphone-15-pro-max-camera.jpg?resize=1200%2C630&p=1",
+  "publishedAt": "2023-10-31T15:42:22Z",
+  "content": "iPhone 15 Pro MaxAndy Boxall / Digital Trends\r\nHow do you flex the camera chops of your flagship phone? Use it to shoot the entire launch event for flagship laptops. Or that’s apparently what Apple t… [+3121 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "Digital Trends"
+  },
+  "author": "Jacob Roach",
+  "title": "Apple has everything it needs to dominate gaming — except games",
+  "description": "Apple's M3 could be a gaming powerhouse with its redesigned GPU, but there's just one problem: there aren't a ton of games on Mac.",
+  "url": "https://www.digitaltrends.com/computing/apple-dominating-gaming-except-games/",
+  "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2021/05/imac-24-inch-8.jpg?resize=1200%2C630&p=1",
+  "publishedAt": "2023-10-31T00:45:20Z",
+  "content": "Apple is finally hitting its stride with gaming. The company today announced the new M3 family of chips during its “Scary Fast” event, and they pack a redesigned GPU that adds some much-needed featur… [+6871 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "Digital Trends"
+  },
+  "author": "Luke Larsen",
+  "title": "Apple just did something unprecedented with its new M3 chips",
+  "description": "Apple's new M3 chips are officially here, but they were announced in a way that Apple's never done before.",
+  "url": "https://www.digitaltrends.com/computing/apple-m3-chips-launched-in-unprecedented-way/",
+  "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2023/10/Apple-M3-chip-series_screen.jpg?resize=1200%2C630&p=1",
+  "publishedAt": "2023-10-31T00:30:09Z",
+  "content": "Apple\r\nApple announced the M3 series of chips today but has switched up the rollout in a significant way. In previous years, the company started with the base configuration of the chip series, whethe… [+3333 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "Digital Trends"
+  },
+  "author": "Alex Blake",
+  "title": "Everything Apple didn’t announce at its ‘Scary Fast’ launch event",
+  "description": "Apple’s October event has come and gone, and plenty of rumored products never made it to the stage. Here’s everything that didn’t appear at the Scary Fast show.",
+  "url": "https://www.digitaltrends.com/computing/everything-apple-didnt-announce-at-scary-fast-event/",
+  "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2021/12/adobe-lightroom-imac-person-person.jpg?resize=1200%2C630&p=1",
+  "publishedAt": "2023-10-31T00:30:50Z",
+  "content": "There’s no doubt that Apple had plenty to unveil at its “Scary Fast” event on October 30, with new devices galore revealed over the show’s duration. For what was an unexpected show, Apple managed to … [+2736 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "Digital Trends"
+  },
+  "author": "Luke Larsen",
+  "title": "Apple killed its worst MacBook and replaced it with something way better",
+  "description": "Apple has announced a new 14-inch MacBook Pro configuration that completely replaces the 13-inch model.",
+  "url": "https://www.digitaltrends.com/computing/apple-kills-worst-macbook-replacing-with-something-better/",
+  "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2020/12/macbook-pro-m1-02.jpg?resize=1200%2C630&p=1",
+  "publishedAt": "2023-10-31T00:30:50Z",
+  "content": "Luke Larsen / Digital Trends\r\nI’ve complained about the 13-inch MacBook Pro for years, often referring to it as the worst Mac in the lineup. But at Apple’s Scary Fast Mac event today, the company dec… [+2429 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "Digital Trends"
+  },
+  "author": "Luke Larsen",
+  "title": "I saw the new Space Black MacBook Pro, and it’s stunning",
+  "description": "Apple has announced a new color option for the MacBook Pro, and after seeing it in person, I'm smitten.",
+  "url": "https://www.digitaltrends.com/computing/space-black-macbook-pro-is-stunning/",
+  "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2023/10/Apple-MacBook-Pro-2up_screen.jpg?resize=1200%2C630&p=1",
+  "publishedAt": "2023-10-31T00:30:53Z",
+  "content": "Apple\r\nIt’s not often that MacBook Pros get new color options. But with this most recent update to M3 chips, the MacBook Pro will add Space Black, a color that first appeared on the iPhone, to the mi… [+1507 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "Digital Trends"
+  },
+  "author": "Luke Larsen",
+  "title": "The M3 Max makes the MacBook Pro look like a nearly unbeatable laptop",
+  "description": "Apple has announced a refresh to the MacBook Pro that makes it even more powerful and difficult to challenge.",
+  "url": "https://www.digitaltrends.com/computing/m3-max-makes-macbook-pro-nearly-unbeatable-laptop/",
+  "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2023/10/Apple-MacBook-Pro-lifestyle_screen.jpg?resize=1200%2C630&p=1",
+  "publishedAt": "2023-10-31T00:30:51Z",
+  "content": "Apple\r\nApple announced an update to its MacBook Pros at today’s Scary Fast event that brings the M3, M3 Pro, and M3 Max under the hood. That might sound like a ho-hum generational chip refresh, espec… [+3967 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "Digital Trends"
+  },
+  "author": "Luke Larsen",
+  "title": "The M3 iMac is here, but it’s missing its most requested change",
+  "description": "Apple has announced the M3 iMac, but the anticipated changes to peripherals didn't end up panning out.",
+  "url": "https://www.digitaltrends.com/computing/m3-imac-accessories-havent-changed/",
+  "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2023/10/imac-m3.jpg?resize=1200%2C630&p=1",
+  "publishedAt": "2023-10-31T00:30:12Z",
+  "content": "Apple\r\nAt its Scary Fast event, Apple announced a refresh to the 24-inch iMac, bringing the M3 to its popular all-in-one desktop. The M3 is a big deal, especially since the iMac was the only Mac to n… [+2351 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "Digital Trends"
+  },
+  "author": "Jacob Roach",
+  "title": "The M3 is the most important chip Apple has ever made",
+  "description": "We expected for Apple to release the M3 during its \"Scary Fast\" event, but there's a lot more riding on it than raw performance.",
+  "url": "https://www.digitaltrends.com/computing/apple-m3-most-important-chip/",
+  "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2023/10/Apple-M3-chip-series-architecture_screen.jpg?resize=1200%2C630&p=1",
+  "publishedAt": "2023-10-31T00:35:02Z",
+  "content": "Macs with Apple silicon were a revelation when they launched three years ago, but we haven’t seen Apple demonstrate how it will carry that idea forward since then. We saw the M2 release and the middl… [+5256 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "Digital Trends"
+  },
+  "author": "Jacob Roach",
+  "title": "Everything announced at Apple’s ‘Scary Fast’ event: iMac, M3, and more",
+  "description": "Apple's unexpected fall event is over, and it was packed with announcements centered around the M3 chip and new Macs. Here's everything that was revealed.",
+  "url": "https://www.digitaltrends.com/computing/apple-scary-fast-event-everything-announced/",
+  "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2023/10/apple-october-event-macbooks.jpg?resize=1200%2C630&p=1",
+  "publishedAt": "2023-10-31T00:30:42Z",
+  "content": "Apple’s unexpected “Scary Fast” event has wrapped, and the 30-minute presentation was packed full of announcements. Headlining the showcase was Apple’s new M3 chip, which is showing up in a variety o… [+5029 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "Digital Trends"
+  },
+  "author": "Jacob Roach",
+  "title": "Apple’s new M3 looks fast, but will it really be worth the upgrade?",
+  "description": "Apple finally debuted the M3 processor after months of rumors, but how does it hold up to the M2? We break down all of the details.",
+  "url": "https://www.digitaltrends.com/computing/apple-m3-vs-m2/",
+  "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2023/10/Apple-M3-chip-series_screen.jpg?resize=1200%2C630&p=1",
+  "publishedAt": "2023-10-31T00:30:30Z",
+  "content": "The new Apple M3 is the “most advanced chip ever built for a personal computer,” according to Apple. Debuted during Apple’s “Scary Fast” event and sporting a new process, the M3 promises up to 60% hi… [+6991 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "Digital Trends"
+  },
+  "author": "Joe Maring",
+  "title": "Fitbit’s $160 fitness tracker is way better than I expected",
+  "description": "How good can a $160 fitness tracker be? That's how much Fitbit is asking for the new Fitbit Charge 6. And you know what? It's shockingly great.",
+  "url": "https://www.digitaltrends.com/mobile/fitbit-charge-6-review/",
+  "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2023/10/fitbit-charge-6-review-1.jpg?resize=1200%2C630&p=1",
+  "publishedAt": "2023-10-31T12:00:36Z",
+  "content": "This fall has been a busy one for Google. The company has released two new smartphones, a new smartwatch, and a new version of Android. But there’s something else that slipped through the cracks amid… [+13089 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "Digital Trends"
+  },
+  "author": "Andrew Morrisey",
+  "title": "Best Samsung TV deals: Save on QLED and OLED TVs",
+  "description": "There are a lot of great Samsung TV deals taking place right now, and we've rounded them all up in one place.",
+  "url": "https://www.digitaltrends.com/home-theater/best-samsung-tv-deals-october-31/",
+  "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2021/03/samsung-neo-qled-game-bar.jpeg?resize=1200%2C630&p=1",
+  "publishedAt": "2023-10-31T16:04:11Z",
+  "content": "Samsung is almost universally amongst the best TV brands, which makes its lineup of 4K TVs a good option if you’re looking to expand, upgrade, or start from scratch a home theater setup. A new Samsun… [+6060 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "Digital Trends"
+  },
+  "author": "Digital Trends Staff",
+  "title": "This is how Visible is dedicated to simplifying your wireless life [Sponsored]",
+  "description": "Visible wireless is taking it back to basics, eliminating a lot of complexities we see in the wireless service industry. Easy plans, affordable pricing, more.",
+  "url": "https://www.digitaltrends.com/mobile/visible-simplifying-wireless-october-2023/",
+  "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2023/10/Visible-wireless-phones-and-plans-featured.jpg?resize=1200%2C630&p=1",
+  "publishedAt": "2023-10-31T15:30:11Z",
+  "content": "Visible\r\nLet’s be honest with one another for a moment. The wireless industry is a mess. There’s a lot of complexity and confusion when it comes to buying a new phone, taking advantage of discounts a… [+3698 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "Apple Newsroom"
+  },
+  "author": null,
+  "title": "Apple supercharges 24‑inch iMac with new M3 chip",
+  "description": "Apple today unveiled the new 24-inch iMac featuring the amazing M3 chip, making the world’s best all-in-one even more powerful and more capable.",
+  "url": "https://www.apple.com/newsroom/2023/10/apple-supercharges-24-inch-imac-with-new-m3-chip/",
+  "urlToImage": "https://www.apple.com/newsroom/images/2023/10/apple-supercharges-24-inch-imac-with-new-m3-chip/tile/Apple-iMac-M3-colors-231030.jpg.og.jpg?202310310030",
+  "publishedAt": "2023-10-31T00:30:52Z",
+  "content": "October 30, 2023\r\nPRESS RELEASE\r\nApple supercharges 24inch iMac with new M3 chip \r\nThe worlds best all-in-one gets even better, featuring the M3 chip and up to 2x faster performance in its strikingly… [+13318 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "Apple Newsroom"
+  },
+  "author": null,
+  "title": "Apple unveils the new MacBook Pro featuring the M3 family of chips",
+  "description": "Apple today announced a new MacBook Pro lineup featuring the all-new family of M3 chips: M3, M3 Pro, and M3 Max.",
+  "url": "https://www.apple.com/newsroom/2023/10/apple-unveils-new-macbook-pro-featuring-m3-chips/",
+  "urlToImage": "https://www.apple.com/newsroom/images/2023/10/apple-unveils-new-macbook-pro-featuring-m3-chips/tile/Apple-MacBook-Pro-2up-231030.jpg.og.jpg?202310310029",
+  "publishedAt": "2023-10-31T00:30:29Z",
+  "content": "October 30, 2023\r\nPRESS RELEASE\r\nApple unveils the new MacBook Pro featuring the M3 family of chips, making the worlds best pro laptop even better\r\n14-inch MacBook Pro with M3 now starts at $1,599\r\n1… [+13510 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "Apple Newsroom"
+  },
+  "author": null,
+  "title": "Apple unveils M3, M3 Pro, and M3 Max, the most advanced chips for a PC",
+  "description": "M3, M3 Pro, and M3 Max feature groundbreaking technologies that deliver dramatically increased performance and unleash new capabilities for Mac.",
+  "url": "https://www.apple.com/newsroom/2023/10/apple-unveils-m3-m3-pro-and-m3-max-the-most-advanced-chips-for-a-personal-computer/",
+  "urlToImage": "https://www.apple.com/newsroom/images/2023/10/Apple-unveils-M3-M3-Pro-and-M3-Max/tile/Apple-M3-chip-series-231030.jpg.og.jpg?202310310029",
+  "publishedAt": "2023-10-31T00:30:14Z",
+  "content": "October 30, 2023\r\nPRESS RELEASE\r\nApple unveils M3, M3 Pro, and M3 Max, the most advanced chips for a personal computer\r\nThe industrys first 3-nanometer chips for a personal computer debut a next-gene… [+10255 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "heise online"
+  },
+  "author": "Malte Kirchner",
+  "title": "Kommentar: Apple und der M3 – Mission Resthaushaltsabdeckung",
+  "description": "Apple prescht mit neuen Macs bei den 3-Nanometer-Chips vor. Warum es Apple so eilig hat und wer besonders angesprochen wird. Ein Kommentar von Malte Kirchner.",
+  "url": "https://www.heise.de/meinung/Kommentar-Apple-und-der-M3-Mission-Resthaushaltsabdeckung-9349229.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+  "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/4/3/2/6/4/3/5/IMG_9762-6be57c788b314ae6.jpg",
+  "publishedAt": "2023-10-31T01:36:00Z",
+  "content": "Inhaltsverzeichnis\r\nBei Zeitungen gibt es in der Vermarktung von Prospektbeilagen einen schönen, typisch deutsch anmutenden Begriff: Resthaushaltsabdeckung. Werbekunden können damit buchen, dass ihr … [+4702 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "heise online"
+  },
+  "author": "Ben Schwan",
+  "title": "Marktforscher: Verliert Apple in China gegen Huawei?",
+  "description": "Huawei appelliert mit neuen Modellen an den chinesischen Patriotismus. Leidet darunter das iPhone? Erste Marktforscher sagen: ja.",
+  "url": "https://www.heise.de/news/Marktforscher-Verliert-Apple-in-China-gegen-Huawei-9348704.html",
+  "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/4/3/2/6/1/4/8/shutterstock_1252879549-30b38f081ccf766b.jpg",
+  "publishedAt": "2023-10-31T12:33:00Z",
+  "content": "Apples iPhone-15-Baureihe verkauft sich in China offenbar schlechter als geplant. Laut aktueller Schätzdaten der Marktforschungsfirmen IDC und GfK ging es im Monat des Verkaufsstarts um vier bis sech… [+2115 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "heise online"
+  },
+  "author": "Mark Mantel",
+  "title": "Apple Silicon: M3-Chips im Vergleich",
+  "description": "Untypisch – Apple stellt die drei neuen Prozessoren M3, M3 Pro und M3 Max parallel vor. Nicht alles an den Modellen ist erfreulich.",
+  "url": "https://www.heise.de/hintergrund/Apple-Silicon-M3-Chips-im-Vergleich-9349445.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+  "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/4/3/2/6/5/5/6/Apple-M3-chip-series-architecture-231030-9dbe866270ee7fc0.jpg",
+  "publishedAt": "2023-10-31T11:05:00Z",
+  "content": "Inhaltsverzeichnis\r\nDie 2023er-Generation der MacBook Pros ist da und damit auch eine neue Generation Apple Silicon. Untypischerweise Apple hat die drei Modelle M3, M3 Pro und M3 Max parallel und nic… [+9439 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "heise online"
+  },
+  "author": "Leo Becker",
+  "title": "Aus für 13\" MacBook Pro: Apple krempelt Laptop-Lineup um",
+  "description": "Das 13\" MacBook Pro gibt es nicht mehr. Der Nachfolger ist viel teurer, bietet ein besseres 14\"-Display und mehr Schnittstellen. Einschränkungen bleiben aber.​",
+  "url": "https://www.heise.de/news/Aus-fuer-13-MacBook-Pro-Apple-krempelt-Laptop-Lineup-um-9349378.html",
+  "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/4/3/2/6/5/2/0/Bildschirmfoto_2023-10-31_um_10.47.38-233ea9d855ee499d.jpg",
+  "publishedAt": "2023-10-31T10:16:00Z",
+  "content": "Apple hat bei seiner Laptop-Modellpalette ausgemistet: Parallel zur Vorstellung der ersten Macs mit M3-Chip nimmt der Hersteller das 13\" MacBook Pro aus dem Programm. Im Preisbereich von rund 1000 bi… [+3440 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "heise online"
+  },
+  "author": "Malte Kirchner",
+  "title": "Nächtliche Keynote: Apple präsentiert den M3 und mehrere neue Macs",
+  "description": "Apple hat in der Nacht zu Dienstag einen neuen iMac sowie neue MacBook-Pro-Modelle in 14 und 16 Zoll vorgestellt. Neu sind auch der M3, M3 Pro und M3 Max.",
+  "url": "https://www.heise.de/news/Naechtliche-Keynote-Apple-praesentiert-den-M3-und-mehrere-neue-Macs-9349221.html",
+  "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/4/3/2/6/4/3/1/mbp23-2280b95a1057eb4a.png",
+  "publishedAt": "2023-10-31T00:37:00Z",
+  "content": "Inhaltsverzeichnis\r\nErste Mac-Prozessoren mit 3-Nanometer-Strukturen, neue MacBook Pros und einen aktualisierten 24-Zoll-iMac hat Apple in der Nacht auf Dienstag vorgestellt. Erstmals hat das Unterne… [+4666 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "heise online"
+  },
+  "author": "Maika Möbus",
+  "title": "Docker Desktop 4.25: Anbindung an Rosetta 2 erreicht allgemeine Verfügbarkeit",
+  "description": "Die Verwendung von Rosetta für Linux soll die Performance mit Apple Silicon steigern und Windows-User erhalten eine WSL-Installationsunterstützung.",
+  "url": "https://www.heise.de/news/Docker-Desktop-4-25-Anbindung-an-Rosetta-2-erreicht-allgemeine-Verfuegbarkeit-9349342.html",
+  "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/4/3/2/6/4/9/8/shutterstock_2164971661-8563202a55877b4e.jpg",
+  "publishedAt": "2023-10-31T12:27:00Z",
+  "content": "Die Containerisierungs-Software Docker Desktop hat ein Update auf die Version 4.25 erhalten. Darin hat das bisher experimentelle Feature Rosetta für Linux die allgemeine Verfügbarkeit erreicht und di… [+1761 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "heise online"
+  },
+  "author": "Ben Schwan",
+  "title": "MacBook Pro M3, M3 Pro, M3 Max und iMac M3: Die Konfigurationen im Detail",
+  "description": "Alle in der Nacht vorgestellten neuen Macs können bereits bestellt werden. Ganz einfach ist die Konfiguration nicht – und Apple lange einmal mehr kräftig zu.",
+  "url": "https://www.heise.de/news/MacBook-Pro-M3-M3-Pro-M3-Max-und-iMac-M3-Die-Konfigurationen-im-Detail-9349300.html",
+  "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/4/3/2/6/4/7/2/Apple-MacBook-Pro-Liquid-Retina-display-DaVinci-Resolve-231030-36d4f8e415b0e3de.jpg",
+  "publishedAt": "2023-10-31T09:25:00Z",
+  "content": "Da sind sie endlich: Apples neue Macs mit M3-, M3-Pro- und M3-Max-SoC. Die frischen MacBook-Pro-Modelle und der frische iMac mit 24 Zoll können bereits bestellt werden. Doch welche Variante sollte ma… [+2653 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "heise online"
+  },
+  "author": "Ben Schwan",
+  "title": "Neue Macs im Hands-on: Schnell und schwarz trifft auf beschleunigten All-in-One",
+  "description": "Apple hat in der Nacht zum Dienstag neue Macs vorgestellt. Wir waren beim Vorstellungsevent in New York dabei und zeigen erste Bilder der neuen Geräte.",
+  "url": "https://www.heise.de/news/Neue-Macs-im-Hands-on-Schnell-und-schwarz-trifft-auf-beschleunigten-All-in-One-9349458.html",
+  "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/4/3/2/6/5/6/3/Screenshot_2023-10-31_at_12.19.20-a61871f80dcb040a.png",
+  "publishedAt": "2023-10-31T11:39:00Z",
+  "content": "Das Apple-Jahr 2023 begann mit Apple-Silicon-Macs und endet wohl auch mit diesen: Apple hat in der Nacht zum Dienstag deutscher Zeit neue MacBook-Pro-Modelle und einen neuen iMac vorgestellt. Alle Ma… [+576 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "heise online"
+  },
+  "author": "Ben Schwan",
+  "title": "Magisches Zubehör, aber veraltet: Tastatur & Co. bei neuen Macs noch Lightning",
+  "description": "Apple hat trotz anderslautender Gerüchte seine Desktop-Peripherie nicht auf USB-C umgestellt. Das könnte einige Nutzer vom Kauf des iMac M3 abhalten.",
+  "url": "https://www.heise.de/news/Magisches-Zubehoer-aber-veraltet-Tastatur-Co-bei-neuen-Macs-noch-Lightning-9349355.html",
+  "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/4/3/2/6/5/0/7/imacm3-503848f08f9b5dca.png",
+  "publishedAt": "2023-10-31T11:34:00Z",
+  "content": "Stell Dir vor alle nutzen eine neue Schnittstelle, doch Du musst trotz top neuer Hardware noch die alte nutzen: Käufern des neuen iMac M3 geht es genau so. Wie sich in den Spezifikationen verborgen z… [+2634 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "heise online"
+  },
+  "author": "dpa",
+  "title": "Samsung erneut mit Gewinneinbußen",
+  "description": "Samsung kämpft seit Langem mit schwacher Nachfrage und einem Überangebot für Speicherchips. Doch das Unternehmen sieht Licht am Ende des Tunnels.",
+  "url": "https://www.heise.de/news/Samsung-erneut-mit-Gewinneinbussen-9349532.html",
+  "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/4/3/2/6/6/0/5/shutterstock_2098294747-587ef16cc50e6010.jpg",
+  "publishedAt": "2023-10-31T12:06:00Z",
+  "content": "Nach erneutem Verlust im Chipgeschäft hat der Elektronikriese Samsung im dritten Quartal 2023 erneut deutliche Gewinneinbußen verzeichnet. Der Überschuss fiel im Jahresvergleich um 38 Prozent auf 5,8… [+2812 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "9to5Mac"
+  },
+  "author": "Ben Lovejoy",
+  "title": "Apple sends iPhone hack warning to Indian opposition leader; walks tricky line",
+  "description": "Apple has sent iPhone hack warnings to the leader of India’s main opposition party, alongside other politicians opposing Narendra Modi’s government. Two high-profile journalists and a researcher have also been notified by Apple that their iPhones appear to ha…",
+  "url": "https://9to5mac.com/2023/10/31/iphone-hack-warning-india/",
+  "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2023/10/iPhone-hack-warning-in-India.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+  "publishedAt": "2023-10-31T13:04:31Z",
+  "content": "Apple has sent iPhone hack warnings to the leader of India’s main opposition party, alongside other politicians opposing Narendra Modis government. Two high-profile journalists and a researcher have … [+4136 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "9to5Mac"
+  },
+  "author": "Filipe Espósito",
+  "title": "Apple announces new 24-inch iMac with M3 chip",
+  "description": "Apple on Monday announced a new generation of the 24-inch iMac, almost three years since the introduction of the M1 iMac. The new version features a similar design to the previous one, but now with the just announced M3 chip, which is faster and more efficien…",
+  "url": "https://9to5mac.com/2023/10/30/new-m3-imac/",
+  "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2023/10/Screenshot-2023-10-30-at-8.26.07-PM.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+  "publishedAt": "2023-10-31T00:26:57Z",
+  "content": "Apple on Monday announced a new generation of the 24-inch iMac, almost three years since the introduction of the M1 iMac. The new version features a similar design to the previous one, but now with t… [+1147 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "9to5Mac"
+  },
+  "author": "Chance Miller",
+  "title": "Apple’s Mac accessories still only available with Lightning chargers",
+  "description": "While many of us were hoping for Apple to unveil new versions of its Mac accessories with USB-C ports, that’s not the case. Following today’s “Scary fast” event, Apple still only sells the Magic Mouse, Magic Trackpad, and Magic Keyboard with Lightning ports. …",
+  "url": "https://9to5mac.com/2023/10/30/apples-mac-accessories-still-only-available-with-lightning-chargers/",
+  "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2023/10/Safari-10-30-2023@2x-1.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+  "publishedAt": "2023-10-31T00:42:30Z",
+  "content": "While many of us were hoping for Apple to unveil new versions of its Mac accessories with USB-C ports, that’s not the case. Following today’s “Scary fast” event, Apple still only sells the Magic Mous… [+374 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "9to5Mac"
+  },
+  "author": "Chance Miller",
+  "title": "Here’s how Apple shot the entire ‘Scary fast’ event on iPhone 15 Pro",
+  "description": "One of the impressive parts of yesterday’s Apple event is that it was shot entirely using an iPhone 15 Pro. Apple has now published a behind-the-scenes video and a press release showing off some details on how it did this, ranging from the software it used to…",
+  "url": "https://9to5mac.com/2023/10/31/how-apple-shot-the-entire-scary-fast-event-on-iphone-15-pro/",
+  "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2023/10/Apple-Shot-on-iPhone-Tim-Cook-on-set.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+  "publishedAt": "2023-10-31T16:11:43Z",
+  "content": "One of the impressive parts of yesterday’s Apple event is that it was shot entirely using an iPhone 15 Pro. Apple has now published a behind-the-scenes video and a press release showing off some deta… [+2168 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "9to5Mac"
+  },
+  "author": "Filipe Espósito",
+  "title": "Apple’s ‘Scary Fast’ Mac event was shot on iPhone 15 Pro Max",
+  "description": "Apple today held a short and unusual special event to introduce a new generation of MacBook Pro and iMac with M3 chip. The 30-minute Halloween-themed presentation looked similar to any other pre-recorded Apple presentation, except for one detail: it was shot …",
+  "url": "https://9to5mac.com/2023/10/30/apple-scary-fast-mac-event-shot-on-iphone-15/",
+  "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2023/10/Screenshot-2023-10-30-at-8.04.40-PM.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+  "publishedAt": "2023-10-31T00:37:30Z",
+  "content": "Apple today held a short and unusual special event to introduce a new generation of MacBook Pro and iMac with M3 chip. The 30-minute Halloween-themed presentation looked similar to any other pre-reco… [+1653 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "9to5Mac"
+  },
+  "author": "Zac Hall",
+  "title": "Apple just killed off the last Mac with a Touch Bar",
+  "description": "Apple has finally done it. After making the 14-inch MacBook Pro more affordable, Apple has discontinued the with Touch Bar. So long, misunderstood and under appreciated OLED strip of dynamically changing interfaces. Touch Bar. October 27, 2016 – October 30, 2…",
+  "url": "https://9to5mac.com/2023/10/30/macbook-pro-touch-bar-dead/",
+  "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/02/MacBook-Pro-2020-Review-Touch-Bar-Final-Cut-Pro-X.png?resize=1200%2C628&quality=82&strip=all&ssl=1",
+  "publishedAt": "2023-10-31T00:47:51Z",
+  "content": "Apple has finally done it. After making the 14-inch MacBook Pro more affordable, Apple has discontinued the last MacBook Pro with Touch Bar. So long, misunderstood and under appreciated OLED strip of… [+1248 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "9to5Mac"
+  },
+  "author": "Chance Miller",
+  "title": "Does Apple’s ‘anodization seal’ on the space black MacBook Pro actually reduce fingerprints?",
+  "description": "While the new MacBook Pro in space black is getting a lot of attention, Apple actually started its march toward darker-shaded laptops . One key difference, however, is that Apple claims the space black color on the MacBook Pro solves the fingerprint and durab…",
+  "url": "https://9to5mac.com/2023/10/31/space-black-macbook-pro-fingerprints/",
+  "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2023/10/macbook-pro-fingerprints.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+  "publishedAt": "2023-10-31T15:29:48Z",
+  "content": "While the new MacBook Pro in space black is getting a lot of attention, Apple actually started its march toward darker-shaded laptops with the MacBook Air in midnight. One key difference, however, is… [+2957 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "9to5Mac"
+  },
+  "author": "Zac Hall",
+  "title": "Apple’s $49 USB-C to MagSafe 3 cable now comes in Space Black",
+  "description": "After introducing the first Space Black MacBook Pro, Apple has also started selling the USB-C to MagSafe 3 cable in the same color.\n\n\n\n more…",
+  "url": "https://9to5mac.com/2023/10/30/space-black-usb-c-to-magsafe-3-cable/",
+  "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2023/10/space-black-magsafe.webp?resize=1200%2C628&quality=82&strip=all&ssl=1",
+  "publishedAt": "2023-10-31T01:14:09Z",
+  "content": "After introducing the first Space Black MacBook Pro, Apple has also started selling the USB-C to MagSafe 3 cable in the same color.\r\nThe cable comes in the box when you buy the new Space Black MacBoo… [+599 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "9to5Mac"
+  },
+  "author": "Benjamin Mayo",
+  "title": "Apple announces new 14-inch and 16-inch MacBook Pro: M3 chip, Space Black, cheaper $1599 starting price",
+  "description": "Apple today announced the new MacBook Pro lineup featuring M3, M3 Pro and M3 Max chips, which deliver significant CPU and GPU performance leaps. \n\n\n\nThe lineup now starts with a cheaper 14-inch MacBook Pro model powered by the base model M3 chip. There are al…",
+  "url": "https://9to5mac.com/2023/10/30/apple-announces-m3-14-inch-and-16-inch-macbook-pro/",
+  "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2023/10/Screenshot-2023-10-30-at-8.14.00-PM.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+  "publishedAt": "2023-10-31T00:14:46Z",
+  "content": "Apple today announced the new MacBook Pro lineup featuring M3, M3 Pro and M3 Max chips, which deliver significant CPU and GPU performance leaps. \r\nThe lineup now starts with a cheaper 14-inch MacBook… [+1296 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "9to5Mac"
+  },
+  "author": "Filipe Espósito",
+  "title": "Here’s how the new entry-level M3 MacBook Pro compares to more expensive models",
+  "description": "Apple on Monday announced new MacBook Pro models, all of them powered by the M3 chip. In addition to the new high-end versions with the M3 Pro and M3 Max chips, Apple also introduced a redesigned entry-level model that is less expensive and has the base M3 ch…",
+  "url": "https://9to5mac.com/2023/10/30/new-entry-level-macbook-pro-compare/",
+  "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2023/10/14-inch-MacBook-Pro.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+  "publishedAt": "2023-10-31T02:58:00Z",
+  "content": "Apple on Monday announced new MacBook Pro models, all of them powered by the M3 chip. In addition to the new high-end versions with the M3 Pro and M3 Max chips, Apple also introduced a redesigned ent… [+4107 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "9to5Mac"
+  },
+  "author": "Bradley Chambers",
+  "title": "Apple @ Work Podcast: 2023 developer survey on AI, passkeys, and more",
+  "description": "Sponsored by SimpleMDM: Check out SimpleMDM and discover the limitless possibilities of SimpleMDM’s powerful API. Whether you want to automate tasks or integrate SimpleMDM into your existing infrastructure, the API offers the flexibility you need to gain full…",
+  "url": "https://9to5mac.com/2023/10/31/apple-work-podcast-2023-developer-survey-on-ai-passkeys-and-more/",
+  "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2019/08/Apple-at-Work.png?resize=1200%2C628&quality=82&strip=all&ssl=1",
+  "publishedAt": "2023-10-31T10:00:00Z",
+  "content": "Sponsored by SimpleMDM: Check out SimpleMDM and discover the limitless possibilities of SimpleMDM’s powerful API. Whether you want to automate tasks or integrate SimpleMDM into your existing infrastr… [+353 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "9to5Mac"
+  },
+  "author": "Ben Lovejoy",
+  "title": "Everything Apple announced at Scary Fast – and the things it didn’t",
+  "description": "There weren’t too many surprises in last night’s Scary Fast event. The event was entirely Mac-focused; all three M3 chips are available simultaneously; the M3-powered 14-inch and 16-inch MacBook Pro models were the stars of the show; and the 24-inch iMac got …",
+  "url": "https://9to5mac.com/2023/10/31/everything-apple-announced-at-scary-fast/",
+  "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2023/10/Everything-Apple-announced-at-Scary-Fast.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+  "publishedAt": "2023-10-31T11:33:03Z",
+  "content": "There weren’t too many surprises in last night’s Scary Fast event. The event was entirely Mac-focused; all three M3 chips are available simultaneously; the M3-powered 14-inch and 16-inch MacBook Pro … [+3617 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "9to5Mac"
+  },
+  "author": "Zac Hall",
+  "title": "macOS Sonoma: Apple Notes now lets you link between notes, here’s how",
+  "description": "Hidden within Notes on macOS Sonoma is a handy new upgrade. Like iOS 17 and iPadOS 17, Notes on macOS 14 gains the ability to links to other notes. Follow along to learn how it works.\n\n\n\n more…",
+  "url": "https://9to5mac.com/2023/10/31/apple-notes-links-quotes/",
+  "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2023/10/macos-sonoma-notes-links.webp?resize=1200%2C628&quality=82&strip=all&ssl=1",
+  "publishedAt": "2023-10-31T15:10:03Z",
+  "content": "Hidden within Notes on macOS Sonoma is a handy new upgrade. Like iOS 17 and iPadOS 17, Notes on macOS 14 gains the ability to links to other notes. Follow along to learn how it works.\r\nThis story is … [+2804 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "9to5Mac"
+  },
+  "author": "Filipe Espósito",
+  "title": "Here’s what changes from the M1 iMac to the new M3 iMac",
+  "description": "Along with the introduction of a new generation MacBook Pro, Apple also announced a new iMac during its “Scary Fast” event on Monday. However, despite the new M3 chip inside the new iMac, Apple’s all-in-one desktop computer looks pretty much the same as its p…",
+  "url": "https://9to5mac.com/2023/10/30/what-changes-m1-m3-imac/",
+  "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2023/10/M3-iMac.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+  "publishedAt": "2023-10-31T05:50:37Z",
+  "content": "Along with the introduction of a new generation MacBook Pro, Apple also announced a new iMac during its “Scary Fast” event on Monday. However, despite the new M3 chip inside the new iMac, Apple’s all… [+3285 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "9to5Mac"
+  },
+  "author": "Rikka Altland",
+  "title": "12.9-inch M2 iPad Pro now $199 off, AirPods Pro 2 with USB-C $190, M3 MacBook pre-orders, more",
+  "description": "Halloween is ushering in some frighteningly good deals, with a new all-time low on M3 MacBook Pros from $1,599. Hit the jump for all that and more in the latest 9to5Toys Lunch Break.\n\n\n\n more…",
+  "url": "https://9to5mac.com/2023/10/31/12-9-inch-m2-ipad-pro-airpods-pro-2-more/",
+  "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/11/Airpods-pro-2-m2-ipad-pro-sale.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+  "publishedAt": "2023-10-31T15:50:24Z",
+  "content": "Halloween is ushering in some frighteningly good deals, with a new all-time low on Apple’s latest 12.9-inch M2 iPad Pro taking the spotlight. It’s now $199 off, and comes joined by the refreshed USB-… [+4384 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "9to5Mac"
+  },
+  "author": "Ben Lovejoy",
+  "title": "A closer look at how the new M3 chip line-up compares",
+  "description": "Apple of course used all the words and phrases you’d expect for the new M3 chip line-up: groundbreaking, dramatically increased performance, unleash new capabilities, the biggest leap forward, and so on.\n\n\n\nThe company also shared some graphs pointing to the …",
+  "url": "https://9to5mac.com/2023/10/31/m3-chip-line-up/",
+  "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2023/10/M3-chip-line-up.webp?resize=1200%2C628&quality=82&strip=all&ssl=1",
+  "publishedAt": "2023-10-31T12:09:40Z",
+  "content": "Apple of course used all the words and phrases you’d expect for the new M3 chip line-up: groundbreaking, dramatically increased performance, unleash new capabilities, the biggest leap forward, and so… [+4087 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "9to5Mac"
+  },
+  "author": "Benjamin Mayo",
+  "title": "What can you connect to the iPhone 15 with USB-C?",
+  "description": "On the and iPhone 15 Plus, Apple finally got rid of the Lightning port and replaced it with USB-C. This opens up a whole new world of convenience of connecting accessories and peripherals. The and iPhone 15 Pro Max go one step further, as the USB-C port on th…",
+  "url": "https://9to5mac.com/2023/10/31/iphone-15-usb-c-connect-accessories/",
+  "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2023/10/iphone-15-usb-c.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+  "publishedAt": "2023-10-31T10:09:31Z",
+  "content": "On the iPhone 15 and iPhone 15 Plus, Apple finally got rid of the Lightning port and replaced it with USB-C. This opens up a whole new world of convenience of connecting accessories and peripherals. … [+7554 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "9to5Mac"
+  },
+  "author": "Chance Miller",
+  "title": "First M3 MacBook Pro hands-on videos show off new Space Black color",
+  "description": "During today’s “Scary fast” event, Apple unveiled a new lineup of MacBook Pro models powered by the M3 processor. While the overall design is identical to the previous generation, there’s a new Space Black colorway…and the first hands-on videos have arrived t…",
+  "url": "https://9to5mac.com/2023/10/30/space-black-macbook-pro-hands-on-videos/",
+  "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2023/10/Apple-MacBook-Pro-2up-231030_Full-Bleed-Image.jpg.large_2x.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+  "publishedAt": "2023-10-31T02:02:20Z",
+  "content": "During today’s “Scary fast” event, Apple unveiled a new lineup of MacBook Pro models powered by the M3 processor. While the overall design is identical to the previous generation, there’s a new Space… [+2027 chars]"
+  },
+  {
+  "source": {
+  "id": null,
+  "name": "9to5Mac"
+  },
+  "author": "Ben Lovejoy",
+  "title": "AAPL share price dropped 11% since last earnings report",
+  "description": "AAPL’s share price dropped by 11% since the company’s last earnings report in August, losing more than $400B in market capitalization. The fall is discussed a couple of days ahead of Apple’s next earnings report, on Thursday.\n\n\n\nA new report notes that this i…",
+  "url": "https://9to5mac.com/2023/10/31/aapl-share-price-dropped/",
+  "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2023/10/AAPL-share-price-dropped.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+  "publishedAt": "2023-10-31T13:54:13Z",
+  "content": "AAPL’s share price dropped by 11% since the company’s last earnings report in August, losing more than $400B in market capitalization. The fall is discussed a couple of days ahead of Apple’s next ear… [+2681 chars]"
   }
   ]
   }
-  

@@ -3,6 +3,7 @@ import { fetchNews } from '../../apiCalls';
 import '../ArticleList/ArticleList.css';
 import { Link } from 'react-router-dom';
 import missingImg from '../Images/missing-img.png';
+import Spinner from '../Spinner/Spinner';
 
 export type Article = {
   title: string;
@@ -15,23 +16,27 @@ export type Article = {
   };
   publishedAt: string;
   content: string;
+  category?: string;
 };
 
 interface Props {
   useMockData: boolean;
   articles: Article[];
+  searchTerm?: string;
+  selectedCategory?: string;
 }
 
-const ArticleList: React.FC<Props> = ({ useMockData }) => {
+const ArticleList: React.FC<Props> = ({ useMockData, searchTerm = "", selectedCategory = "All" }) => {
   const [articles, setArticles] = useState<Article[]>([]);
-  const [searchTerm, setSearchTerm] = useState('');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [retryCount, setRetryCount] = useState(0);
 
   useEffect(() => {
-    fetchNews("bitcoin", 1, useMockData)
+    console.log("Fetching news...");
+
+    fetchNews(searchTerm, 1, useMockData, selectedCategory)
       .then((data: any) => {
+        console.log("Data fetched:", data);
         setArticles(data.articles);
         setLoading(false);
       })
@@ -40,56 +45,37 @@ const ArticleList: React.FC<Props> = ({ useMockData }) => {
         setError('Failed to fetch articles. Please try again later.');
         setLoading(false);
       });
-  }, [useMockData, retryCount]);
+  }, [useMockData, searchTerm, selectedCategory]);
 
-  const filteredArticles = articles.filter(article => 
-    article.title.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  if (loading) {
+    return <Spinner />;
+  }
 
-  if (loading) return <div>Loading...</div>;
-  if (error) return (
-    <div>
-      {error}
-      <button onClick={() => setRetryCount(retryCount + 1)}>Retry</button>
-    </div>
-  );
+  if (error) {
+    return <div>{error}</div>;
+  }
 
   return (
     <div className="article-list-container">
-      <div className="search-container">
-        <label htmlFor="searchInput" className="visually-hidden">Search Articles</label>
-        <input
-          id="searchInput"
-          name="searchInput"
-          type="text"
-          className="search-input"
-          placeholder="Search articles..."
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-        />
-      </div>
-      <div className="articles">
-        {filteredArticles.map((article, index) => (
-          <Link to={`/article/${index}`} key={index} className="article-link">
-          <img 
-              src={article.urlToImage || missingImg} 
-              onError={(e) => {
-                  const imgElement = e.target as HTMLImageElement;
-                  imgElement.onerror = null;
-                  imgElement.src = missingImg;
-              }} 
-              alt={article.title || "No Title"} 
+      {articles.map((article, index) => (
+        <Link to={`/article/${index}`} key={index} className="article-link">
+          <img
+            src={article.urlToImage || missingImg}
+            onError={(e) => {
+              const imgElement = e.target as HTMLImageElement;
+              imgElement.onerror = null;
+              imgElement.src = missingImg;
+            }}
+            alt={article.title || "No Title"}
           />
           <div className="article-text-content">
-              <h2>{article.title}</h2>
-              <p>{article.description}</p>
-              <p>{article.content}</p>
-              <p>{new Date(article.publishedAt).toLocaleDateString()}</p>
-              <p>{article.source.name}</p>
+            <h2>{article.title}</h2>
+            <p>{article.description}</p>
+            <p>{new Date(article.publishedAt).toLocaleDateString()}</p>
+            <p>{article.source.name}</p>
           </div>
-          </Link>
-        ))}
-      </div>
+        </Link>
+      ))}
     </div>
   );
 }

@@ -1,3 +1,4 @@
+
 .navbar {
   display: flex;
   align-items: center;
@@ -7,7 +8,9 @@
   color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: all 0.3s;
-}
+  align-items: center;
+  flex-wrap: wrap;
+  }
 
 .navbar-logo {
   height: 50px;
@@ -75,19 +78,27 @@
   border: none;
 }
 
-@media (max-width: 768px) {
-  .navbar {
-      flex-direction: column;
-      align-items: stretch;
+.day-message {
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-size: 1.1rem; 
+  text-align: center;
+  margin: 10px 0; 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);  
+  max-width: 500px; 
+  margin-left: auto; 
+  margin-right: auto;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) { 
+  .NavBar {
+    justify-content: center;
+    padding: 10px 5px;
   }
 
-  .navbar-name {
-      margin: 10px 0;
-      text-align: center;
-  }
-
-  .navbar-search {
-      width: 100%;
-      justify-content: center;
+  .day-message {
+    margin-top: 10px;  
+    width: 90%; 
   }
 }
