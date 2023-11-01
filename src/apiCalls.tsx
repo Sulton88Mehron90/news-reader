@@ -1,4 +1,4 @@
-import newsData from './mockData.json';
+import newsData from './testData/mockData.json';
 
 export type apiResponse = {
   status: string;
@@ -22,6 +22,9 @@ const API_KEY = 'c3ecb426dbc045cb9638716ce9dd0f51';
 const BASE_URL = 'https://newsapi.org/v2/';
 
 function fetchNews(query: string, page = 1, useMockData = false, sort?: string, filter?: string) {
+
+  console.log('fetchNews called with:', { query, page, useMockData, sort, filter }) //delete
+  
   if (useMockData) {
     return Promise.resolve(newsData);
   } else {
@@ -29,10 +32,9 @@ function fetchNews(query: string, page = 1, useMockData = false, sort?: string, 
     let params = new URLSearchParams({
       apiKey: API_KEY,
       page: page.toString(),
-      q: query || 'news' // Default to 'news' if the query is empty
+      q: query || 'news' 
     });
 
-    // Only add sort and filter parameters if they are provided
     if (sort) {
       params.append('sortBy', sort);
     }
@@ -48,6 +50,10 @@ function fetchNews(query: string, page = 1, useMockData = false, sort?: string, 
           throw new Error('Failed to fetch news');
         }
         return response.json();
+      })
+      .then(data => {
+        console.log('Fetched news sources:', data); // delete
+        return data;
       });
   }
 }
@@ -80,6 +86,10 @@ function fetchTopHeadlines(
           throw new Error('Failed to fetch top headlines');
         }
         return response.json();
+      })
+      .then(data => {
+        console.log('Fetched news sources:', data); // delete
+        return data;
       });
   }
 }
@@ -93,6 +103,10 @@ function fetchNewsSources() {
         throw new Error('Failed to fetch news sources');
       }
       return response.json();
+    })
+    .then(data => {
+      console.log('Fetched news sources:', data); // delete
+      return data;
     });
 }
 

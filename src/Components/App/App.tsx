@@ -1,4 +1,3 @@
-// App.tsx
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ArticleList from '../ArticleList/ArticleList';
@@ -46,7 +45,8 @@ function App() {
   const renderContent = () => {
     if (loading) return <Spinner />;
     if (error) return <div>{error}</div>;
-  }
+    return <ArticleList articles={articles} />;
+  };
 
   return (
     <Router>
@@ -68,7 +68,7 @@ function App() {
                 {useMockData ? "Switch to Live Data" : "Switch to Mock Data"}
               </button>
             </div>
-            <ArticleList articles={articles} />
+            {renderContent()}
           </>
         } />
         <Route path="/article/:id" element={

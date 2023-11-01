@@ -115,15 +115,24 @@ const NavBar: React.FC<NavBarProps> = ({
           placeholder="Search..."
           value={searchTerm}
           onChange={(e) => {
-            handleSearchTermChange(e.target.value); 
+            handleSearchTermChange(e.target.value);
           }}
         />
         <button type="submit">Search</button>
-        <button type="button" onClick={() => {
-          onSearchTermChange('');
-          onCategoryChange('All');
-          onSearch('', 'All');
-        }}>Clear</button>
+        {searchTerm && (
+          <span
+            className="clear-text" 
+            onClick={() => {
+              onSearchTermChange('');
+              onCategoryChange('All');
+              onSearch('', 'All');
+            }}
+            role="button"
+            tabIndex={0}
+          >
+            Clear
+          </span>
+        )}
       </form>
     </div>
   );
