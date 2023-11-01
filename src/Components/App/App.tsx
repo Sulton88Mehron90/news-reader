@@ -1,4 +1,5 @@
-import React, { useState, useEffect, useCallback } from 'react';
+// App.tsx
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ArticleList from '../ArticleList/ArticleList';
 import ArticleDetail from '../ArticleDetail/ArticleDetail';
@@ -12,7 +13,6 @@ import Error500 from '../ErrorHandling/Error500';
 import GeneralError from '../ErrorHandling/GeneralError';
 import Error500Test from '../ErrorHandling/Error500Test';
 
-
 function App() {
   const [useMockData, setUseMockData] = useState(true);
   const [articles, setArticles] = useState<Article[]>([]);
@@ -21,46 +21,27 @@ function App() {
   const [searchTerm, setSearchTerm] = useState<string>('');
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
 
-  const handleSearchTermChange = (term: string) => {
-    setSearchTerm(term);
-    handleSearch();
-  };
-
-  const handleCategoryChange = (category: string) => {
-    setSelectedCategory(category);
-  };
-
-  const handleSearch = useCallback(() => {
+  const handleSearch = () => {
     setLoading(true);
-
-    if (selectedCategory && selectedCategory !== 'All') {
-      fetchTopHeadlines('us', selectedCategory, 1, useMockData)
-        .then((data: any) => {
-          setArticles(data.articles);
-          setLoading(false);
-        })
-        .catch((error: any) => {
-          console.error("Error fetching top headlines:", error);
-          setError('Failed to fetch top headlines. Please try again later.');
-          setLoading(false);
-        });
-    } else {
-      fetchNews(searchTerm, 1, useMockData)
-        .then((data: any) => {
-          setArticles(data.articles);
-          setLoading(false);
-        })
-        .catch((error: any) => {
-          console.error("Error fetching articles:", error);
-          setError('Failed to fetch articles. Please try again later.');
-          setLoading(false);
-        });
-    }
-  }, [searchTerm, selectedCategory, useMockData]);
+    const searchAction = selectedCategory !== 'All'
+      ? fetchTopHeadlines('us', selectedCategory, 1, useMockData)
+      : fetchNews(searchTerm, 1, useMockData);
+  
+    searchAction
+      .then((data: any) => {
+        setArticles(data.articles);
+        setLoading(false);
+      })
+      .catch((error: any) => {
+        console.error("Error fetching data:", error);
+        setError(`Failed to fetch data. Please try again later.`);
+        setLoading(false);
+      });
+  };
 
   useEffect(() => {
     handleSearch();
-  }, [handleSearch]);
+  }, [searchTerm, selectedCategory, useMockData]);
 
   const renderContent = () => {
     if (loading) return <Spinner />;
@@ -87,7 +68,7 @@ function App() {
                 {useMockData ? "Switch to Live Data" : "Switch to Mock Data"}
               </button>
             </div>
-            <ArticleList articles={articles} useMockData={useMockData} />
+            <ArticleList articles={articles} />
           </>
         } />
         <Route path="/article/:id" element={
@@ -95,8 +76,8 @@ function App() {
             <NavBar
               searchTerm={searchTerm}
               selectedCategory={selectedCategory}
-              onSearchTermChange={handleSearchTermChange}
-              onCategoryChange={handleCategoryChange}
+              onSearchTermChange={setSearchTerm}
+              onCategoryChange={setSelectedCategory}
               onSearch={handleSearch}
             />
             <ArticleDetail articles={articles} />

@@ -1,9 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import { fetchNews } from '../../apiCalls';
-import '../ArticleList/ArticleList.css';
+import React from 'react';
 import { Link } from 'react-router-dom';
+import '../ArticleList/ArticleList.css';
 import missingImg from '../Images/missing-img.png';
-import Spinner from '../Spinner/Spinner';
 
 export type Article = {
   title: string;
@@ -16,43 +14,16 @@ export type Article = {
   };
   publishedAt: string;
   content: string;
-  category?: string;
 };
 
 interface Props {
-  useMockData: boolean;
   articles: Article[];
-  searchTerm?: string;
-  selectedCategory?: string;
 }
 
-const ArticleList: React.FC<Props> = ({ useMockData, searchTerm = "", selectedCategory = "All" }) => {
-  const [articles, setArticles] = useState<Article[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-
-  useEffect(() => {
-    console.log("Fetching news...");
-
-    fetchNews(searchTerm, 1, useMockData, selectedCategory)
-      .then((data: any) => {
-        console.log("Data fetched:", data);
-        setArticles(data.articles);
-        setLoading(false);
-      })
-      .catch((error: any) => {
-        console.error("Error fetching articles:", error);
-        setError('Failed to fetch articles. Please try again later.');
-        setLoading(false);
-      });
-  }, [useMockData, searchTerm, selectedCategory]);
-
-  if (loading) {
-    return <Spinner />;
-  }
-
-  if (error) {
-    return <div>{error}</div>;
+const ArticleList: React.FC<Props> = ({ articles }) => {
+  if (!articles.length) {
+    // You can handle the empty array case here, maybe show a message or a spinner
+    return <div>No articles found.</div>;
   }
 
   return (
@@ -63,10 +34,10 @@ const ArticleList: React.FC<Props> = ({ useMockData, searchTerm = "", selectedCa
             src={article.urlToImage || missingImg}
             onError={(e) => {
               const imgElement = e.target as HTMLImageElement;
-              imgElement.onerror = null;
+              imgElement.onerror = null; // Prevent endless loop if missing image also fails
               imgElement.src = missingImg;
             }}
-            alt={article.title || "No Title"}
+            alt={article.title || "No title available"}
           />
           <div className="article-text-content">
             <h2>{article.title}</h2>

@@ -21,13 +21,7 @@ export type apiResponse = {
 const API_KEY = 'c3ecb426dbc045cb9638716ce9dd0f51';
 const BASE_URL = 'https://newsapi.org/v2/';
 
-function fetchNews(
-  query: string,
-  page = 1,
-  useMockData = false,
-  sort?: string,
-  filter?: string
-) {
+function fetchNews(query: string, page = 1, useMockData = false, sort?: string, filter?: string) {
   if (useMockData) {
     return Promise.resolve(newsData);
   } else {
@@ -35,9 +29,10 @@ function fetchNews(
     let params = new URLSearchParams({
       apiKey: API_KEY,
       page: page.toString(),
-      q: query || 'news'
+      q: query || 'news' // Default to 'news' if the query is empty
     });
 
+    // Only add sort and filter parameters if they are provided
     if (sort) {
       params.append('sortBy', sort);
     }
@@ -47,11 +42,7 @@ function fetchNews(
 
     endpoint += `?${params.toString()}`;
 
-    return fetch(endpoint, {
-      headers: {
-        'X-Api-Key': API_KEY
-      }
-    })
+    return fetch(endpoint)
       .then(response => {
         if (!response.ok) {
           throw new Error('Failed to fetch news');
@@ -70,17 +61,20 @@ function fetchTopHeadlines(
   if (useMockData) {
     return Promise.resolve(newsData);
   } else {
-    let endpoint = `${BASE_URL}top-headlines?country=${country}&apiKey=${API_KEY}&page=${page}`;
+    let endpoint = `${BASE_URL}top-headlines`;
+    let params = new URLSearchParams({
+      country: country,
+      apiKey: API_KEY,
+      page: page.toString()
+    });
 
     if (category) {
-      endpoint += `&category=${category}`;
+      params.append('category', category);
     }
 
-    return fetch(endpoint, {
-      headers: {
-        'X-Api-Key': API_KEY
-      }
-    })
+    endpoint += `?${params.toString()}`;
+
+    return fetch(endpoint)
       .then(response => {
         if (!response.ok) {
           throw new Error('Failed to fetch top headlines');
@@ -93,11 +87,7 @@ function fetchTopHeadlines(
 function fetchNewsSources() {
   const endpoint = `${BASE_URL}top-headlines/sources?apiKey=${API_KEY}`;
 
-  return fetch(endpoint, {
-    headers: {
-      'X-Api-Key': API_KEY
-    }
-  })
+  return fetch(endpoint)
     .then(response => {
       if (!response.ok) {
         throw new Error('Failed to fetch news sources');
