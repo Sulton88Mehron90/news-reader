@@ -1,4 +1,5 @@
-import React, { useState, useEffect, useCallback } from 'react';
+// App.tsx
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ArticleList from '../ArticleList/ArticleList';
 import ArticleDetail from '../ArticleDetail/ArticleDetail';
@@ -12,7 +13,6 @@ import Error500 from '../ErrorHandling/Error500';
 import GeneralError from '../ErrorHandling/GeneralError';
 import Error500Test from '../ErrorHandling/Error500Test';
 
-
 function App() {
   const [useMockData, setUseMockData] = useState(true);
   const [articles, setArticles] = useState<Article[]>([]);
@@ -21,16 +21,7 @@ function App() {
   const [searchTerm, setSearchTerm] = useState<string>('');
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
 
-  const handleSearchTermChange = (term: string) => {
-    setSearchTerm(term);
-    handleSearch();
-  };
-
-  const handleCategoryChange = (category: string) => {
-    setSelectedCategory(category);
-  };
-
-  const handleSearch = useCallback(() => {
+  const handleSearch = () => {
     setLoading(true);
     const searchAction = selectedCategory !== 'All'
       ? fetchTopHeadlines('us', selectedCategory, 1, useMockData)
@@ -46,20 +37,11 @@ function App() {
         setError(`Failed to fetch data. Please try again later.`);
         setLoading(false);
       });
-  }, [searchTerm, selectedCategory, useMockData]);
-  
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      handleSearch();
-    }, 500);
-  
-    return () => clearTimeout(timer);   
-  }, [searchTerm, selectedCategory, useMockData, handleSearch]);
-  
+  };
 
   useEffect(() => {
     handleSearch();
-  }, [handleSearch]);
+  }, [searchTerm, selectedCategory, useMockData]);
 
   const renderContent = () => {
     if (loading) return <Spinner />;
@@ -94,8 +76,8 @@ function App() {
             <NavBar
               searchTerm={searchTerm}
               selectedCategory={selectedCategory}
-              onSearchTermChange={handleSearchTermChange}
-              onCategoryChange={handleCategoryChange}
+              onSearchTermChange={setSearchTerm}
+              onCategoryChange={setSelectedCategory}
               onSearch={handleSearch}
             />
             <ArticleDetail articles={articles} />

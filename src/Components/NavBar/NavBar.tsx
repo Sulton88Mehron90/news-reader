@@ -1,3 +1,4 @@
+// NavBar.tsx
 import React, { useState, useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../Images/TuringSchool_LogoMark_Gray.png';
@@ -33,21 +34,18 @@ const NavBar: React.FC<NavBarProps> = ({
   onSearchTermChange,
   onCategoryChange,
   onSearch,
-
 }) => {
 
   const categories = ['All', 'Business', 'Entertainment', 'Health', 'Science', 'Sports', 'Technology'];
   const [dayMessage, setDayMessage] = useState('');
 
-  const handleSearchTermChange = (term: string) => {
-    console.log('Search term changed:', term);//delete
+  const handleSearchTermChange = useCallback(debounce((term: string) => {
     onSearchTermChange(term);
-  };
+  }, 500), [onSearchTermChange]);
 
-  const handleCategoryChange = (category: string) => {
-    console.log('Category changed:', category);//delete
+  const handleCategoryChange = useCallback(debounce((category: string) => {
     onCategoryChange(category);
-  };
+  }, 500), [onCategoryChange]);
 
   useEffect(() => {
     const time = new Date();
@@ -82,29 +80,8 @@ const NavBar: React.FC<NavBarProps> = ({
       message = `Sunday's edition provides a reflective look at the past week's most impactful stories.`;
     }
 
-
     setDayMessage(`${timeOfDay}! ${message}`);
   }, []);
-
-  // Update useCallback to remove the debounce dependency
-  const debouncedOnSearch = useCallback(
-    debounce((newTerm, newCategory) => {
-      onSearch(newTerm, newCategory);
-    }, 500),
-    [onSearch] 
-  );
-
-  const handleSearch = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log('Search button clicked'); // dont fofget to delete
-    onSearch(searchTerm, selectedCategory);
-  };
-
-  const clearSearch = () => {
-    onSearchTermChange('');
-    onCategoryChange('All');
-    onSearch('', 'All');
-  };
 
   return (
     <div className="navbar">
@@ -113,13 +90,15 @@ const NavBar: React.FC<NavBarProps> = ({
       </Link>
       <span className="navbar-name">News Reader</span>
       <div className="day-message">{dayMessage}</div>
-      <form className="navbar-search" onSubmit={handleSearch}>
+      <form className="navbar-search" onSubmit={(e) => {
+        e.preventDefault();
+        onSearch(searchTerm, selectedCategory);
+      }}>
         <select
           id="categorySelect"
           name="categorySelect"
           onChange={(e) => {
             handleCategoryChange(e.target.value);
-            debouncedOnSearch(searchTerm, e.target.value); // Perform debounced search when category changes
           }}
           value={selectedCategory}
         >
@@ -137,11 +116,14 @@ const NavBar: React.FC<NavBarProps> = ({
           value={searchTerm}
           onChange={(e) => {
             handleSearchTermChange(e.target.value); 
-            debouncedOnSearch(e.target.value, selectedCategory); // Optionally debouncing the search as the user types
           }}
         />
         <button type="submit">Search</button>
-        <button type="button" onClick={clearSearch}>Clear</button>
+        <button type="button" onClick={() => {
+          onSearchTermChange('');
+          onCategoryChange('All');
+          onSearch('', 'All');
+        }}>Clear</button>
       </form>
     </div>
   );
