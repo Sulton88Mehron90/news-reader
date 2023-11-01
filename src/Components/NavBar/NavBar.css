@@ -91,6 +91,21 @@
   font-weight: bold;
 }
 
+.clear-text {
+  padding: 5px 10px;
+  color: #e50914;
+  cursor: pointer;
+  transition: color 0.2s;
+  border: none;
+  background-color: transparent;
+  margin-left: 10px; 
+}
+
+.clear-text:hover {
+  text-decoration: underline;
+}
+
+
 @media (max-width: 768px) { 
   .NavBar {
     justify-content: center;
