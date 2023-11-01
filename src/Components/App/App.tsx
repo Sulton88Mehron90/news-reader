@@ -128,7 +128,8 @@ function App() {
 
   const handleSearch = () => {
     setLoading(true);
-    fetchNews(searchTerm, 1, useMockData, selectedCategory)
+    const category = selectedCategory !== 'All' ? selectedCategory : undefined;
+    fetchNews(searchTerm, 1, useMockData, category)
       .then((data: any) => {
         setArticles(data.articles);
         setLoading(false);
@@ -138,7 +139,12 @@ function App() {
         setError('Failed to fetch articles. Please try again later.');
         setLoading(false);
       });
-  };
+  };  
+
+    const renderContent = () => {
+    if (loading) return <Spinner />;
+    if (error) return <div>{error}</div>;
+    }
 
   return (
     <Router>
