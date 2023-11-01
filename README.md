@@ -1,7 +1,7 @@
 <div>
     <h1 style="color:red; display: inline;">
-      News Reader
-         <img src="https://github.com/Sulton88Mehron90/news-reader/tree/main/src/Components/Images/rounded_image.png" alt="news-paper" width="105" style="margin-left: 5px; border-radius: 50%; vertical-align: middle;">
+      News Reader  🗞️
+         <!-- <img src="https://github.com/Sulton88Mehron90/news-reader/blob/main/src/Components/Images/rounded_image.png" alt="news-paper" width="105" style="margin-left: 5px; border-radius: 50%; vertical-align: middle;"> -->
     </h1>
 </div>
 
@@ -9,36 +9,42 @@ Dive into a world of current events and stories with **News Reader**! This appli
 
 ### Description
 
-**News Reader** offers news aficionados a platform to read and follow top headlines and stories across various categories. It focuses on delivering a smooth user experience, allowing users to filter news according to their interests and read articles in a distraction-free environment.
+**News Reader** is a simple app that lets you catch up on the latest headlines and articles in categories you care about. It aggregates articles from the [News API](https://newsapi.org/), presenting users with the latest news articles including headlines, images, descriptions, and publishing dates. The app provides a detailed view for each article and a way to filter or search through the news feed. 
 
-![News Reader Preview](https://github.com/Sulton88Mehron90/showcase-project/assets/119267809/07d2bf4c-0b57-42b3-8254-56e133f377a3)
+<img width="504" alt="image" src="https://github.com/Sulton88Mehron90/showcase-project/assets/119267809/d07cdccf-01dc-4aad-ab97-143def51d789">
+
+### Project Context
+
+This project was developed as part of the Turing School of Software and Design curriculum. It serves as a take-home challenge simulating a real-world coding interview assignment. The task was to create a minimum viable product (MVP) that is user-friendly, clear in information presentation, and straightforward in navigation.
+
+<img width="504" alt="image" src="https://github.com/Sulton88Mehron90/showcase-project/assets/119267809/d07cdccf-01dc-4aad-ab97-143def51d789">
 
 ### Live Demo
 
 Stay updated with the happenings around the world. [Explore News Reader](https://news-reader-hazel.vercel.app/).
 
-![News Reader Demo](https://github.com/Sulton88Mehron90/showcase-project/assets/119267809/11311fac-e5a5-4ee8-aa0c-f1008cb1ad03)
+<img width="504" alt="image" src="https://github.com/Sulton88Mehron90/showcase-project/assets/119267809/d07cdccf-01dc-4aad-ab97-143def51d789">
 
-### <span style="color:#2E8B57;">Contributor</span>
+### Preview of App
 
-Meet the developer behind **Avicenna Method**:
-<table>
-    <tr>
-        <td> Parvin A. Sattorova 
-            <a href="https://www.linkedin.com/in/parvin-sattorova-edwards-357526b3/">LinkedIn</a> || 
-            <a href="https://github.com/Sulton88Mehron90">GitHub</a> 
-        </td>
-    </tr>
-    <tr>
-        <td><img src="https://avatars.githubusercontent.com/u/119267809?v=4" alt="GitHub Avatar" width="150"></td>
-    </tr>
-</table>
+![News Reader App](https://github.com/Sulton88Mehron90/showcase-project/blob/main/src/Images/avicenna-method-romjon.gif)
+
+<img width="504" alt="image" src="https://github.com/Sulton88Mehron90/showcase-project/assets/119267809/d07cdccf-01dc-4aad-ab97-143def51d789">
+
+### Setup & Installation
+
+Get **News Reader** running on your machine:
+
+1. Clone the repository: `git clone git@github.com:Sulton88Mehron90/news-reader.git`
+2. Move to the project directory: `cd news-reader`
+3. Install dependencies: `npm install`
+4. Start the app: `npm start`
 
 <img width="504" alt="image" src="https://github.com/Sulton88Mehron90/showcase-project/assets/119267809/d07cdccf-01dc-4aad-ab97-143def51d789">
 
 ### <span style="color:#2E8B57;">Technologies:</span>
 
-**ANews Reader** is built using a blend of modern web technologies:
+**News Reader** is built using a blend of modern web technologies:
 <div>  
   <a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /></a>  
   <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /></a>  
@@ -55,28 +61,48 @@ Meet the developer behind **Avicenna Method**:
 
 <img width="504" alt="image" src="https://github.com/Sulton88Mehron90/showcase-project/assets/119267809/7b5f262b-9ed5-4594-acb2-5e71efe3c2ff">
 
+### Requirements
 
-### Preview of App
+The application meets the following requirements:
 
-![News Reader App](https://github.com/Sulton88Mehron90/showcase-project/blob/main/src/Images/avicenna-method-romjon.gif)
+- Displays a list of articles, including headline, image, description (if available), and date.
+- Provides a detailed view of each article within the app, showcasing the headline, image, date, content, and source.
+- Includes internal navigation from the article list to the detailed article view.
+- Features at least one of the following: search functionality, filtering, or sorting.
 
-![News Reader Interface](https://github.com/Sulton88Mehron90/showcase-project/assets/119267809/b3c82159-82b5-4ba6-bae0-f26675c94957)
+<img width="504" alt="image" src="https://github.com/Sulton88Mehron90/showcase-project/assets/119267809/d07cdccf-01dc-4aad-ab97-143def51d789">
 
-### Setup & Installation
+### Additional Notes
 
-Get **News Reader** running on your machine:
+- To preserve API request limits during development, mock data was used to build the application before switching to live API requests for demonstration purposes.
+- The interface is designed to be responsive and accessible on desktop, tablet, and mobile devices.
 
-1. Clone the repository: `git clone git@github.com:Sulton88Mehron90/news-reader.git`
-2. Move to the project directory: `cd news-reader`
-3. Install dependencies: `npm install`
-4. Start the app: `npm start`
+<img width="504" alt="image" src="https://github.com/Sulton88Mehron90/showcase-project/assets/119267809/d07cdccf-01dc-4aad-ab97-143def51d789">
 
-![News Reader Setup](https://github.com/Sulton88Mehron90/showcase-project/assets/119267809/abbf0809-d7de-43fa-b2be-a7d1ac2a4fb1)
+### Evaluation Criteria
 
+The following aspects were emphasized in the development of News Reader:
 
-## Context:
-- I am a student of Turing School of Software and Design. 
-This project was completed in the last quarter of the program as a mock interview take home challenge. 
+- Proficiency in React JS and front-end development best practices.
+- Ability to focus on MVP requirements and prioritize features accordingly.
+- Understanding of usability principles and adherence to web standards.
+- Clear information hierarchy and navigation within the app.
+- Clean and well-organized codebase.
 
+<img width="504" alt="image" src="https://github.com/Sulton88Mehron90/showcase-project/assets/119267809/d07cdccf-01dc-4aad-ab97-143def51d789">
 
-![News Reader Setup](https://github.com/Sulton88Mehron90/showcase-project/assets/119267809/abbf0809-d7de-43fa-b2be-a7d1ac2a4fb1)
+### <span style="color:#2E8B57;">Contributor</span>
+Meet the developer behind **News Reader**:
+<table>
+    <tr>
+        <td> Parvin A. Sattorova 
+            <a href="https://www.linkedin.com/in/parvin-sattorova-edwards-357526b3/">LinkedIn</a> || 
+            <a href="https://github.com/Sulton88Mehron90">GitHub</a> 
+        </td>
+    </tr>
+    <tr>
+        <td><img src="https://avatars.githubusercontent.com/u/119267809?v=4" alt="GitHub Avatar" width="150"></td>
+    </tr>
+</table>
+
+<img width="504" alt="image" src="https://github.com/Sulton88Mehron90/showcase-project/assets/119267809/d07cdccf-01dc-4aad-ab97-143def51d789">
