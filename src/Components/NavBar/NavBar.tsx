@@ -2,8 +2,6 @@ import '../NavBar/NavBar.css';
 import logo from '../Images/TuringSchool_LogoMark_Gray.png';
 import { Link } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
-// import mockData from '../../mockData.json';
-
 
 interface NavBarProps {
   searchTerm: string;
