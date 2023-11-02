@@ -20,7 +20,7 @@ This project was developed as part of the Turing School of Software and Design c
 
 ### Live Demo
 
-Stay updated with the happenings around the world. [Explore News Reader](https://news-reader-hazel.vercel.app/).
+Stay updated with the happenings around the world. [Explore News Reader](https://news-reader-sable.vercel.app/).
 
 <img width="504" alt="image" src="https://github.com/Sulton88Mehron90/showcase-project/assets/119267809/d07cdccf-01dc-4aad-ab97-143def51d789">
 
