@@ -6,59 +6,50 @@ describe('Homepage Tests', () => {
     });
   
     it('should display the main elements of the homepage', () => {
-      cy.get('.logo-image').should('be.visible');
-      cy.get('[href="/provideAid"]').click();
-      cy.url().should('include', '/provideAid');
-      cy.get('.logo-image').click();
+      cy.get('.navbar-logo').should('be.visible');
+      cy.get('.navbar-logo').click();
       cy.url().should('include', '/');
-      cy.get('.home-header').should('be.visible');
-      cy.get('.mission-content-section').should('be.visible');
-      cy.get('.media-side').should('be.visible');
-      cy.get('.text-side').should('be.visible');
-      cy.get('.refugee-image-container img').should('have.attr', 'alt', 'Refugees');
-      cy.get('h2').contains('Our Mission').should('be.visible');
-      cy.get('p').should('have.length.at.least', 1);
-      cy.viewport(1280, 720);
-      cy.get('.play-video').should('be.visible');
+      cy.get('.navbar-name').should('be.visible');
+      cy.get('.day-message').should('be.visible');
+      cy.get('#categorySelect').should('be.visible');
+      cy.get('#searchInput').should('be.visible');
+      cy.get('.navbar-search > button').should('be.visible');
+      cy.get('.switch-button').should('be.visible');
+      cy.get('[href="/article/0"] > img').should('be.visible');
+      cy.get('[href="/article/0"] > img').click();
+      cy.get('.detail-image').should('be.visible');
     });
-  
-    it('should play video when "Play Video" button is clicked', () => {
-      cy.viewport(1280, 720);
-      cy.get('.play-video').should('be.visible');
-      cy.get('.play-video').click();
-      cy.get('.video-container').should('be.visible');
-      cy.get('iframe').should('be.visible');
-      cy.get('.hide-video').should('be.visible');
-    });
-  
-    it('should hide video when "Hide Video" button is clicked', () => {
-      cy.get('.play-video').click();
-      cy.get('.hide-video').click();
-      cy.get('.refugees-img').should('be.visible');
-      cy.viewport(1280, 720);
-      cy.get('.play-video').should('be.visible');
-    });
+
+
+  // it('should display the main elements of the homepage', () => {
+  //   cy.get('.navbar-logo').should('be.visible')
+  //   cy.get('.navbar-logo').click();
+  //   cy.url().should('eq', 'http://localhost:3000/');
+  //   cy.get('.navbar-name').should('be.visible');
+  //   cy.get('.day-message').should('be.visible');
+  //   cy.get('#categorySelect').should('be.visible');
+  //   cy.get('#searchInput').should('be.visible').and('be.empty');
+  //   cy.get('.navbar-search > button').should('be.visible');
+  //   cy.get('.switch-button').should('be.visible');
+  //   cy.get('[href="/article/0"] > img').should('be.visible')
+  //   cy.get('[href="/article/0"] > img').click();
+  //   cy.url().should('include', '/article/0'); 
+  //   cy.get('h1').should('be.visible').and('contain', 'Apple finally kills off the 13-inch Touch Bar MacBook Pro');
+  // });
   
     // Sad Path
   
-    it('should handle missing images gracefully', () => {
-      cy.intercept('GET', '**/refugees.png', { statusCode: 404 }).as('getMissingImage');
-      cy.reload();
-      cy.wait('@getMissingImage');
-      cy.get('img[alt="Refugees"]').should('be.visible');
-    });
-  
-    it('should handle missing video gracefully', () => {
-      cy.intercept('GET', 'https://www.youtube.com/embed/*', { statusCode: 404 }).as('getMissingVideo');
-      cy.viewport(1280, 720);
-      cy.get('.play-video').click();
-      cy.wait('@getMissingVideo');
-      cy.get('iframe').then(($iframe) => {
-        const iframeSrc = $iframe.attr('src');
-        if (!iframeSrc) {
-          cy.wrap($iframe).should('not.be.visible');
-        }
-      });
-    });
+    // it('should handle missing video gracefully', () => {
+    //   cy.intercept('GET', 'https://www.youtube.com/embed/*', { statusCode: 404 }).as('getMissingVideo');
+    //   cy.viewport(1280, 720);
+    //   cy.get('.play-video').click();
+    //   cy.wait('@getMissingVideo');
+    //   cy.get('iframe').then(($iframe) => {
+    //     const iframeSrc = $iframe.attr('src');
+    //     if (!iframeSrc) {
+    //       cy.wrap($iframe).should('not.be.visible');
+    //     }
+    //   });
+    // });
   });
   

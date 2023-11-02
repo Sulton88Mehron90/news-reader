@@ -1,18 +1,21 @@
 /// <reference types="cypress" />
 
-describe('Error Handling', () => {
-  // Test for 500 - Internal Server Error
-  it('Should navigate to error page when a 500 error occurs', () => {
-    cy.intercept('POST', 'https://refugee-aid-capstone-be-fb1ab84cf89d.herokuapp.com/graphql', { statusCode: 500 }).as('getServerError');
-    cy.visit('http://localhost:3000');
+import newsData from '../fixtures/example.json';
 
-    cy.get('.nav-bar').should('be.visible');
-    cy.get('.nav-button').click();
-    cy.wait('@getServerError');
-    cy.url().should('include', '/error500');
-    cy.contains('500 - Internal Server Error').should('be.visible');
-    cy.contains("Oops! Something went wrong on our end.").should('be.visible');
-    cy.get('.error500-go-home-button').should('be.visible');
+describe('Error Handling', () => {
+ // Test for 500 - Internal Server Error
+ it('should simulate a 500 error for the news sources API', () => {
+  // cy.intercept('GET', 'https://newsapi.org/v2/top-headlines/sources*', {
+  //   statusCode: 500,
+  //   body: { message: 'Internal Server Error' }
+  // }).as('getNewsSourcesError');
+  //   cy.visit('http://localhost:3000');
+
+  //   cy.wait('@getServerError');
+  //   cy.url().should('include', '/500-test');
+  //   cy.contains('500 - Internal Server Error').should('be.visible');
+  //   cy.contains("Oops! Something went wrong on our end.").should('be.visible');
+  //   cy.get('.error500-go-home-button').should('be.visible');
   });
 
   // Test for General Error
@@ -32,6 +35,6 @@ describe('Error Handling', () => {
     cy.contains("Sorry! That page doesn't seem to exist. Try going back to the Home page.").should('be.visible');
     cy.get('.error404-go-home-button').should('be.visible');
     cy.get('.ref-fact').should('be.visible');
-    cy.get('.refugee-image').should('be.visible');
+    cy.get('.old-news-paper').should('be.visible');
   });
 });

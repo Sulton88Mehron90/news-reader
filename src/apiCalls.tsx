@@ -18,7 +18,7 @@ export type apiResponse = {
   }[];
 };
 
-const API_KEY = 'c3ecb426dbc045cb9638716ce9dd0f51';
+const API_KEY = 'c3ecb426dbc045cb9638716ce9dd0f51ddd';
 const BASE_URL = 'https://newsapi.org/v2/';
 
 function fetchNews(query: string, page = 1, useMockData = false, sort?: string, filter?: string) {
