@@ -1,7 +1,6 @@
 <div>
     <h1 style="color:red; display: inline;">
       News Reader  🗞️
-         <!-- <img src="https://github.com/Sulton88Mehron90/news-reader/blob/main/src/Components/Images/rounded_image.png" alt="news-paper" width="105" style="margin-left: 5px; border-radius: 50%; vertical-align: middle;"> -->
     </h1>
 </div>
 
