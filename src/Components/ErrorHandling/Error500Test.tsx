@@ -2,7 +2,7 @@ import React from 'react';
 import Error500 from './Error500';
 
 const Error500Test: React.FC = () => {
-    // Simulating a scenario where an error occurs.
+    // its to simulating a scenario where an error occurs.
     const error = true;
 
     if (error) return <Error500 />;
@@ -10,7 +10,6 @@ const Error500Test: React.FC = () => {
 }
 
 export default Error500Test;
-
 
 
 //For testing perpuse only.

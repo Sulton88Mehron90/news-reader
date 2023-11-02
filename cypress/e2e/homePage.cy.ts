@@ -39,16 +39,11 @@ describe('Homepage Tests', () => {
   
     // Sad Path
   
-    // it('should handle missing video gracefully', () => {
-    //   cy.intercept('GET', 'https://www.youtube.com/embed/*', { statusCode: 404 }).as('getMissingVideo');
+    // it('should handle missing img', () => {
+    //   cy.intercept('GET', 'http://localhost:3000/*', { statusCode: 404 }).as();
     //   cy.viewport(1280, 720);
-    //   cy.get('.play-video').click();
-    //   cy.wait('@getMissingVideo');
-    //   cy.get('iframe').then(($iframe) => {
-    //     const iframeSrc = $iframe.attr('src');
-    //     if (!iframeSrc) {
-    //       cy.wrap($iframe).should('not.be.visible');
-    //     }
+    //   cy.get('.');
+    //   cy.wait('');
     //   });
     // });
   });

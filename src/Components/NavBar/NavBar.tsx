@@ -1,4 +1,3 @@
-// NavBar.tsx
 import React, { useState, useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../Images/TuringSchool_LogoMark_Gray.png';
@@ -12,7 +11,7 @@ interface NavBarProps {
   onSearch: (term: string, category: string) => void;
 }
 
-// Define a type for the function that debounce will receive
+// Below is to define a type for the function that debounce will receive
 type Func = (...args: any[]) => void;
 
 // Debounce utility function with types
