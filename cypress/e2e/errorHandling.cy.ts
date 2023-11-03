@@ -1,21 +1,13 @@
 /// <reference types="cypress" />
 
-import newsData from '../fixtures/example.json';
-
 describe('Error Handling', () => {
- // Test for 500 - Internal Server Error
- it('should simulate a 500 error for the news sources API', () => {
-  // cy.intercept('GET', 'https://newsapi.org/v2/top-headlines/sources*', {
-  //   statusCode: 500,
-  //   body: { message: 'Internal Server Error' }
-  // }).as('getNewsSourcesError');
-  //   cy.visit('http://localhost:3000');
-
-  //   cy.wait('@getServerError');
-  //   cy.url().should('include', '/500-test');
-  //   cy.contains('500 - Internal Server Error').should('be.visible');
-  //   cy.contains("Oops! Something went wrong on our end.").should('be.visible');
-  //   cy.get('.error500-go-home-button').should('be.visible');
+  // Test for 500 - Internal Server Error
+  it('should display the 500 error page when visiting /500-test', () => {
+    cy.visit('http://localhost:3000/500-test');
+    cy.url().should('include', '/500-test');
+    cy.contains('500 - Internal Server Error').should('be.visible');
+    cy.contains("Oops! Something went wrong on our end.").should('be.visible');
+    cy.get('.error500-go-home-button').should('be.visible');
   });
 
   // Test for General Error

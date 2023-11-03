@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../Images/TuringSchool_LogoMark_Gray.png';
+import logo from '../Images/TuringSchool.png';
 import '../NavBar/NavBar.css';
 
 interface NavBarProps {
@@ -85,7 +85,7 @@ const NavBar: React.FC<NavBarProps> = ({
   return (
     <div className="navbar">
       <Link to="/">
-        <img src={logo} alt="Logo" className="navbar-logo" />
+        <img src={logo} alt="Turing School Logo" className="navbar-logo" />
       </Link>
       <span className="navbar-name">News Reader</span>
       <div className="day-message">{dayMessage}</div>
@@ -120,7 +120,7 @@ const NavBar: React.FC<NavBarProps> = ({
         <button type="submit">Search</button>
         {searchTerm && (
           <span
-            className="clear-text" 
+            className={`clear-text ${searchTerm ? 'clear-text-visible' : ''}`}
             onClick={() => {
               onSearchTermChange('');
               onCategoryChange('All');

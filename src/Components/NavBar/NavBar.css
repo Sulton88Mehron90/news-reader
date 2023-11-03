@@ -25,20 +25,28 @@
 }
 
 .navbar-search {
+  position: relative;
   display: flex;
   align-items: center;
+  flex-grow: 1;
 }
 
-.navbar-search input {
+.navbar-search input,
+.navbar-search select {
+  flex-grow: 1; 
   padding: 5px 10px;
   border: 1px solid #ddd;
   outline: none;
-  margin-right: 10px;
   transition: border 0.3s;
-  border-radius: 0 4px 4px 0;
+  border-radius: 4px;
+  margin-right: 10px;
 }
 
 .navbar-search input:focus {
+  border-color: #e50914;
+}
+
+.navbar-search select:focus {
   border-color: #e50914;
 }
 
@@ -50,24 +58,11 @@
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.2s;
+  white-space: nowrap;
 }
 
 .navbar-search button:hover {
   background-color: #f40612;
-}
-
-.navbar-search select {
-  padding: 5px 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px 0 0 0;
-  margin-right: 10px;
-  outline: none;
-  transition: border 0.3s;
-  cursor: pointer;
-}
-
-.navbar-search select:focus {
-  border-color: #e50914;
 }
 
 .navbar-search button[type="button"] {
@@ -83,7 +78,7 @@
   border-radius: 5px;
   font-size: 1.1rem; 
   text-align: center;
-  margin: 10px 0; 
+  margin: 10px auto;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);  
   max-width: 500px; 
   margin-left: auto; 
@@ -92,28 +87,68 @@
 }
 
 .clear-text {
+  margin-left: 10px; 
+  flex: 0 1 auto;
+  position: absolute; 
+  right: 10px; 
+  top: 150%;
+  transform: translateY(-250%);
   padding: 5px 10px;
   color: #e50914;
   cursor: pointer;
   transition: color 0.2s;
-  border: none;
-  background-color: transparent;
-  margin-left: 10px; 
+  visibility: hidden; 
+  white-space: nowrap;
 }
 
+.clear-text-visible {
+  visibility: visible; 
+}
 .clear-text:hover {
   text-decoration: underline;
 }
 
+@media (max-width: 768px) {
 
-@media (max-width: 768px) { 
-  .NavBar {
+  .navbar {
     justify-content: center;
     padding: 10px 5px;
   }
 
+  .navbar-name,
+  .navbar-search,
+  .navbar-search button {
+    flex-grow: 0; 
+    max-width: 100%; 
+    margin-top: 10px; 
+  }
+
+  .navbar-search input,
+  .navbar-search select,
+  .navbar-search button {
+    flex-grow: 1;
+    margin-right: 5px; 
+  }
+
+  .navbar-search button {
+    padding: 5px; 
+    font-size: 0.8rem; 
+    margin-top: -0.1rem;
+    width: auto; 
+  }
+
   .day-message {
-    margin-top: 10px;  
-    width: 90%; 
+    padding: 5px;
+    font-size: 0.9rem; 
+    margin: 10px 0; 
+    width: auto;
+  }
+
+  .clear-text {
+    right: 10px;
+    padding: 5px; 
+    font-size: 0.8rem; 
+    /* margin-left: -3rem;
+    margin-top: -4rem;  */
   }
 }
