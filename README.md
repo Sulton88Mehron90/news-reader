@@ -67,7 +67,7 @@ The application meets the following requirements:
 - Displays a list of articles, including headline, image, description (if available), and date.
 - Provides a detailed view of each article within the app, showcasing the headline, image, date, content, and source.
 - Includes internal navigation from the article list to the detailed article view.
-- Features at least one of the following: search functionality.
+- Features the search functionality.
 
 <img width="504" alt="image" src="https://github.com/Sulton88Mehron90/showcase-project/assets/119267809/d07cdccf-01dc-4aad-ab97-143def51d789">
 

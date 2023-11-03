@@ -17,8 +17,18 @@
     transition: background-color 0.2s;
 }
 
+.link-container .back-button {
+    text-decoration: none !important;
+}
+
 .back-button:hover {
     background-color: #555;
+    text-decoration: none !important;
+}
+
+.back-button:hover,
+.back-button:focus {
+    text-decoration: none;
 }
 
 .article-link {

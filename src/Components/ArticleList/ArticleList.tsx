@@ -33,7 +33,7 @@ const ArticleList: React.FC<Props> = ({ articles }) => {
             src={article.urlToImage || missingImg}
             onError={(e) => {
               const imgElement = e.target as HTMLImageElement;
-              imgElement.onerror = null; // to prevent endless loop if missing image also fails
+              imgElement.onerror = null; // its to prevent endless loop if missing image also fails
               imgElement.src = missingImg;
             }}
             alt={article.title || "No title available"}
